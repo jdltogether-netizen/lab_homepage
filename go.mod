@@ -1,5 +1,5 @@
 module github.com/HugoBlox/kit/templates/research-lab
-test
+
 go 1.19
 
 require (
