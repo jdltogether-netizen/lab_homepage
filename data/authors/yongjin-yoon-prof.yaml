@@ -1,8 +1,8 @@
 schema: hugoblox/author/v1
-slug: me
+slug: yongjin-yoon-prof
 is_owner: true
 name:
-  display: Prof. Jane Smith
+  display: Prof. Yongjin Yoon
 role: Principal Investigator & Lab Director
 bio: Leading research in computational biology and machine learning applications to scientific discovery.
 affiliations:

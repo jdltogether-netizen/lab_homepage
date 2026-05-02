@@ -13,15 +13,15 @@ hugoblox:
   # ────────────────────────────────────────────────────────────────────────────
   identity:
     # Site name - shown in navbar, footer, copyright, and browser title by default
-    name: "Research Lab"
+    name: "AI DIVISION"
     # Legal entity for copyright notices (defaults to name if not set)
-    organization: "Research Lab"
+    organization: "Just Do it Lab in ME, KAIST"
     # Schema.org type for structured data
     type: organization                  # person | organization | local_business
     # Short tagline displayed on your site
-    tagline: ""
+    tagline: "Pioneering Next-Gen Manufacturing & Drone Production"
     # Site meta description for search engines and social sharing
-    description: "Leading research lab advancing knowledge through innovative scientific discovery and collaboration."
+    description: "JDL Division Leading pioneering research for advancing AI-Driven Next-Gen Manufaturing and Drone Production Technology."
     # Social accounts (used for meta tags like Twitter Cards)
     social:
       twitter: "GetResearchDev"         # Twitter/X handle for Twitter Cards (without @)

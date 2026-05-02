@@ -1,0 +1,40 @@
+schema: hugoblox/author/v1
+slug: hyeongcheol-kim-postdoc
+name:
+  display: Dr. Hyeongcheol Dainel Kim
+role: Postdoctoral Researcher (InnoCORE PRISM-AI GROUP)
+bio: Developing efficient digitalization of tacit knowledge from production and training sites using AI, and advancing drone manufacturing technologies through the integration of Physical AI.
+affiliations:
+  - name: KAIST PRISM-AI Research Group
+    url: https://prism-ai-kaist.co.kr/
+links:
+  - icon: hero/envelope
+    url: mailto:hckim0911@gmail.com
+  - icon: brands/x
+    url: https://x.com/bluesky911
+  - icon: brands/google-scholar
+    url: https://scholar.google.com/citations?user=O77cYMQAAAAJ&hl=en
+  - icon: brands/github
+    url: https://github.com/hckim0911
+  - icon: brands/linkedin
+    url: https://www.linkedin.com/in/hyeongcheol-kim-76043844/
+interests:
+  - Human-AI
+  - Multimodality
+  - AR/MR/VR for Drone Training
+  - In-situ Drone Production
+  - Tactic Knowledge Digitalization
+education:
+  - degree: PhD in Computer Science
+    institution: National University of Singapore
+    end: "2023-12-31"
+  - degree: MS in Computer Science
+    institution: Korea University
+    end: "2010-08-31"
+  - degree: BS in Computer Science
+    institution: Korea University
+    end: "2007-12-31"
+highlight_name: false
+website: "https://hckim.net"
+user_groups:
+  - Postdoctoral Researchers

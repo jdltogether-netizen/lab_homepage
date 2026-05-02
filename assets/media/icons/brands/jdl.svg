@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <rect width="100%" height="100%" fill="transparent"/>
+  
+  <g fill="none" stroke="currentColor" stroke-width="32" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M280 40 V 280 Q 280 340 220 340 H 180" stroke="black" />
+    
+    <path d="M220 140 H 300 Q 380 140 380 240 Q 380 340 300 340 H 220 V 140 Z" stroke="gray" />
+    
+    <path d="M320 220 V 440 H 420" stroke="black" />
+  </g>
+</svg>

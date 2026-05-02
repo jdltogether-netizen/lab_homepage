@@ -1,8 +1,8 @@
 schema: hugoblox/author/v1
-slug: alex-wong-postdoc
+slug: heechan-hui-intern
 name:
-  display: Dr. Alex Wong
-role: Postdoctoral Researcher
+  display: Heechan Hui
+role: Intern (AI DIVISION & KEONIX)
 bio: Applying computational methods to understand cellular mechanisms and develop therapeutic strategies.
 affiliations:
   - name: University of Excellence
@@ -37,4 +37,4 @@ education:
 highlight_name: false
 website: ""
 user_groups:
-  - Postdoctoral Researchers
+  - Interns

@@ -1,7 +1,7 @@
 ---
 title: "MoleculeAI: Machine Learning Platform for Drug Discovery"
 date: 2023-06-01
-authors: ["alex-wong-postdoc", "me", "emily-davis-phd"]
+authors: ["yongjin-yoon-prof", "haining-zhang-postdoc", "hyeongcheol-kim-postdoc"]
 tags:
   - Drug Discovery
   - Machine Learning

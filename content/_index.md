@@ -1,7 +1,7 @@
 ---
 # Leave the homepage title empty to use the site title
-title: ''
-date: 2022-10-24
+title: Homepage
+date: 2026-05-01
 type: landing
 
 design:
@@ -13,10 +13,10 @@ sections:
     id: about
     content:
       title: |
-        Research Lab for
-        **Advancing Science**
+        Just Do It Lab | AI division
+        **AI-Driven Next-Gen Manufacturing & Drone Production**
       text: |
-        We are a leading research group focused on pushing the boundaries of knowledge through innovative research and collaboration. Our multidisciplinary team works on cutting-edge projects at the intersection of technology and science.
+        We are a newly established AI division within the Just Do It Lab (JDL) at KAIST Mechanical Engineering, focused on AI-driven manufacturing and drone production technologies. Our multidisciplinary team develops intelligent production systems and actively translates research into real-world ventures, collaborating with regional governments and global collaborators.
       primary_action:
         text: Join Our Team
         url: '#team'
@@ -26,7 +26,7 @@ sections:
         url: '#publications'
         icon: hero/academic-cap
       announcement:
-        text: "We are hiring PhD students and postdocs!"
+        text: "Now hiring PhD students, Master’s students, and postdocs!"
         link:
           text: "Apply now"
           url: "/opportunities"
@@ -56,20 +56,20 @@ sections:
     content:
       items:
         - statistic: "50+"
-          description: Publications in top-tier journals
-          sub_metric: Nature, Science, Cell, PNAS
+          description: Publications in top venues over the past 5 years
+          sub_metric: Journals & Conferences in Mechanical Engineering & Computer Science.
           icon: hero/document-text
-        - statistic: "15"
-          description: Brilliant researchers and scientists
-          sub_metric: From 8 countries worldwide
+        - statistic: "7"
+          description: Multidisciplinary researchers and scientists
+          sub_metric: From mechanical engineering to computational science, electrical engineering, and design engineering
           icon: hero/user-group
-        - statistic: "$5M"
-          description: Active research funding
-          sub_metric: NSF, NIH, DOE grants
+        - statistic: "$1.5M"
+          description: Active research & business funding
+          sub_metric: Startup, KEONIX (founded by Prof. Yongjin Yoon & Dr. Hyeongcheol Kim) | C&Tech, TIPS, Pocheon-si, InnoCORE KAIST, Jeonbuk Physical AI Initiative, etc.
           icon: hero/currency-dollar
-        - statistic: "12"
-          description: Active research projects
-          sub_metric: Across 3 major domains
+        - statistic: "2"
+          description: Ongoing and newly secured projects, with parallel startup initiatives
+          sub_metric: InnoCORE PRISM-AI, Jeonbuk Physical AI Initiative, KEONIX with Pocheon
           icon: hero/beaker
     design:
       layout: cards
@@ -189,6 +189,8 @@ sections:
         - Principal Investigators
         - Postdoctoral Researchers
         - PhD Students
+        - Master Students
+        - Interns
       sort_by: 'Params.last_name'
       sort_ascending: true
       cta:
@@ -309,87 +311,87 @@ sections:
       view: card
       columns: 1
 
-  - block: logos
-    content:
-      title: Collaborators & Partners
-      subtitle: Leading the way together
-      text: We work with top universities, research institutes, and industry leaders to advance scientific discovery
-      logos:
-        - name: MIT
-          image: partners/placeholder-logo.svg
-          url: https://mit.edu
-          external: true
-          description: Massachusetts Institute of Technology
-        - name: Stanford University
-          image: partners/placeholder-logo.svg
-          url: https://stanford.edu
-          external: true
-          description: Stanford Research Collaboration
-        - name: Google Research
-          image: partners/placeholder-logo.svg
-          url: https://research.google
-          external: true
-          description: AI & Machine Learning Partnership
-        - name: National Science Foundation
-          image: partners/placeholder-logo.svg
-          url: https://nsf.gov
-          external: true
-          description: Research Funding Partner
-        - name: Microsoft Research
-          image: partners/placeholder-logo.svg
-          url: https://www.microsoft.com/research
-          external: true
-          description: Computing Research Collaboration
-        - name: NIH
-          image: partners/placeholder-logo.svg
-          url: https://nih.gov
-          external: true
-          description: National Institutes of Health
-      cta:
-        text: Become a Partner
-        url: /#contact
-        icon: hero/user-plus
-    design:
-      display_mode: grid
-      show_pattern: false
-      css_class: "bg-gradient-to-b from-white to-gray-50 dark:from-gray-800 dark:to-gray-900"
-      spacing:
-        padding: ["4rem", 0, "4rem", 0]
+  # - block: logos
+  #   content:
+  #     title: Collaborators & Partners
+  #     subtitle: Leading the way together
+  #     text: We work with top universities, research institutes, and industry leaders to advance scientific discovery
+  #     logos:
+  #       - name: MIT
+  #         image: partners/placeholder-logo.svg
+  #         url: https://mit.edu
+  #         external: true
+  #         description: Massachusetts Institute of Technology
+  #       - name: Stanford University
+  #         image: partners/placeholder-logo.svg
+  #         url: https://stanford.edu
+  #         external: true
+  #         description: Stanford Research Collaboration
+  #       - name: Google Research
+  #         image: partners/placeholder-logo.svg
+  #         url: https://research.google
+  #         external: true
+  #         description: AI & Machine Learning Partnership
+  #       - name: National Science Foundation
+  #         image: partners/placeholder-logo.svg
+  #         url: https://nsf.gov
+  #         external: true
+  #         description: Research Funding Partner
+  #       - name: Microsoft Research
+  #         image: partners/placeholder-logo.svg
+  #         url: https://www.microsoft.com/research
+  #         external: true
+  #         description: Computing Research Collaboration
+  #       - name: NIH
+  #         image: partners/placeholder-logo.svg
+  #         url: https://nih.gov
+  #         external: true
+  #         description: National Institutes of Health
+  #     cta:
+  #       text: Become a Partner
+  #       url: /#contact
+  #       icon: hero/user-plus
+  #   design:
+  #     display_mode: grid
+  #     show_pattern: false
+  #     css_class: "bg-gradient-to-b from-white to-gray-50 dark:from-gray-800 dark:to-gray-900"
+  #     spacing:
+  #       padding: ["4rem", 0, "4rem", 0]
 
   - block: contact-info
     id: contact
     content:
       title: Contact Us
-      subtitle: Get in touch with our research team
+      subtitle: Get in touch with our team
       visit_title: Visit Our Lab
       connect_title: Connect With Us
       address:
         lines:
-          - Smith Laboratory
-          - Department of Computer Science
-          - University of Excellence
-          - 123 Science Drive
-          - Excellence City, EC 12345
-          - United States
+          - Just Do It Lab (N7-4, Level 4, Room 4118)
+          - Department of Mechanical Engineering
+          - Korea Advanced Institute of Science & Technology
+          - 291 Daehak-ro, Yuseong-gu
+          - Daejeon 34141
+          - Republic of Korea
       office_hours:
-        - "Monday - Friday: 9:00 AM - 5:00 PM"
-        - "Lab Meetings: Fridays 2:00 PM"
-      email: lab@example.edu
-      phone: "+1 (555) 123-4567"
+        - "Monday - Friday: 9:00 AM - 6:00 PM"
+        - "Lab Meetings: Fridays 1:00 PM, biweekly"
+      email: jdltogether@gmail.com
+      #phone: "+1 (555) 123-4567"
       social:
-        - icon: brands/x
-          url: https://twitter.com/SmithLabResearch
+        - icon: brands/jdl
+          url: https://jdl.kaist.ac.kr
         - icon: brands/linkedin
-          url: https://linkedin.com/company/smith-lab
+          url: https://www.linkedin.com/company/just-do-it-lab/
         - icon: brands/github
-          url: https://github.com/smith-lab
+          url: https://github.com/jdltogether-netizen
       prospective:
         title: Prospective Members
-        text: Interested in joining our lab? We're always looking for motivated researchers at all levels.
+        text: Interested in joining our division or lab? We're always looking for motivated talents at all levels.
         button:
           text: View Open Positions
           url: /opportunities
-      map_url: https://maps.google.com/?q=University+of+Excellence
+      map_url: https://maps.app.goo.gl/Q25Dqqc9yrj5MMSi8
       show_form: false
     design:
       css_class: "bg-gradient-to-b from-gray-50 to-white dark:from-gray-900 dark:to-gray-800"
@@ -399,7 +401,7 @@ sections:
   - block: cta-card
     content:
       title: Join Our Research Team
-      text: We are always looking for talented and motivated researchers to join our lab. We have openings for PhD students, postdoctoral researchers, and research scientists.
+      text: We are always looking for talented and motivated researchers to join our division. We have openings for PhD and Master students, Postdoctoral researchers, and research scientists.
       button:
         text: View Open Positions
         url: /opportunities
