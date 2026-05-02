@@ -1,2 +1,2 @@
-# jdltogether-netizen.github.io
-Created from HugoBlox Premium template: research-lab
+jdltogether-netizen.github.io
+This website was built using the **Hugo Blox Premium “Research Lab” template and has been customized to represent the AI Division of Just Do It Lab, showcasing our research, projects, publications, and team activities.
