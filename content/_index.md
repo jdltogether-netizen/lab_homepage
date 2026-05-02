@@ -183,8 +183,8 @@ sections:
     id: team
     content:
       title: Meet Our Team
-      subtitle: 'World-class researchers pushing the boundaries of science'
-      text: 'Our diverse team of researchers brings together expertise from multiple disciplines to tackle the most challenging problems in computational biology and machine learning.'
+      subtitle: 'World-class researchers pushing the boundaries of science & engineering technologies'
+      text: 'Our multidisciplinary team pioneers technologies and innovations that accelerate AI-driven manufacturing automation and advance next-gen on-site drone production.'
       user_groups:
         - Principal Investigators
         - Postdoctoral Researchers
@@ -199,7 +199,7 @@ sections:
         icon: user-group
     design:
       show_role: true
-      show_organizations: false
+      show_organizations: true
       show_interests: true
       show_social: true
       # Section background color

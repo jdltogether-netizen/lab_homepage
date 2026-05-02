@@ -2,7 +2,7 @@ schema: hugoblox/author/v1
 slug: haining-zhang-postdoc
 name:
   display: Dr. Haining Zhang
-role: Postdoctoral Researcher (InnoCORE PRISM-AI GROUP)
+role: Postdoctoral Researcher
 bio: Developing deep learning models for protein structure prediction and drug discovery.
 affiliations:
   - name: University of Excellence

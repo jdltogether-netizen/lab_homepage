@@ -2,11 +2,15 @@ schema: hugoblox/author/v1
 slug: hyeongcheol-kim-postdoc
 name:
   display: Dr. Hyeongcheol Dainel Kim
-role: Postdoctoral Researcher (InnoCORE PRISM-AI GROUP)
+role: Postdoc / KEONIX R&D Director
 bio: Developing efficient digitalization of tacit knowledge from production and training sites using AI, and advancing drone manufacturing technologies through the integration of Physical AI.
 affiliations:
   - name: KAIST PRISM-AI Research Group
     url: https://prism-ai-kaist.co.kr/
+  - name: KEONIX
+    url: https://keonix.ai
+  - name: Personal Homepage
+    url: https://hckim.net
 links:
   - icon: hero/envelope
     url: mailto:hckim0911@gmail.com
