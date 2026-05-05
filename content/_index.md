@@ -81,58 +81,58 @@ sections:
   - block: research-areas
     content:
       title: Research Focus Areas
-      subtitle: Pushing the Boundaries of Science
-      text: Our lab conducts cutting-edge research across multiple domains, combining computational methods with experimental validation
+      subtitle: Pioneering AI-Driven Next-Generation Manufacturing
+      text: Our research integrates artificial intelligence, advanced manufacturing, and autonomous systems to transform how complex products are designed, optimized, and produced in real-world environments.
       items:
-        - name: Computational Biology
-          description: Developing state-of-the-art algorithms for genomic analysis, protein structure prediction, and systems biology modeling
-          icon: hero/beaker
+        - name: AI-Enhanced Additive Manufacturing
+          description: Developing intelligent additive manufacturing systems that monitor, analyze, and optimize fabrication processes in real time using multimodal sensor data, machine learning, and adaptive control.
+          icon: hero/cube-transparent
           gradient: from-green-400 to-emerald-600
           status: active
           topics:
-            - Genomics
-            - Proteomics
-            - Bioinformatics
-            - Systems Biology
-            - Drug Discovery
-          team_size: 12
-          publications: 45+
-          funding: $2.5M NSF/NIH
+            - Real-Time Process Monitoring
+            - Sensor Fusion
+            - Predictive Quality Control
+            - Inverse Material Design
+          team_size: 2
+          publications: 5+
+          funding: $0.5M Government/Industry
           cta:
             text: Explore Projects
             url: /research/computational-biology
             
-        - name: Machine Learning
-          description: Advancing deep learning methods for scientific discovery, with focus on interpretable AI and physics-informed neural networks
-          icon: hero/cpu-chip
-          gradient: from-purple-400 to-pink-600
+        - name: LLM Agents for Industrial Intelligence
+          description: Building large language model-based autonomous agents that capture expert tacit knowledge, transform operational know-how into machine-readable workflows, and automate engineering decision-making.
+          icon: hero/command-line
+          gradient: from-blue-400 to-indigo-600
           status: active
           topics:
-            - Deep Learning
-            - Computer Vision
-            - NLP
+            - Industrial LLM Agents
+            - Workflow Automation
+            - Knowledge Extraction
             - Graph Neural Networks
-            - Explainable AI
-          team_size: 8
-          publications: 32+
-          funding: $1.8M NSF
+            - Multimodal Reasoning
+            - Human-AI Collaboration
+          team_size: 2
+          publications: 2+
+          funding: $0.2M Industry
           cta:
             text: View Research
             url: /research/machine-learning
             
-        - name: Materials Science
-          description: Designing novel materials through computational modeling and machine learning-guided discovery
-          icon: emoji/atom_symbol
-          gradient: from-blue-400 to-indigo-600
+        - name: Physical AI for Autonomous Production
+          description: Advancing physical AI systems that combine generative design, virtual simulation, robotics, and additive manufacturing to enable flexible and autonomous production of next-generation drone systems.
+          icon: hero/rocket-launch
+          gradient: from-purple-400 to-pink-600
           status: emerging
           topics:
-            - Nanomaterials
-            - Quantum Materials
-            - Energy Storage
-            - Catalysis
-          team_size: 6
-          publications: 28+
-          funding: $1.2M DOE
+            - Generative Design
+            - Simulation-to-Reality
+            - Robotic Production
+            - Autonomous Drone Production
+          team_size: 3
+          publications: 2+
+          funding: $1.2M Venture Capital
           cta:
             text: Learn More
             url: /research/materials-science
@@ -144,40 +144,40 @@ sections:
       layout: cards
       css_class: "bg-gradient-to-b from-gray-50 to-white dark:from-gray-900 dark:to-gray-800"
       spacing:
-        padding: ["5rem", 0, "5rem", 0]
+        padding: ["0rem", 0, "0rem", 0]
 
   - block: cta-image-paragraph
     content:
       items:
         - title: 'State-of-the-Art Research Environment'
           text: |
-            Our laboratory features cutting-edge equipment and modern research facilities designed to support breakthrough discoveries. From advanced computational clusters to precision instrumentation, we provide our researchers with the tools they need to push the boundaries of science.
+             To establish a world-class AI-driven manufacturing environment, our laboratory is expanding next-generation computational infrastructure. We are acquiring AI workstations equipped with NVIDIA GeForce RTX 5060 (Blackwell) and RTX A6000 GPUs for large-scale AI training, simulation, and digital manufacturing research. These systems will integrate with high-capacity NAS storage to support scalable research data and digital twin workflows.
           image: pexels-polina-tankilevitch-3735769.jpg
           feature_icon: hero/check-circle
           features:
-            - 'High-Performance Computing: 500+ core GPU cluster for AI/ML research'
-            - 'Advanced Instrumentation: Precision equipment for materials characterization'
-            - 'Safety & Compliance: Full safety protocols and regulatory compliance'
+             - 'High-Performance AI Workstations: NVIDIA RTX 5060 (Blackwell) and RTX A6000 computing nodes for AI training and simulation'
+             - 'Scalable Research Storage: Enterprise NAS systems for large-scale multimodal data and digital twin workflows'
+             - 'Autonomous Experimental Platforms: Robotic arms, additive manufacturing systems, and embedded sensing infrastructure'
           button:
             text: 'Virtual Lab Tour'
             url: '/facilities'
 
         - title: 'Collaborative Innovation Culture' 
           text: |
-            Breakthrough research happens through collaboration. Our open lab environment fosters cross-disciplinary partnerships, knowledge sharing, and mentorship between senior researchers and emerging scientists. Every team member contributes to our collective mission of advancing scientific understanding.
+            Our team brings together experts in AI, robotics, electronics, design engineering, industrial automation, and additive manufacturing. With researchers trained at leading universities worldwide, we maintain a strong global research network. Through close collaboration with industry and deep-tech startups, we accelerate real-world innovation, where both Korean and English enable seamless technical communication across diverse teams.
           image: pexels-canvastudio-3153198.jpg
           feature_icon: hero/users
           features:
-            - 'Cross-Disciplinary Teams: Biologists, engineers, and computer scientists working together'
-            - 'Knowledge Sharing: Weekly seminars and collaborative research meetings'
-            - 'Mentorship Program: Structured guidance for PhD students and postdocs'
+             - 'Multidisciplinary Expertise: AI, robotics, electronics, manufacturing, and design engineering'
+             - 'Global Research Network: International faculty and alumni connections across leading universities'
+             - 'Industry & Startup Collaboration: Technology transfer, commercialization, and global English-based collaboration'
           button:
             text: 'Join Our Community'
             url: '/opportunities'
     design:
       css_class: "bg-white dark:bg-gray-800"
       spacing:
-        padding: ["4rem", 0, "4rem", 0]
+        padding: ["0rem", 0, "0rem", 0]
 
   - block: team-showcase
     id: team
@@ -206,7 +206,7 @@ sections:
       css_class: "bg-gray-50 dark:bg-gray-900"
       # Reduce spacing
       spacing:
-        padding: ["3rem", 0, "3rem", 0]
+        padding: ["3rem", 0, "0rem", 0]
 
   - block: collection
     id: projects
@@ -398,16 +398,16 @@ sections:
       spacing:
         padding: ["5rem", 0, "5rem", 0]
 
-  - block: cta-card
-    content:
-      title: Join Our Research Team
-      text: We are always looking for talented and motivated researchers to join our division. We have openings for PhD and Master students, Postdoctoral researchers, and research scientists.
-      button:
-        text: View Open Positions
-        url: /opportunities
-    design:
-      card:
-        # Card background color (CSS class)
-        css_class: 'bg-primary-300 dark:bg-primary-700'
-        css_style: ''
+  # - block: cta-card
+  #   content:
+  #     title: Join Us!
+  #     text: We are always looking for talented and motivated researchers! We have openings for PhD & Master students, Postdoc, and Research scientists.
+  #     button:
+  #       text: View Open Positions
+  #       url: /opportunities
+  #   design:
+  #     card:
+  #       # Card background color (CSS class)
+  #       css_class: 'bg-primary-300 dark:bg-primary-700'
+  #       css_style: ''
 ---
