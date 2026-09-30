@@ -17,8 +17,25 @@ main:
     url: '/#team'
     weight: 30
   - name: Publications
-    url: '/#publications'
+    identifier: publications
+    url: '/publications'
     weight: 40
+  - name: Papers
+    parent: publications
+    url: '/publications/papers'
+    weight: 41
+  - name: Conferences
+    parent: publications
+    url: '/publications/conferences'
+    weight: 42
+  - name: Patents
+    parent: publications
+    url: '/publications/patents'
+    weight: 43
+  - name: Lectures
+    parent: publications
+    url: '/publications/lectures'
+    weight: 44
   # Hidden until real content replaces the template's sample events.
   # - name: Events
   #   url: '/#events'
