@@ -26,12 +26,10 @@ interests:
 education:
   - degree: MS in Mechanical Engineering
     institution: Seoul National University
-    start: "2024-01-01"
-    end: "2026-12-31"
+    year: "2024 - 2026"
   - degree: BS in Mechanical Engineering
     institution: George Washington University
-    start: "2014-01-01"
-    end: "2020-12-31"
+    year: "2014 - 2020"
 highlight_name: false
 website: ""
 user_groups:

@@ -10,13 +10,16 @@ is_owner: true
 name:
   display: Yoon Yong-Jin
 role: Professor, Ph.D.
+# resume-biography-3 reads status.icon without checking it exists.
+status:
+  icon: ""
 affiliations:
   - name: Department of Mechanical Engineering, KAIST
 links:
   - icon: hero/envelope
     url: mailto:yongjiny@kaist.ac.kr
-  # - icon: brands/google-scholar
-  #   url: https://scholar.google.com/citations?user=
+  - icon: brands/google-scholar
+    url: https://scholar.google.com/citations?user=AW-3GUgAAAAJ&hl=en
   # - icon: brands/linkedin
   #   url: https://www.linkedin.com/in/
 interests:
@@ -27,17 +30,98 @@ interests:
 education:
   - degree: Ph.D. in Mechanical Engineering (Management Science Minor)
     institution: Stanford University
-    start: "2005-01-01"
-    end: "2009-12-31"
+    year: "2005 - 2009"
   - degree: M.S. in Electrical Engineering
     institution: Stanford University
-    end: "2008-01-01"
+    year: "2008"
   - degree: M.S. in Mechanical Engineering
     institution: Stanford University
-    end: "2005-01-01"
+    year: "2005"
   - degree: B.S. in Mechanical Engineering
     institution: Korea University
-    end: "2000-01-01"
+    year: "2000"
+# Employment and awards feed the resume-experience / resume-awards blocks
+# on /members/professor/. Migrated from the legacy members-professor page.
+work:
+  - role: "Full Professor"
+    org: "Department of Mechanical Engineering, KAIST"
+    start: "2025-01-01"
+  - role: "Adjunct Professor"
+    org: "Department of Electrical Engineering, KAIST"
+    start: "2024-01-01"
+  - role: "Adjunct Professor"
+    org: "Department of Semiconductor Systems Engineering, KAIST"
+    start: "2024-01-01"
+  - role: "Adjunct Professor"
+    org: "KAIST Institute for the NANOCENTURY"
+    start: "2019-01-01"
+  - role: "Visiting Professor"
+    org: "School of Mechanical & Aerospace Engineering, Nanyang Technological University"
+    start: "2022-01-01"
+  - role: "Associate Professor"
+    org: "Department of Mechanical Engineering, KAIST"
+    start: "2018-01-01"
+    end: "2024-12-31"
+  - role: "Adjunct Associate Professor"
+    org: "School of Mechanical & Aerospace Engineering, Nanyang Technological University"
+    start: "2019-01-01"
+    end: "2021-12-31"
+  - role: "Visiting Professor"
+    org: "Graduate School of Technology Management, Kyunghee University"
+    start: "2018-01-01"
+    end: "2020-12-31"
+  - role: "Assistant Professor"
+    org: "School of Mechanical and Aerospace Engineering, Nanyang Technological University"
+    start: "2010-01-01"
+    end: "2018-12-31"
+  - role: "Visiting Professor"
+    org: "Human Development Institute, Chungnam National University"
+    start: "2016-01-01"
+    end: "2018-12-31"
+awards:
+  - title: "Minister of Science and ICT Award - Best Tech Startup"
+    awarder: "Korea"
+    date: "2022-01-01"
+  - title: "Gold Prize in Research (1st)"
+    awarder: "Korean Society of 3D printing in Medicine"
+    date: "2022-01-01"
+  - title: "Best Research Award, KCreS"
+    awarder: "Korea Ceramic Society"
+    date: "2021-01-01"
+  - title: "Best Research Award"
+    awarder: "Korea CDE Society"
+    date: "2021-01-01"
+  - title: "Bronze prize in Research"
+    awarder: "Korea LED Optoelectronic Society"
+    date: "2021-01-01"
+  - title: "2019 Prospective Scientist in Manufacturing"
+    awarder: "Korea Mechanical Engineering Association"
+    date: "2019-01-01"
+  - title: "International Journal of Precision Engineering and Manufacturing Springer Award: Most Downloaded Article Award in 2015, \"A Review on 3D printed Bioimplant\""
+    awarder: "Springer"
+    date: "2016-01-01"
+  - title: "IJPEM-GT Highly Commended Paper Award, \"Application of 3D Printing Technology for Designing Light-Weight Unmanned Aerial Vehicle Wing Structures\""
+    awarder: "KSPE"
+    date: "2016-01-01"
+  - title: "International Journal of Precision Engineering and Manufacturing-Green Technology Springer Award, Most Downloaded Article Award in 2014, \"Application of 3D Printing Technology for Designing Light-Weight Unmanned Aerial Vehicle Wing Structures\""
+    awarder: "Springer"
+    date: "2015-01-01"
+  - title: "The first runner-up award"
+    awarder: "Licensing Executives Society International (LESI), Kuala Lumpur"
+    date: "2015-01-01"
+    summary: "Featured in the LES newsletter"
+  - title: "1st Prize NTU Engineering Innovation & Design Competition"
+    date: "2012-01-01"
+  - title: "3rd Prize NTU Engineering Innovation & Design Competition"
+    date: "2011-01-01"
+  - title: "Platinum Award @ 2011 NTU URECA Exhibition"
+    date: "2011-01-01"
+  - title: "Selected proceedings of the URECA@NTU (2010)"
+    date: "2011-01-01"
+  - title: "Best Research Award from KAOS (Korean-American Otolaryngology Society)"
+    date: "2007-01-01"
+  - title: "MIT-Lincoln American Design Competition: USA Medical Device Design Bronze Award"
+    date: "2004-01-01"
 highlight_name: true
 website: ""
 user_groups:

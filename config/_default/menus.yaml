@@ -14,8 +14,21 @@ main:
     url: '/facilities'
     weight: 25
   - name: Team
-    url: '/#team'
+    identifier: team
+    url: '/authors'
     weight: 30
+  - name: Professor
+    parent: team
+    url: '/members/professor'
+    weight: 31
+  - name: Current Members
+    parent: team
+    url: '/authors'
+    weight: 32
+  - name: Alumni
+    parent: team
+    url: '/members/alumni'
+    weight: 33
   - name: Publications
     identifier: publications
     url: '/publications'
