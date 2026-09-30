@@ -24,7 +24,7 @@ sections:
       # The image lives in static/media/ so the path stays literal.
       title: |
         <img src="/media/me-logo.png" alt="KAIST Mechanical Engineering" style="display:block;margin:0 auto 2rem;height:4rem;width:auto" />
-        <span style="display:block">Convergence Technology: Grounded in Research, Engineered for Commercialization</span>
+        <span style="display:block">Convergence Technology: From Rigorous Research to Real Ventures</span>
       text: |
         Just Do it Lab (JDL) @ KAIST is an Open Lab for convergence technology and a platform for commercialization, spanning additive manufacturing, semiconductor convergence processes, and AI-driven autonomous drone production. We work with research institutes, companies, investors, legal advisors, and global start-ups so the work leaves the bench: JDL researchers and students carry their projects all the way to global start-up ventures, during their degree and long after.
       primary_action:
@@ -64,22 +64,25 @@ sections:
 
   - block: stats
     content:
+      # Every figure below is counted from the migrated legacy data:
+      # data/publications/{patents,lectures,papers}.json and
+      # data/projects/jdl-projects.json. Recount when those files change.
       items:
-        - statistic: "50+"
-          description: Publications in top venues over the past 5 years
-          sub_metric: Journals & Conferences in Mechanical Engineering & Computer Science.
+        - statistic: "10"
+          description: Patents filed across Korea, Singapore, the USA, and China
+          sub_metric: Three licensed. Covering energy conversion devices, label-free optical biosensors, continuously varied infill strategies for 3D printing, and PM2.5 sensor calibration.
           icon: hero/document-text
-        - statistic: "7"
-          description: Multidisciplinary researchers and scientists
-          sub_metric: From mechanical engineering to computational science, electrical engineering, and design engineering
+        - statistic: "153"
+          description: Plenary, keynote, and invited lectures delivered worldwide
+          sub_metric: 36 plenary and keynote addresses plus 117 invited talks at international conferences, partner universities, and industry forums.
           icon: hero/user-group
-        - statistic: "$1.5M"
-          description: Active research & business funding
-          sub_metric: Startup, KEONIX (founded by Prof. Yongjin Yoon & Dr. Hyeongcheol Kim) | C&Tech, TIPS, Pocheon-si, InnoCORE KAIST, Jeonbuk Physical AI Initiative, etc.
+        - statistic: "33"
+          description: Funded research projects led as Principal Investigator
+          sub_metric: Backed by 23 sponsors — MSIT, MOTIE, NRF, KIAT, NIPA and KRIT in Korea; Samsung, LG, Google and Rolls-Royce in industry; A*STAR and Singapore MOE overseas.
           icon: hero/currency-dollar
-        - statistic: "2"
-          description: Ongoing and newly secured projects, with parallel startup initiatives
-          sub_metric: InnoCORE PRISM-AI, Jeonbuk Physical AI Initiative, KEONIX with Pocheon
+        - statistic: "170"
+          description: Peer-reviewed journal papers published since 2006
+          sub_metric: Additive manufacturing, MEMS and microfluidic sensors, semiconductor convergence processes, energy devices, and AI-driven quality control.
           icon: hero/beaker
     design:
       layout: cards
