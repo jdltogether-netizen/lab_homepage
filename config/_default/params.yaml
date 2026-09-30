@@ -95,8 +95,10 @@ hugoblox:
     align: center                       # left | center | right
     # Feature toggles
     search: true
-    theme_toggle: true
-    theme_picker: true
+    # Hidden on purpose: the site follows the visitor's OS light/dark setting
+    # (hugoblox.theme.mode: system) and offers no manual override.
+    theme_toggle: false
+    theme_picker: false
     language_switcher: true
     # Call-to-action button
     cta:
