@@ -16,11 +16,17 @@ sections:
   - block: hero
     id: about
     content:
+      # The hero block has no image field, so the logo goes into `title` as
+      # raw HTML (the project enables unsafe HTML in Goldmark).
+      # Sizing uses INLINE STYLES, not Tailwind classes: this block renders
+      # client-side via Preact, so its markup never reaches hugo_stats.json
+      # and Tailwind would never emit CSS for classes written here.
+      # The image lives in static/media/ so the path stays literal.
       title: |
-        Just Do It Lab | AI division
-        **AI-Driven Next-Gen Manufacturing & Drone Production**
+        <img src="/media/kaist-logo.png" alt="KAIST" style="display:block;margin:0 auto 2rem;height:4rem;width:auto" />
+        <span style="display:block">From 2D Sheet to 3D Structure, From Lab Bench to Global Venture</span>
       text: |
-        We are a newly established AI division within the Just Do It Lab (JDL) at KAIST Mechanical Engineering, focused on AI-driven manufacturing and drone production technologies. Our multidisciplinary team develops intelligent production systems and actively translates research into real-world ventures, collaborating with regional governments and global collaborators.
+        Just Do it Lab (JDL) @ KAIST is an Open Lab for convergence technology and a platform for commercialization, spanning additive manufacturing, semiconductor convergence processes, and AI-driven autonomous drone production. We work with research institutes, companies, investors, legal advisors, and global start-ups so the work leaves the bench: JDL researchers and students carry their projects all the way to global start-up ventures, during their degree and long after.
       primary_action:
         text: Join Our Team
         url: '#team'
