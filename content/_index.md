@@ -27,7 +27,7 @@ sections:
         <span style="display:block;font-size:0.5em;line-height:1.2;letter-spacing:0.01em;color:var(--color-primary-500);margin-bottom:1.75rem">Just Do it Lab</span>
         <span style="display:block">Convergence Technology: From Rigorous Research to Real Ventures</span>
       text: |
-        <span style="font-size:0.9em">JDL is an Open Lab at KAIST Mechanical Engineering for convergence technology and a platform for commercialization, spanning additive manufacturing, semiconductor convergence processes, and AI-driven autonomous drone production. We work with research institutes, companies, investors, legal advisors, and global start-ups so the work leaves the bench: JDL researchers and students carry their projects all the way to global start-up ventures, during their degree and long after.</span>
+        JDL is an Open Lab at KAIST Mechanical Engineering for convergence technology and commercialization, spanning additive manufacturing, semiconductor convergence processes, and AI-driven autonomous drone production. We work with research institutes, companies, investors, legal advisors, and global start-ups so the work leaves the bench: our researchers and students carry their projects through to global start-up ventures, during their degree and after.
       primary_action:
         text: Join Our Team
         url: '#team'
@@ -99,10 +99,14 @@ sections:
       title: Research Focus Areas
       subtitle: Pioneering AI-Driven Next-Generation Manufacturing
       text: Our research integrates artificial intelligence, advanced additive manufacturing, and autonomous systems to transform how complex products are designed, optimized, and produced in real-world environments. The work runs the full depth of the stack, from resin and nanocomposite chemistry, through the physics of the printing process and in-line quality control, up to the autonomous production systems that put it to work.
-      # team_size / publications / funding are deliberately omitted: those are
-      # optional fields, and the lab keeps no per-area figures we can stand
-      # behind. Per-area `cta` links are omitted for the same reason, as the
-      # Research sub-pages they would point to do not exist yet.
+      # Per-area metrics, all hand-maintained (the block renders them as
+      # literal strings - nothing here is counted automatically):
+      #   team_size    - headcount working in the area
+      #   publications - papers matched by topic keywords over the 170 in
+      #                  data/publications/papers.json
+      #   funding      - grant count, or an amount where one is known
+      # Per-area `cta` links stay omitted: the Research sub-pages they would
+      # point to do not exist yet.
       items:
         - name: Additive Manufacturing Processes & Functional Materials
           description: Advancing vat photopolymerization, digital light processing, material extrusion, and directed energy deposition, from the resin and nanocomposite chemistry up to real-time control of the process as it prints.
@@ -116,6 +120,9 @@ sections:
             - In-Process Monitoring & Control
             - Cellulose Nanocrystals & Nanocomposites
             - Self-Healing Printable Materials
+          team_size: "11+"
+          publications: "28+"
+          funding: "10+ grants"
 
         - name: Physical AI for Autonomous Manufacturing
           description: Building AI that can run a process, not just describe one. Large language and vision models read machine and sensor data, capture the tacit know-how of experienced operators, and close the control loop on additive manufacturing without a human at every step.
@@ -130,6 +137,9 @@ sections:
             - In-Line Anomaly Detection
             - Digital Twins
             - Human-AI Collaboration
+          team_size: "4+"
+          publications: "3+"
+          funding: "1 grant"
 
         - name: Next-Generation Drone Production
           description: Rethinking how a drone is built. We print a flat 2D sheet that deploys into a functional 3D airframe, so aircraft can be produced at low cost and high rate, and made where they are needed rather than shipped there.
@@ -143,6 +153,9 @@ sections:
             - On-Demand Distributed Production
             - Low-Cost High-Rate Manufacturing
             - Attritable Airframes
+          team_size: "7+"
+          publications: "1+"
+          funding: "$350K+"
       cta:
         text: Active Research Projects
         url: /#projects
