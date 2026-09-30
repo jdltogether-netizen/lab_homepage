@@ -171,13 +171,14 @@ sections:
       items:
         - title: 'State-of-the-Art Research Environment'
           text: |
-            JDL runs its own fabrication and characterization line instead of queuing for shared facilities. Students design, print, process, and measure in house across three sites: additive manufacturing and materials at KAIST, semiconductor and fuel-cell processing at KPU, and two-photon polymerization at NTU's Singapore Centre for 3D Printing.
+            JDL runs its own fabrication, characterization, and compute instead of queuing for shared facilities. Students design, print, process, and measure in house across three sites: additive manufacturing and materials at KAIST, semiconductor and fuel-cell processing at KPU, and two-photon polymerization at NTU's Singapore Centre for 3D Printing. GPU capacity grows with every new grant.
           image: facilities/kpu-08-yellow-room.jpg
           feature_icon: hero/check-circle
           features:
             - 'Additive Manufacturing: DLP printers (Asiga, Carima, UNIZ NBEE), FDM, in-house filament fabrication, UV curing, and two-photon polymerization'
             - 'Semiconductor & Thin-Film Processing: atomic layer deposition, pulsed laser deposition, sputtering, e-beam evaporation, PECVD, deep reactive ion etching, and a yellow room'
             - 'Characterization: confocal laser scanning microscopy, SEM, X-ray diffraction, electrochemical impedance spectroscopy, UV/Vis spectrometry, and universal tensile testing'
+            - 'AI Computing: multiple RTX 5090 nodes plus a workstation built this year around two RTX A6000 cards, with RTX A5000 machines, expanding NAS storage, and rented capacity at the National AI Computing Center'
           button:
             text: 'Virtual Lab Tour'
             url: '/facilities'
@@ -194,6 +195,16 @@ sections:
           button:
             text: 'Join Our Community'
             url: '/opportunities'
+
+        - title: 'From Lab Bench to Production Line'
+          text: |
+            The drone work now has a company behind it. KEONIX Labs was founded as a KAIST faculty start-up to carry the lab's manufacturing research into real production, and is building a civil-military-government drone innovation, education, and manufacturing center in Pocheon, with further funding rounds underway.
+          image: research/drone-2d-to-3d.jpg
+          feature_icon: hero/rocket-launch
+          features:
+            - 'KEONIX Labs: a KAIST faculty start-up taking the lab''s drone manufacturing research from prototype to production'
+            - 'Pocheon Innovation Center: a civil-military-government site for drone education, manufacturing, and production'
+            - 'Built Jointly: faculty from Chung-Ang, Jeonbuk National, and Incheon National universities alongside researchers from KAIST''s InnoCORE PRISM-AI group, adding printers, training programs, and custom FPV drone builds'
     design:
       css_class: "bg-white dark:bg-gray-800"
       spacing:
