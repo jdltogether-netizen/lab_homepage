@@ -4,6 +4,10 @@ title: Homepage
 date: 2026-05-01
 type: landing
 
+# Browser tab title for this page ({brand} = hugoblox.seo.title)
+seo:
+  title: Welcome to Just Do it Lab
+
 design:
   # Default section spacing
   spacing: '6rem'

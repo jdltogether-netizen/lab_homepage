@@ -13,18 +13,18 @@ hugoblox:
   # ────────────────────────────────────────────────────────────────────────────
   identity:
     # Site name - shown in navbar, footer, copyright, and browser title by default
-    name: "AI DIVISION"
+    name: "KAIST Mechanical Engineering"
     # Legal entity for copyright notices (defaults to name if not set)
     organization: "Just Do it Lab in ME, KAIST"
     # Schema.org type for structured data
     type: organization                  # person | organization | local_business
     # Short tagline displayed on your site
-    tagline: "Pioneering Next-Gen Manufacturing & Drone Production"
+    tagline: "Additive Manufacturing, Semiconductor Convergence & AI-Driven Autonomous Drone Production"
     # Site meta description for search engines and social sharing
-    description: "JDL Division Leading pioneering research for advancing AI-Driven Next-Gen Manufaturing and Drone Production Technology."
+    description: "Just Do it Lab (JDL) in Mechanical Engineering at KAIST advances additive manufacturing, semiconductor convergence processes, and AI-driven autonomous drone production, from fundamental research to commercialization."
     # Social accounts (used for meta tags like Twitter Cards)
     social:
-      twitter: "GetResearchDev"         # Twitter/X handle for Twitter Cards (without @)
+      twitter: ""                       # Twitter/X handle for Twitter Cards (without @)
 
   # ────────────────────────────────────────────────────────────────────────────
   # THEME
@@ -129,7 +129,7 @@ hugoblox:
   # ────────────────────────────────────────────────────────────────────────────
   seo:
     # Browser tab title override (defaults to identity.name if not set)
-    title: ""
+    title: "Just Do it Lab"
     # For local_business identity type only
     location:
       address:

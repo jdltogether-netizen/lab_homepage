@@ -75,3 +75,6 @@ Desktop.ini
 
 *.log
 npm-debug.log*
+
+# Local dev helpers (Claude Code)
+.claude/
