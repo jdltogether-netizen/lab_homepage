@@ -78,11 +78,11 @@ sections:
           description: Plenary, keynote, and invited lectures delivered worldwide
           sub_metric: 36 plenary and keynote addresses plus 117 invited talks at international conferences, partner universities, and industry forums.
           icon: hero/user-group
-        - statistic: "33+"
+        - statistic: "30+"
           description: Funded research projects led as Principal Investigator
           sub_metric: Backed by 23 sponsors — MSIT, MOTIE, NRF, KIAT, NIPA and KRIT in Korea; Samsung, LG, Google and Rolls-Royce in industry; A*STAR and Singapore MOE overseas.
           icon: hero/currency-dollar
-        - statistic: "150+"
+        - statistic: "170+"
           description: Peer-reviewed journal papers published since 2006
           sub_metric: Additive manufacturing, MEMS and microfluidic sensors, semiconductor convergence processes, energy devices, and AI-driven quality control.
           icon: hero/beaker
@@ -97,63 +97,54 @@ sections:
     content:
       title: Research Focus Areas
       subtitle: Pioneering AI-Driven Next-Generation Manufacturing
-      text: Our research integrates artificial intelligence, advanced manufacturing, and autonomous systems to transform how complex products are designed, optimized, and produced in real-world environments.
+      text: Our research integrates artificial intelligence, advanced additive manufacturing, and autonomous systems to transform how complex products are designed, optimized, and produced in real-world environments. The work runs the full depth of the stack, from resin and nanocomposite chemistry, through the physics of the printing process and in-line quality control, up to the autonomous production systems that put it to work.
+      # team_size / publications / funding are deliberately omitted: those are
+      # optional fields, and the lab keeps no per-area figures we can stand
+      # behind. Per-area `cta` links are omitted for the same reason, as the
+      # Research sub-pages they would point to do not exist yet.
       items:
-        - name: AI-Enhanced Additive Manufacturing
-          description: Developing intelligent additive manufacturing systems that monitor, analyze, and optimize fabrication processes in real time using multimodal sensor data, machine learning, and adaptive control.
+        - name: Additive Manufacturing Processes & Functional Materials
+          description: Advancing vat photopolymerization, digital light processing, material extrusion, and directed energy deposition, from the resin and nanocomposite chemistry up to real-time control of the process as it prints.
           icon: hero/cube-transparent
           gradient: from-green-400 to-emerald-600
           status: active
           topics:
-            - Real-Time Process Monitoring
-            - Sensor Fusion
-            - Predictive Quality Control
-            - Inverse Material Design
-          team_size: 2
-          publications: 5+
-          funding: $0.5M Government/Industry
-          cta:
-            text: Explore Projects
-            url: /research/computational-biology
-            
-        - name: LLM Agents for Industrial Intelligence
-          description: Building large language model-based autonomous agents that capture expert tacit knowledge, transform operational know-how into machine-readable workflows, and automate engineering decision-making.
-          icon: hero/command-line
+            - Vat Photopolymerization
+            - DLP Porous Ceramics
+            - Directed Energy Deposition
+            - In-Process Monitoring & Control
+            - Cellulose Nanocrystals & Nanocomposites
+            - Self-Healing Printable Materials
+
+        - name: Physical AI for Autonomous Manufacturing
+          description: Building AI that can run a process, not just describe one. Large language and vision models read machine and sensor data, capture the tacit know-how of experienced operators, and close the control loop on additive manufacturing without a human at every step.
+          icon: hero/cpu-chip
           gradient: from-blue-400 to-indigo-600
           status: active
           topics:
-            - Industrial LLM Agents
-            - Workflow Automation
-            - Knowledge Extraction
-            - Graph Neural Networks
-            - Multimodal Reasoning
+            - Industrial AI Agents
+            - LLM & Vision-Language Models
+            - Physical AI
+            - Closed-Loop Process Control
+            - In-Line Anomaly Detection
+            - Digital Twins
             - Human-AI Collaboration
-          team_size: 2
-          publications: 2+
-          funding: $0.2M Industry
-          cta:
-            text: View Research
-            url: /research/machine-learning
-            
-        - name: Physical AI for Autonomous Production
-          description: Advancing physical AI systems that combine generative design, virtual simulation, robotics, and additive manufacturing to enable flexible and autonomous production of next-generation drone systems.
+
+        - name: Next-Generation Drone Production
+          description: Rethinking how a drone is built. We print a flat 2D sheet that deploys into a functional 3D airframe, so aircraft can be produced at low cost and high rate, and made where they are needed rather than shipped there.
           icon: hero/rocket-launch
           gradient: from-purple-400 to-pink-600
           status: emerging
           topics:
-            - Generative Design
-            - Simulation-to-Reality
-            - Robotic Production
-            - Autonomous Drone Production
-          team_size: 3
-          publications: 2+
-          funding: $1.2M Venture Capital
-          cta:
-            text: Learn More
-            url: /research/materials-science
+            - 2D Sheet to 3D Structure
+            - Folding-Inspired Deployable Architectures
+            - 4D Printing & Shape Memory Polymers
+            - On-Demand Distributed Production
+            - Low-Cost High-Rate Manufacturing
+            - Attritable Airframes
       cta:
         text: Active Research Projects
-        url: /#research
+        url: /#projects
         icon: hero/arrow-right
     design:
       layout: cards
