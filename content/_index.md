@@ -158,26 +158,26 @@ sections:
       items:
         - title: 'State-of-the-Art Research Environment'
           text: |
-             To establish a world-class AI-driven manufacturing environment, our laboratory is expanding next-generation computational infrastructure. We are acquiring AI workstations equipped with NVIDIA GeForce RTX 5060 (Blackwell) and RTX A6000 GPUs for large-scale AI training, simulation, and digital manufacturing research. These systems will integrate with high-capacity NAS storage to support scalable research data and digital twin workflows.
-          image: pexels-polina-tankilevitch-3735769.jpg
+            JDL runs its own fabrication and characterization line instead of queuing for shared facilities. Students design, print, process, and measure in house across three sites: additive manufacturing and materials at KAIST, semiconductor and fuel-cell processing at KPU, and two-photon polymerization at NTU's Singapore Centre for 3D Printing.
+          image: facilities/kpu-08-yellow-room.jpg
           feature_icon: hero/check-circle
           features:
-             - 'High-Performance AI Workstations: NVIDIA RTX 5060 (Blackwell) and RTX A6000 computing nodes for AI training and simulation'
-             - 'Scalable Research Storage: Enterprise NAS systems for large-scale multimodal data and digital twin workflows'
-             - 'Autonomous Experimental Platforms: Robotic arms, additive manufacturing systems, and embedded sensing infrastructure'
+            - 'Additive Manufacturing: DLP printers (Asiga, Carima, UNIZ NBEE), FDM, in-house filament fabrication, UV curing, and two-photon polymerization'
+            - 'Semiconductor & Thin-Film Processing: atomic layer deposition, pulsed laser deposition, sputtering, e-beam evaporation, PECVD, deep reactive ion etching, and a yellow room'
+            - 'Characterization: confocal laser scanning microscopy, SEM, X-ray diffraction, electrochemical impedance spectroscopy, UV/Vis spectrometry, and universal tensile testing'
           button:
             text: 'Virtual Lab Tour'
             url: '/facilities'
 
-        - title: 'Collaborative Innovation Culture' 
+        - title: 'Collaborative Innovation Culture'
           text: |
-            Our team brings together experts in AI, robotics, electronics, design engineering, industrial automation, and additive manufacturing. With researchers trained at leading universities worldwide, we maintain a strong global research network. Through close collaboration with industry and deep-tech startups, we accelerate real-world innovation, where both Korean and English enable seamless technical communication across diverse teams.
-          image: pexels-canvastudio-3153198.jpg
+            JDL is an Open Lab. Research institutes, companies, investment institutes, legal advisors, and global start-ups work alongside the group rather than at arm's length, so a project can travel from a first experiment to a registered venture without ever leaving the ecosystem it started in.
+          image: current-members/group-hero.jpg
           feature_icon: hero/users
           features:
-             - 'Multidisciplinary Expertise: AI, robotics, electronics, manufacturing, and design engineering'
-             - 'Global Research Network: International faculty and alumni connections across leading universities'
-             - 'Industry & Startup Collaboration: Technology transfer, commercialization, and global English-based collaboration'
+            - 'Open Lab Model: 23 sponsors spanning government, industry, and overseas agencies, from MSIT, MOTIE, and NRF to Samsung, LG, Google, and Rolls-Royce'
+            - 'Global Research Network: built across KAIST and NTU Singapore, with partner research centers including KRISS, KIMM, and ETRI'
+            - 'Path to Commercialization: the lab''s Global Start-up Platform carries student projects into ventures, during the degree and long after graduation'
           button:
             text: 'Join Our Community'
             url: '/opportunities'
