@@ -64,23 +64,25 @@ sections:
 
   - block: stats
     content:
-      # Every figure below is counted from the migrated legacy data:
+      # Figures are rounded DOWN from the migrated legacy data and carry a
+      # "+" so they stay true as the record grows. Actual counts as of this
+      # commit: 10 patents, 153 lectures, 33 projects, 170 papers, from
       # data/publications/{patents,lectures,papers}.json and
-      # data/projects/jdl-projects.json. Recount when those files change.
+      # data/projects/jdl-projects.json.
       items:
-        - statistic: "10"
+        - statistic: "10+"
           description: Patents filed across Korea, Singapore, the USA, and China
           sub_metric: Three licensed. Covering energy conversion devices, label-free optical biosensors, continuously varied infill strategies for 3D printing, and PM2.5 sensor calibration.
           icon: hero/document-text
-        - statistic: "153"
+        - statistic: "150+"
           description: Plenary, keynote, and invited lectures delivered worldwide
           sub_metric: 36 plenary and keynote addresses plus 117 invited talks at international conferences, partner universities, and industry forums.
           icon: hero/user-group
-        - statistic: "33"
+        - statistic: "33+"
           description: Funded research projects led as Principal Investigator
           sub_metric: Backed by 23 sponsors — MSIT, MOTIE, NRF, KIAT, NIPA and KRIT in Korea; Samsung, LG, Google and Rolls-Royce in industry; A*STAR and Singapore MOE overseas.
           icon: hero/currency-dollar
-        - statistic: "170"
+        - statistic: "150+"
           description: Peer-reviewed journal papers published since 2006
           sub_metric: Additive manufacturing, MEMS and microfluidic sensors, semiconductor convergence processes, energy devices, and AI-driven quality control.
           icon: hero/beaker
