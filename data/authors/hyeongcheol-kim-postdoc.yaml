@@ -22,12 +22,14 @@ links:
     url: https://github.com/bluesky0911
   - icon: brands/x
     url: https://twitter.com/bluesky911
+# Only the first three show on the team card; the rest appear on the
+# author page. "Drone Education & Autonomous Production" is deliberately one
+# entry so all the requested topics fit those three slots.
 interests:
-  - Drone Education
-  - Autonomous Drone Production
+  - Drone Education & Autonomous Production
   - AI-Based Tacit Knowledge Extraction
+  - Human-AI / Computer Interaction
   - Manufacturing AX
-  - Human-Computer / AI Interaction
 highlight_name: false
 website: "https://hckim.net"
 user_groups:

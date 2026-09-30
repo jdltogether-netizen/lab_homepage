@@ -237,7 +237,7 @@ sections:
     content:
       title: Meet Our Team
       subtitle: 'World-class researchers pushing the boundaries of science & engineering technologies'
-      text: 'Our multidisciplinary team pioneers technologies and innovations that accelerate AI-driven manufacturing automation and advance next-gen on-site drone production.'
+      text: 'Our multidisciplinary team works across vat photopolymerization, digital light processing, material extrusion, and directed energy deposition, from the resin and nanocomposite chemistry up to real-time control of the process as it prints, and on to AI-driven manufacturing automation and next-generation on-site drone production.'
       # Group names must match `user_groups` in data/authors/*.yaml exactly.
       user_groups:
         - Principal Investigators

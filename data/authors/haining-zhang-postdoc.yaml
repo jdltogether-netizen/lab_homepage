@@ -19,10 +19,10 @@ links:
   # - icon: brands/linkedin
   #   url: https://www.linkedin.com/in/
 interests:
-  - Machine Learning for Process Modeling and Optimization in Additive Manufacturing
-  - Numerical Modeling and Uncertainty Quantification in the Additive Manufacturing Process
-  - Deep Learning-based In-Situ Process Monitoring and Anomaly Detection
-  - Applications of 3D Printed Electronics and Sensors
+  - Machine Learning for Additive Manufacturing
+  - In-Situ Monitoring & Anomaly Detection
+  - Uncertainty Quantification
+  - 3D Printed Electronics & Sensors
 highlight_name: false
 website: ""
 user_groups:
