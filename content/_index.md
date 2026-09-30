@@ -305,7 +305,8 @@ sections:
         folders:
           - publications
         exclude_featured: false
-      count: 5
+      # Newest first; the full list lives at /publications/.
+      count: 10
     design:
       view: citation
       spacing:

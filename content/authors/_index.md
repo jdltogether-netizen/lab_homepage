@@ -1,38 +1,36 @@
 ---
 title: Our Team
 cms_exclude: true
+type: landing
 
-# View.
-#   1 = List
-#   2 = Compact
-#   3 = Card
-#   4 = Citation
-view: 3
-
-# Optional banner image (relative to `assets/media/` folder).
-banner:
-  caption: ''
-  image: ''
+sections:
+  # Same block and the same group names as the homepage `#team` section, so
+  # the two never drift. Adding a member means adding one file under
+  # data/authors/ plus a content/authors/<slug>/_index.md for their page.
+  #
+  # This page must NOT fall back to Hugo's taxonomy term listing: /authors/ is
+  # also where every publication co-author gets a term page, so the default
+  # listing showed 270+ names as if they were lab members.
+  - block: team-showcase
+    id: team
+    content:
+      title: Our Team
+      subtitle: ''
+      text: ''
+      user_groups:
+        - Principal Investigators
+        - Postdoctoral Researchers
+        - PhD Students
+        - Master Students
+        - Interns
+        - Research Staff
+      sort_by: 'Params.last_name'
+      sort_ascending: true
+    design:
+      show_role: true
+      show_organizations: true
+      show_interests: true
+      show_social: true
+      spacing:
+        padding: ["3rem", 0, "3rem", 0]
 ---
-
-# Meet Our Research Team
-
-Our lab brings together talented researchers from diverse backgrounds, united by a shared passion for advancing science through computational methods. We foster a collaborative environment where innovation thrives and each team member contributes their unique expertise to our collective mission.
-
-## Team Structure
-
-- **Principal Investigators**: Leading research vision and strategy
-- **Postdoctoral Researchers**: Driving cutting-edge research projects
-- **PhD Students**: Developing next-generation research capabilities
-- **Master Students**: Developing next-generation research capabilities
-- **Interns**: Developing next-generation research capabilities
-- **Research Scientists**: Providing technical expertise and continuity
-- **Undergraduate Researchers**: Learning and contributing to ongoing projects
-
-## Join Our Team
-
-We are always looking for motivated individuals who share our passion for research. If you're interested in joining our lab, please check our [open positions](/opportunities) or contact us directly.
-
-## All Team Members
-
-<!-- Author names dynamically appear here -->

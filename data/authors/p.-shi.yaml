@@ -1,0 +1,8 @@
+# Publication co-author, not a lab member - no `user_groups`, so the
+# team-showcase block skips this record. It exists only so citations
+# print the name properly: without it get_author_profile humanises the
+# URL slug and renders "W. Lee" as "W. lee".
+schema: hugoblox/author/v1
+slug: p.-shi
+name:
+  display: "P. Shi"
