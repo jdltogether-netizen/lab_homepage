@@ -263,34 +263,38 @@ sections:
       spacing:
         padding: ["3rem", 0, "0rem", 0]
 
-  - block: collection
-    id: projects
-    content:
-      title: Active Research Projects
-      subtitle: ''
-      text: ''
-      filters:
-        folders:
-          - projects
-      count: 0  # Number of items to show (0 = all)
-      # Default filter UI (for future release)
-      #default_button_index: 0
-      # Filter toolbar (optional)
-      # Add or remove as many filters as you like
-    #   buttons:
-    #     - name: All
-    #       tag: '*'
-    #     - name: Machine Learning
-    #       tag: ML
-    #     - name: Biology
-    #       tag: Biology
-    #     - name: Materials
-    #       tag: Materials
-    design:
-      view: article-grid
-      columns: 2
-      spacing:
-        padding: ["5rem", 0, "0rem", 0]
+  # ── HIDDEN: Active Research Projects ────────────────────────────────
+  # Still listing the template's sample content under content/projects/
+  # and content/publications/. Re-enable once the real records are in.
+  # ──────────────────────────────────────────────────────────────────────
+#  - block: collection
+#    id: projects
+#    content:
+#      title: Active Research Projects
+#      subtitle: ''
+#      text: ''
+#      filters:
+#        folders:
+#          - projects
+#      count: 0  # Number of items to show (0 = all)
+#      # Default filter UI (for future release)
+#      #default_button_index: 0
+#      # Filter toolbar (optional)
+#      # Add or remove as many filters as you like
+#    #   buttons:
+#    #     - name: All
+#    #       tag: '*'
+#    #     - name: Machine Learning
+#    #       tag: ML
+#    #     - name: Biology
+#    #       tag: Biology
+#    #     - name: Materials
+#    #       tag: Materials
+#    design:
+#      view: article-grid
+#      columns: 2
+#      spacing:
+#        padding: ["5rem", 0, "0rem", 0]
 
   - block: collection
     id: publications
@@ -307,19 +311,23 @@ sections:
       spacing:
         padding: ["3rem", 0, "0rem", 0]
 
-  - block: collection
-    id: featured
-    content:
-      title: Featured Research
-      filters:
-        folders:
-          - publications
-        featured_only: true
-    design:
-      view: article-grid
-      columns: 2
-      spacing:
-        padding: ["5rem", 0, "0rem", 0]
+  # ── HIDDEN: Featured Research ───────────────────────────────────────
+  # Still listing the template's sample content under content/projects/
+  # and content/publications/. Re-enable once the real records are in.
+  # ──────────────────────────────────────────────────────────────────────
+#  - block: collection
+#    id: featured
+#    content:
+#      title: Featured Research
+#      filters:
+#        folders:
+#          - publications
+#        featured_only: true
+#    design:
+#      view: article-grid
+#      columns: 2
+#      spacing:
+#        padding: ["5rem", 0, "0rem", 0]
 
   # ── HIDDEN ───────────────────────────────────────────────────────────────
   # Events: the template ships sample events (content/events/). Re-enable once
@@ -450,8 +458,6 @@ sections:
       email: jdltogether@gmail.com
       #phone: "+1 (555) 123-4567"
       social:
-        - icon: brands/jdl
-          url: https://jdl.kaist.ac.kr
         - icon: brands/linkedin
           url: https://www.linkedin.com/company/just-do-it-lab/
         - icon: brands/github
