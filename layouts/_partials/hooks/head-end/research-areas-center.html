@@ -1,0 +1,29 @@
+{{/*
+  Centers the card title, description and topic chips in the research-areas
+  block.
+
+  Why this needs CSS at all: research-areas is a server-rendered Go template
+  that prints {{ $item.name }} and {{ $item.description }} without markdownify
+  or safeHTML, so Hugo escapes any markup written in content/_index.md. None of
+  the three design.layout options (cards / hexagon / timeline) center the card
+  body either.
+
+  This is a head-end hook - the extension point the template itself calls from
+  site_head.html - not a block override, so template updates cannot break it.
+  Delete this file to revert.
+
+  Scoped to .blox-research-areas, the wrapper class the block puts on its
+  <section>, so nothing else on the site is affected.
+*/}}
+<style>
+  /* Card title and the description paragraph that follows it */
+  .blox-research-areas h3,
+  .blox-research-areas h3 + p {
+    text-align: center;
+  }
+
+  /* Topic chips sit directly after the description */
+  .blox-research-areas h3 + p + div {
+    justify-content: center;
+  }
+</style>
