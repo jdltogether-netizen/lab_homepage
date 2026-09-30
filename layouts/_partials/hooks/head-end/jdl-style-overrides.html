@@ -42,4 +42,30 @@
   .dark .blox-cta-image-paragraph p a {
     color: var(--color-primary-400);
   }
+
+  /* ── team-showcase ───────────────────────────────────────────────────────
+     1. Breathing room above each group heading after the first. The block
+        gives the heading only mb-6, so a group's title sat right under the
+        previous group's cards. Scoped to headings that follow a card grid,
+        which leaves the first group flush against the section intro. */
+  .blox-team-showcase .grid + .col-span-full {
+    margin-top: 3.5rem;
+  }
+
+  /* 2. Members with no photo. The block renders the 16rem image area only
+        when an avatar exists, so those cards came out markedly shorter than
+        the rest of the row. This puts a neutral placeholder in its place. */
+  .blox-team-showcase .group > div:not(:has(> a.h-64))::before {
+    content: "";
+    display: block;
+    height: 16rem;
+    background-color: #f3f4f6;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%239ca3af' stroke-width='1.1'%3E%3Cpath stroke-linecap='round' stroke-linejoin='round' d='M15.75 6a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0ZM4.5 20.1a7.5 7.5 0 0 1 15 0A17.9 17.9 0 0 1 12 21.75c-2.7 0-5.2-.6-7.5-1.65Z'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 5rem 5rem;
+  }
+  .dark .blox-team-showcase .group > div:not(:has(> a.h-64))::before {
+    background-color: #374151;
+  }
 </style>

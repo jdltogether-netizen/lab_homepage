@@ -242,10 +242,10 @@ sections:
       user_groups:
         - Principal Investigators
         - Postdoctoral Researchers
-        - Research Staff
         - PhD Students
         - Master Students
         - Interns
+        - Research Staff
       sort_by: 'Params.last_name'
       sort_ascending: true
       cta:

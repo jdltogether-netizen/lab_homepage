@@ -10,21 +10,25 @@ name:
   display: Kim Hyeongcheol
 role: Postdoctoral Researcher
 affiliations:
-  - name: School of Computing, KAIST
+  - name: KAIST InnoCORE PRISM-AI Research Group
 links:
   - icon: hero/envelope
     url: mailto:hyeongcheolkim@kaist.ac.kr
-  # - icon: brands/google-scholar
-  #   url: https://scholar.google.com/citations?user=
-  # - icon: brands/linkedin
-  #   url: https://www.linkedin.com/in/
+  - icon: brands/google-scholar
+    url: https://scholar.google.com.ph/citations?user=O77cYMQAAAAJ&hl=en
+  - icon: brands/linkedin
+    url: https://www.linkedin.com/in/hyeongcheol-kim-76043844/
+  - icon: brands/github
+    url: https://github.com/bluesky0911
+  - icon: brands/x
+    url: https://twitter.com/bluesky911
 interests:
-  - Human-Computer / AI Interaction
-  - Multimodal Interaction / Feedback
-  - In-situ Digital Content Creation / Retrieval
-  - Head-up computing
+  - Drone Education
+  - Autonomous Drone Production
+  - AI-Based Tacit Knowledge Extraction
   - Manufacturing AX
+  - Human-Computer / AI Interaction
 highlight_name: false
-website: ""
+website: "https://hckim.net"
 user_groups:
   - Postdoctoral Researchers
