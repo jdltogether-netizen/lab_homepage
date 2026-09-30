@@ -168,6 +168,8 @@ sections:
 
   - block: cta-image-paragraph
     content:
+      # `title` and `text` run through RenderString, so Markdown works here
+      # (unlike research-areas, which escapes its strings).
       items:
         - title: 'State-of-the-Art Research Environment'
           text: |
@@ -178,15 +180,25 @@ sections:
             - 'Additive Manufacturing: DLP printers (Asiga, Carima, UNIZ NBEE), FDM, in-house filament fabrication, UV curing, and two-photon polymerization'
             - 'Semiconductor & Thin-Film Processing: atomic layer deposition, pulsed laser deposition, sputtering, e-beam evaporation, PECVD, deep reactive ion etching, and a yellow room'
             - 'Characterization: confocal laser scanning microscopy, SEM, X-ray diffraction, electrochemical impedance spectroscopy, UV/Vis spectrometry, and universal tensile testing'
-            - 'AI Computing: multiple RTX 5090 nodes plus a workstation built this year around two RTX A6000 cards, with RTX A5000 machines, expanding NAS storage, and rented capacity at the National AI Computing Center'
+            - 'AI Computing: multiple RTX 5090 nodes and RTX A-series professional workstations, expanding NAS storage, and rented capacity at the National AI Computing Center'
           button:
             text: 'Virtual Lab Tour'
             url: '/facilities'
 
+        - title: 'From Lab Bench to Production Line'
+          text: |
+            The drone work now has a company behind it. [KEONIX Labs](https://keonix.co.kr) was founded as a KAIST faculty start-up to carry the lab's manufacturing research into real production, and is building a civil-military-government drone innovation, education, and manufacturing center in Pocheon, with further funding rounds underway.
+          image: research/drone-2d-to-3d.jpg
+          feature_icon: hero/rocket-launch
+          features:
+            - 'KEONIX Labs: a KAIST faculty start-up taking the lab''s drone manufacturing research from prototype to production'
+            - 'Pocheon Innovation Center: a civil-military-government site for drone education, manufacturing, and production'
+            - 'Built Jointly: faculty from Chung-Ang, Jeonbuk National, and Incheon National universities alongside the KAIST InnoCORE PRISM-AI Research Group, adding printers, training programs, and custom FPV drone builds'
+
         - title: 'Collaborative Innovation Culture'
           text: |
             JDL is an Open Lab. Research institutes, companies, investment institutes, legal advisors, and global start-ups work alongside the group rather than at arm's length, so a project can travel from a first experiment to a registered venture without ever leaving the ecosystem it started in.
-          image: current-members/group-hero.jpg
+          image: partners/jdl-partners-overview.webp
           feature_icon: hero/users
           features:
             - 'Open Lab Model: 23 sponsors spanning government, industry, and overseas agencies, from MSIT, MOTIE, and NRF to Samsung, LG, Google, and Rolls-Royce'
@@ -196,15 +208,18 @@ sections:
             text: 'Join Our Community'
             url: '/opportunities'
 
-        - title: 'From Lab Bench to Production Line'
+        - title: 'A Lab That Works Together'
           text: |
-            The drone work now has a company behind it. KEONIX Labs was founded as a KAIST faculty start-up to carry the lab's manufacturing research into real production, and is building a civil-military-government drone innovation, education, and manufacturing center in Pocheon, with further funding rounds underway.
-          image: research/drone-2d-to-3d.jpg
-          feature_icon: hero/rocket-launch
+            JDL is small enough that everyone knows what everyone else is building. Prof. Yoon works with students directly on their projects, postdocs and senior students pick up the newer members, and the group meets, eats, and gets out of the building together often enough that asking for help never feels like an imposition.
+          image: current-members/group-hero.jpg
+          feature_icon: hero/heart
           features:
-            - 'KEONIX Labs: a KAIST faculty start-up taking the lab''s drone manufacturing research from prototype to production'
-            - 'Pocheon Innovation Center: a civil-military-government site for drone education, manufacturing, and production'
-            - 'Built Jointly: faculty from Chung-Ang, Jeonbuk National, and Incheon National universities alongside researchers from KAIST''s InnoCORE PRISM-AI group, adding printers, training programs, and custom FPV drone builds'
+            - 'Direct Mentorship: Prof. Yoon sits with students on their own work, from a first experiment through the thesis defence and into whatever comes after'
+            - 'Help Across Disciplines: mechanical engineering, computer science, electrical engineering, and materials sit side by side, so a question rarely has to leave the room'
+            - 'Time Together: biweekly Friday group meetings, lab outings, and the everyday habit of looking over each other''s results'
+          button:
+            text: 'Meet the Team'
+            url: '/#team'
     design:
       css_class: "bg-white dark:bg-gray-800"
       spacing:

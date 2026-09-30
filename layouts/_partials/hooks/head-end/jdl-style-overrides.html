@@ -1,0 +1,45 @@
+{{/*
+  Small style corrections for stock Hugo Blox blocks.
+
+  This is a head-end hook - the extension point the template calls itself from
+  site_head.html via functions/get_hook - not a block override, so template
+  updates cannot break it. Every rule is scoped to one block's wrapper class.
+  Delete this file to revert all of them.
+
+  Prefer fixing things in content/*.md; add a rule here only when the block
+  template makes that impossible, and say why.
+
+  NOTE: this is a Go template, so Hugo parses double braces even inside a CSS
+  comment. Write template syntax as prose, never as literal braces.
+*/}}
+<style>
+  /* ── research-areas ──────────────────────────────────────────────────────
+     Center the card title, description and topic chips.
+     Cannot be done from content: the block is a server-rendered Go template
+     that prints the item's name and description without markdownify or
+     safeHTML, so Hugo escapes any markup written in the front matter. None of
+     the three design.layout options center the card body. */
+  .blox-research-areas h3,
+  .blox-research-areas h3 + p {
+    text-align: center;
+  }
+  .blox-research-areas h3 + p + div {
+    justify-content: center;
+  }
+
+  /* ── cta-image-paragraph ─────────────────────────────────────────────────
+     Make inline links in the body copy look like links. The block renders the
+     paragraph in muted grey and sets no link styling, so a Markdown link is
+     indistinguishable from the surrounding text. */
+  .blox-cta-image-paragraph p a {
+    color: var(--color-primary-600);
+    text-decoration: underline;
+    text-underline-offset: 2px;
+  }
+  .blox-cta-image-paragraph p a:hover {
+    color: var(--color-primary-500);
+  }
+  .dark .blox-cta-image-paragraph p a {
+    color: var(--color-primary-400);
+  }
+</style>
