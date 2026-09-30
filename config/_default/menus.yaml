@@ -20,9 +20,9 @@ main:
     identifier: publications
     url: '/publications'
     weight: 40
-  - name: Papers
+  - name: Journals
     parent: publications
-    url: '/publications/papers'
+    url: '/publications/journals'
     weight: 41
   - name: Conferences
     parent: publications

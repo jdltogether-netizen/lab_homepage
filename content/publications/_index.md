@@ -9,7 +9,7 @@ sections:
       title: Publications
       subtitle: ''
       text: |
-        The lab's written record, split by type. Papers, conferences and
+        The lab's written record, split by type. Journal papers, conferences and
         patents each have a page per item; lectures are listed in full on
         their own page.
     design:
@@ -18,7 +18,7 @@ sections:
 
   - block: collection
     content:
-      title: Recent Papers
+      title: Recent Journal Papers
       filters:
         folders:
           - publications

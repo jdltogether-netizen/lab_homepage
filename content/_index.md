@@ -65,11 +65,15 @@ sections:
 
   - block: stats
     content:
-      # Figures are rounded DOWN from the migrated legacy data and carry a
-      # "+" so they stay true as the record grows. Actual counts as of this
-      # commit: 10 patents, 153 lectures, 33 projects, 170 papers, from
-      # data/publications/{patents,lectures,papers}.json and
+      # Figures are rounded DOWN from the migrated content and carry a "+" so
+      # they stay true as the record grows. Actual counts as of this commit,
+      # from content/publications/ after de-duplication: 144 journal papers,
+      # 90 conference papers, 10 patents, plus 153 lectures from
+      # data/publications/lectures.json and 33 projects from
       # data/projects/jdl-projects.json.
+      # NB the papers tile is 140+, not 150+: 20 entries in the legacy
+      # papers.json were conference proceedings and 17 were duplicates of
+      # entries in conferences.json.
       items:
         - statistic: "10+"
           description: Patents filed across Korea, Singapore, the USA, and China
@@ -83,7 +87,7 @@ sections:
           description: Funded research projects led as Principal Investigator
           sub_metric: Backed by 23 sponsors — MSIT, MOTIE, NRF, KIAT, NIPA and KRIT in Korea; Samsung, LG, Google and Rolls-Royce in industry; A*STAR and Singapore MOE overseas.
           icon: hero/currency-dollar
-        - statistic: "170+"
+        - statistic: "140+"
           description: Peer-reviewed journal papers published since 2006
           sub_metric: Additive manufacturing, MEMS and microfluidic sensors, semiconductor convergence processes, energy devices, and AI-driven quality control.
           icon: hero/beaker

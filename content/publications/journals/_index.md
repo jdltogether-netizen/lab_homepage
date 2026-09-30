@@ -1,5 +1,5 @@
 ---
-title: Papers
+title: Journals
 type: landing
 summary: Peer-reviewed journal papers.
 
@@ -9,7 +9,7 @@ summary: Peer-reviewed journal papers.
 sections:
   - block: collection
     content:
-      title: Papers
+      title: Journals
       subtitle: ''
       text: ''
       filters:
