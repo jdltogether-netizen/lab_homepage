@@ -23,8 +23,8 @@ sections:
       # and Tailwind would never emit CSS for classes written here.
       # The image lives in static/media/ so the path stays literal.
       title: |
-        <img src="/media/kaist-logo.png" alt="KAIST" style="display:block;margin:0 auto 2rem;height:4rem;width:auto" />
-        <span style="display:block">From 2D Sheet to 3D Structure, From Lab Bench to Global Venture</span>
+        <img src="/media/me-logo.png" alt="KAIST Mechanical Engineering" style="display:block;margin:0 auto 2rem;height:4rem;width:auto" />
+        <span style="display:block">Convergence Technology: Grounded in Research, Engineered for Commercialization</span>
       text: |
         Just Do it Lab (JDL) @ KAIST is an Open Lab for convergence technology and a platform for commercialization, spanning additive manufacturing, semiconductor convergence processes, and AI-driven autonomous drone production. We work with research institutes, companies, investors, legal advisors, and global start-ups so the work leaves the bench: JDL researchers and students carry their projects all the way to global start-up ventures, during their degree and long after.
       primary_action:
