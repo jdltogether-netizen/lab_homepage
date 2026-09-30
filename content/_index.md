@@ -170,53 +170,60 @@ sections:
     content:
       # `title` and `text` run through RenderString, so Markdown works here
       # (unlike research-areas, which escapes its strings).
+      #
+      # Keep each panel's copy roughly as tall as its image: the two columns
+      # are centred against each other, so text that overruns the photo leaves
+      # it stranded in the middle. Rough budget at a 551px column - title two
+      # lines ~105px, each paragraph line ~26px, each feature line ~24px,
+      # button ~75px. Image heights at that width: yellow room 551 (1:1),
+      # partners 381, group photo 373, drone 366.
       items:
         - title: 'State-of-the-Art Research Environment'
           text: |
-            JDL runs its own fabrication, characterization, and compute instead of queuing for shared facilities. Students design, print, process, and measure in house across three sites: additive manufacturing and materials at KAIST, semiconductor and fuel-cell processing at KPU, and two-photon polymerization at NTU's Singapore Centre for 3D Printing. GPU capacity grows with every new grant.
+            JDL runs its own fabrication, characterization, and compute rather than queuing for shared facilities. Students design, print, process, and measure in house across KAIST, KPU, and NTU's Singapore Centre for 3D Printing, and GPU capacity grows with every new grant.
           image: facilities/kpu-08-yellow-room.jpg
           feature_icon: hero/check-circle
           features:
-            - 'Additive Manufacturing: DLP printers (Asiga, Carima, UNIZ NBEE), FDM, in-house filament fabrication, UV curing, and two-photon polymerization'
-            - 'Semiconductor & Thin-Film Processing: atomic layer deposition, pulsed laser deposition, sputtering, e-beam evaporation, PECVD, deep reactive ion etching, and a yellow room'
-            - 'Characterization: confocal laser scanning microscopy, SEM, X-ray diffraction, electrochemical impedance spectroscopy, UV/Vis spectrometry, and universal tensile testing'
-            - 'AI Computing: multiple RTX 5090 nodes and RTX A-series professional workstations, expanding NAS storage, and rented capacity at the National AI Computing Center'
+            - 'Additive Manufacturing: DLP and FDM printers, in-house filament fabrication, UV curing, two-photon polymerization'
+            - 'Thin-Film & Semiconductor: ALD, PLD, sputtering, e-beam evaporation, PECVD, deep reactive ion etching, yellow room'
+            - 'Characterization: confocal microscopy, SEM, X-ray diffraction, impedance spectroscopy, tensile testing'
+            - 'AI Computing: RTX 5090 nodes, RTX A-series workstations, NAS storage, National AI Computing Center capacity'
           button:
             text: 'Virtual Lab Tour'
             url: '/facilities'
 
         - title: 'From Lab Bench to Production Line'
           text: |
-            The drone work now has a company behind it. [KEONIX Labs](https://keonix.co.kr) was founded as a KAIST faculty start-up to carry the lab's manufacturing research into real production, and is building a civil-military-government drone innovation, education, and manufacturing center in Pocheon, with further funding rounds underway.
+            The drone work now has a company behind it. [KEONIX Labs](https://keonix.co.kr), a KAIST faculty start-up, is taking the lab's manufacturing research into real production.
           image: research/drone-2d-to-3d.jpg
           feature_icon: hero/rocket-launch
           features:
-            - 'KEONIX Labs: a KAIST faculty start-up taking the lab''s drone manufacturing research from prototype to production'
-            - 'Pocheon Innovation Center: a civil-military-government site for drone education, manufacturing, and production'
-            - 'Built Jointly: faculty from Chung-Ang, Jeonbuk National, and Incheon National universities alongside the KAIST InnoCORE PRISM-AI Research Group, adding printers, training programs, and custom FPV drone builds'
+            - 'Pocheon Center: a civil-military-government site for drone education and production'
+            - 'Printers, training programs, and custom FPV drone builds'
+            - 'With Chung-Ang, Jeonbuk National and Incheon National faculty, and KAIST InnoCORE PRISM-AI'
 
         - title: 'Collaborative Innovation Culture'
           text: |
-            JDL is an Open Lab. Research institutes, companies, investment institutes, legal advisors, and global start-ups work alongside the group rather than at arm's length, so a project can travel from a first experiment to a registered venture without ever leaving the ecosystem it started in.
+            JDL is an Open Lab: research institutes, companies, investors, legal advisors, and global start-ups work alongside the group, so a project can become a venture without ever leaving it.
           image: partners/jdl-partners-overview.webp
           feature_icon: hero/users
           features:
-            - 'Open Lab Model: 23 sponsors spanning government, industry, and overseas agencies, from MSIT, MOTIE, and NRF to Samsung, LG, Google, and Rolls-Royce'
-            - 'Global Research Network: built across KAIST and NTU Singapore, with partner research centers including KRISS, KIMM, and ETRI'
-            - 'Path to Commercialization: the lab''s Global Start-up Platform carries student projects into ventures, during the degree and long after graduation'
+            - '23 sponsors across government, industry, and overseas agencies'
+            - 'A network spanning KAIST and NTU Singapore, with KRISS, KIMM, and ETRI'
+            - 'A Global Start-up Platform that carries student projects into ventures'
           button:
             text: 'Join Our Community'
             url: '/opportunities'
 
         - title: 'A Lab That Works Together'
           text: |
-            JDL is small enough that everyone knows what everyone else is building. Prof. Yoon works with students directly on their projects, postdocs and senior students pick up the newer members, and the group meets, eats, and gets out of the building together often enough that asking for help never feels like an imposition.
+            JDL is small enough that everyone knows what everyone else is building. Postdocs and senior students pick up the newer members, and the group meets, eats, and gets out of the building together.
           image: current-members/group-hero.jpg
           feature_icon: hero/heart
           features:
-            - 'Direct Mentorship: Prof. Yoon sits with students on their own work, from a first experiment through the thesis defence and into whatever comes after'
-            - 'Help Across Disciplines: mechanical engineering, computer science, electrical engineering, and materials sit side by side, so a question rarely has to leave the room'
-            - 'Time Together: biweekly Friday group meetings, lab outings, and the everyday habit of looking over each other''s results'
+            - 'Help across disciplines: mechanical engineering, computer science, electrical engineering, and materials sit side by side'
+            - 'An open door: ask, and you get time on your problem'
+            - 'Biweekly Friday group meetings, and lab outings through the year'
           button:
             text: 'Meet the Team'
             url: '/#team'
