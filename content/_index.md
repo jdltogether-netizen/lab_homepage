@@ -391,6 +391,15 @@ sections:
 #        padding: ["0rem", 0, "0rem", 0]
       
 
+  # ── HIDDEN: Collaborators & Partners ─────────────────────────────────────
+  # Superseded, not pending: the partner logos already appear in the
+  # "Collaborative Innovation Culture" panel above, as one image carrying
+  # both the global partners and the research centres. Re-enable this block
+  # only if those logos should become individually linkable, in which case
+  # drop the image from that panel so the two do not repeat.
+  # The entries below are still the template's placeholders (MIT, Stanford,
+  # Google Research); the real list is in the legacy jdl-partners.json.
+  # ─────────────────────────────────────────────────────────────────────────
   # - block: logos
   #   content:
   #     title: Collaborators & Partners
