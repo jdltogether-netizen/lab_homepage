@@ -1,38 +1,38 @@
+# Generated from the legacy site's Current Members page, plus the additions
+# confirmed in review. Avatar convention: assets/media/authors/<slug>.*
+#
+# Only the e-mail link is real. Scholar / LinkedIn / GitHub / X are left
+# commented out rather than filled with placeholder URLs, so nothing on the
+# site points at a stranger's profile. Uncomment and fill per person.
 schema: hugoblox/author/v1
 slug: jiyoon-ahn-phd
 name:
-  display: Jiyoon Ahn (Jinna)
-role: PhD Student
-bio: Investigating machine learning applications in genomic medicine and personalized healthcare.
+  display: An Jiyoon (Jinna)
+role: Ph.D. Student
+bio: I am a Ph.D. student in Mechanical Engineering, focusing on additive manufacturing and design for additive manufacturing (DfAM). My research focuses on developing design methodologies for DfAM and exploring intelligent design frameworks using Physical AI.
 affiliations:
-  - name: University of Excellence
-    url: https://www.example.edu/
+  - name: Department of Mechanical Engineering, KAIST
 links:
   - icon: hero/envelope
-    url: mailto:sarah.johnson@example.edu
-  - icon: brands/x
-    url: https://twitter.com/SarahJ_CompBio
-  - icon: brands/google-scholar
-    url: https://scholar.google.com/citations?user=XXXXXXX
-  - icon: brands/github
-    url: https://github.com/sjohnson-compbio
-  - icon: brands/linkedin
-    url: https://www.linkedin.com/in/sarah-johnson-compbio
+    url: mailto:jinaan@kaist.ac.kr
+  # - icon: brands/google-scholar
+  #   url: https://scholar.google.com/citations?user=
+  # - icon: brands/linkedin
+  #   url: https://www.linkedin.com/in/
 interests:
-  - Genomic Medicine
-  - Machine Learning
-  - Precision Medicine
-  - Single-Cell Analysis
-  - Healthcare AI
+  - Additive Manufacturing
+  - Physical AI
+  - Generative Design
 education:
-  - degree: PhD in Computational Biology
-    institution: University of Excellence
-    start: "2020-01-01"
-    summary: In progress
-  - degree: BS in Biomedical Engineering
-    institution: Georgia Tech
-    end: "2020-01-01"
+  - degree: MS in Mechanical Engineering
+    institution: Seoul National University
+    start: "2024-01-01"
+    end: "2026-12-31"
+  - degree: BS in Mechanical Engineering
+    institution: George Washington University
+    start: "2014-01-01"
+    end: "2020-12-31"
 highlight_name: false
-website: "https://sarahjohnson.github.io"
+website: ""
 user_groups:
   - PhD Students

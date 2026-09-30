@@ -5,25 +5,22 @@
 # commented out rather than filled with placeholder URLs, so nothing on the
 # site points at a stranger's profile. Uncomment and fill per person.
 schema: hugoblox/author/v1
-slug: jeahyeon-lee-intern
+slug: hanyi-lim-phd
 name:
-  display: Lee Jeahyeon
-role: Undergraduate Researcher
-bio: KAIST undergraduate; admitted to the master's programme, joining in 2027.
+  display: Lim Hanyi
+role: Ph.D. Student
 affiliations:
-  - name: Transdisciplinary Studies, KAIST
+  - name: Department of Mechanical Engineering, KAIST
 links:
   - icon: hero/envelope
-    url: mailto:alvinlog@kaist.ac.kr
+    url: mailto:giant0113@kaist.ac.kr
   # - icon: brands/google-scholar
   #   url: https://scholar.google.com/citations?user=
   # - icon: brands/linkedin
   #   url: https://www.linkedin.com/in/
 interests:
-  - Tacit Knowledge Extraction with AI
-  - Automated Production
-  - Agent-Driven Advanced Manufacturing
+  - TBD
 highlight_name: false
 website: ""
 user_groups:
-  - Interns
+  - PhD Students

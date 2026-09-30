@@ -1,39 +1,28 @@
+# Generated from the legacy site's Current Members page, plus the additions
+# confirmed in review. Avatar convention: assets/media/authors/<slug>.*
+#
+# Only the e-mail link is real. Scholar / LinkedIn / GitHub / X are left
+# commented out rather than filled with placeholder URLs, so nothing on the
+# site points at a stranger's profile. Uncomment and fill per person.
 schema: hugoblox/author/v1
 slug: haining-zhang-postdoc
 name:
-  display: Dr. Haining Zhang
+  display: Zhang Haining
 role: Postdoctoral Researcher
-bio: Developing deep learning models for protein structure prediction and drug discovery.
 affiliations:
-  - name: University of Excellence
-    url: https://www.example.edu/
+  - name: Mechanical and Aerospace Engineering
 links:
   - icon: hero/envelope
-    url: mailto:michael.chen@example.edu
-  - icon: brands/x
-    url: https://twitter.com/MichaelChenPhD
-  - icon: brands/google-scholar
-    url: https://scholar.google.com/citations?user=XXXXXXX
-  - icon: brands/github
-    url: https://github.com/mchen-research
-  - icon: brands/linkedin
-    url: https://www.linkedin.com/in/michael-chen-phd
+    url: mailto:m160034@e.ntu.edu.sg
+  # - icon: brands/google-scholar
+  #   url: https://scholar.google.com/citations?user=
+  # - icon: brands/linkedin
+  #   url: https://www.linkedin.com/in/
 interests:
-  - Deep Learning
-  - Protein Folding
-  - Drug Discovery
-  - Structural Biology
-  - AlphaFold
-education:
-  - degree: PhD in Computational Biology
-    institution: UC San Diego
-    end: "2022-01-01"
-  - degree: MS in Bioinformatics
-    institution: Johns Hopkins University
-    end: "2018-01-01"
-  - degree: BS in Computer Science
-    institution: UCLA
-    end: "2016-01-01"
+  - Machine Learning for Process Modeling and Optimization in Additive Manufacturing
+  - Numerical Modeling and Uncertainty Quantification in the Additive Manufacturing Process
+  - Deep Learning-based In-Situ Process Monitoring and Anomaly Detection
+  - Applications of 3D Printed Electronics and Sensors
 highlight_name: false
 website: ""
 user_groups:

@@ -1,39 +1,33 @@
+# Generated from the legacy site's Current Members page, plus the additions
+# confirmed in review. Avatar convention: assets/media/authors/<slug>.*
+#
+# Only the e-mail link is real. Scholar / LinkedIn / GitHub / X are left
+# commented out rather than filled with placeholder URLs, so nothing on the
+# site points at a stranger's profile. Uncomment and fill per person.
 schema: hugoblox/author/v1
 slug: wonseob-yoon-master
 name:
-  display: Wonseob Yoon
-role: Master student
-bio: Applying computational methods to understand cellular mechanisms and develop therapeutic strategies.
+  display: Yoon Wonseob
+role: M.S. Student
+bio: My research involves developing intelligent additive manufacturing systems by combining AI-driven anomaly detection and closed-loop feedback control. I specialize in optimizing control algorithms and real-time monitoring to ensure the high reliability of manufacturing processes.
 affiliations:
-  - name: University of Excellence
-    url: https://www.example.edu/
+  - name: Department of Mechanical Engineering, KAIST
 links:
   - icon: hero/envelope
-    url: mailto:alex.wong@example.edu
-  - icon: brands/x
-    url: https://twitter.com/AlexWongSysBio
-  - icon: brands/google-scholar
-    url: https://scholar.google.com/citations?user=XXXXXXX
-  - icon: brands/github
-    url: https://github.com/awong-sysbio
-  - icon: brands/linkedin
-    url: https://www.linkedin.com/in/alex-wong-sysbio
+    url: mailto:seobee1@kaist.ac.kr
+  # - icon: brands/google-scholar
+  #   url: https://scholar.google.com/citations?user=
+  # - icon: brands/linkedin
+  #   url: https://www.linkedin.com/in/
 interests:
-  - Systems Biology
-  - Network Analysis
-  - Drug Repurposing
-  - Cell Signaling
-  - Multi-omics Integration
+  - Additive Manufacturing
+  - AI-based Anomaly Detection
+  - Feedback Control Systems
 education:
-  - degree: PhD in Systems Biology
-    institution: Harvard University
-    end: "2021-01-01"
-  - degree: MS in Computational Biology
-    institution: Carnegie Mellon University
-    end: "2017-01-01"
-  - degree: BS in Biochemistry
-    institution: UC Berkeley
-    end: "2015-01-01"
+  - degree: MS in Mechanical Engineering
+    institution: KAIST
+    start: "2026-01-01"
+    summary: Present
 highlight_name: false
 website: ""
 user_groups:

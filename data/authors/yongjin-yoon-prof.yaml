@@ -1,70 +1,44 @@
+# Generated from the legacy site's Current Members page, plus the additions
+# confirmed in review. Avatar convention: assets/media/authors/<slug>.*
+#
+# Only the e-mail link is real. Scholar / LinkedIn / GitHub / X are left
+# commented out rather than filled with placeholder URLs, so nothing on the
+# site points at a stranger's profile. Uncomment and fill per person.
 schema: hugoblox/author/v1
 slug: yongjin-yoon-prof
 is_owner: true
 name:
-  display: Prof. Yongjin Yoon
-role: Principal Investigator & Lab Director
-bio: Leading research in computational biology and machine learning applications to scientific discovery.
+  display: Yoon Yong-Jin
+role: Professor, Ph.D.
+bio: Professor in the Department of Mechanical Engineering at KAIST.
 affiliations:
-  - name: University of Excellence
-    url: https://www.example.edu/
+  - name: Department of Mechanical Engineering, KAIST
 links:
   - icon: hero/envelope
-    url: mailto:jane.smith@example.edu
-  - icon: brands/x
-    url: https://twitter.com/ProfJaneSmith
-    label: Follow me on Twitter
-  - icon: brands/google-scholar
-    url: https://scholar.google.com/citations?user=XXXXXXX
-  - icon: brands/github
-    url: https://github.com/jane-smith-lab
-  - icon: brands/linkedin
-    url: https://www.linkedin.com/in/prof-jane-smith
-  - icon: brands/orcid
-    url: https://orcid.org/0000-0000-0000-0000
-  - icon: brands/cv
-    url: uploads/cv-jane-smith.pdf
+    url: mailto:yongjiny@kaist.ac.kr
+  # - icon: brands/google-scholar
+  #   url: https://scholar.google.com/citations?user=
+  # - icon: brands/linkedin
+  #   url: https://www.linkedin.com/in/
 interests:
-  - Machine Learning & AI
-  - Computational Biology
-  - Drug Discovery
-  - Scientific Computing
-  - Open Science
+  - MEMS-microfluidic-3D Printing-enabled Sensors
+  - Multi-scale 3D Printing-enabled functional structure
+  - High-speed Volumetric 3D Printing
+  - AI-enabled Smart Manufacturing
 education:
-  - degree: PhD in Computational Biology
+  - degree: Ph.D. in Mechanical Engineering (Management Science Minor)
     institution: Stanford University
-    end: "2012-01-01"
-  - degree: MS in Computer Science
-    institution: MIT
+    start: "2005-01-01"
+    end: "2009-12-31"
+  - degree: M.S. in Electrical Engineering
+    institution: Stanford University
     end: "2008-01-01"
-  - degree: BS in Bioinformatics
-    institution: UC Berkeley
-    end: "2006-01-01"
-skills:
-  - name: Technical
-    items:
-      - label: Python
-        level: 5
-        icon: devicon/python
-      - label: Machine Learning
-        level: 5
-        icon: hero/chart-line
-      - label: Data Science
-        level: 5
-        icon: hero/database
-  - name: Leadership
-    color: "#eeac02"
-    color_border: "#f0bf23"
-    items:
-      - label: Team Management
-        level: 5
-        icon: hero/user-group
-      - label: Grant Writing
-        level: 5
-        icon: hero/document-text
-      - label: Mentoring
-        level: 5
-        icon: hero/academic-cap
+  - degree: M.S. in Mechanical Engineering
+    institution: Stanford University
+    end: "2005-01-01"
+  - degree: B.S. in Mechanical Engineering
+    institution: Korea University
+    end: "2000-01-01"
 highlight_name: true
 website: ""
 user_groups:

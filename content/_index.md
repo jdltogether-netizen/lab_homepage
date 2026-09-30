@@ -238,9 +238,11 @@ sections:
       title: Meet Our Team
       subtitle: 'World-class researchers pushing the boundaries of science & engineering technologies'
       text: 'Our multidisciplinary team pioneers technologies and innovations that accelerate AI-driven manufacturing automation and advance next-gen on-site drone production.'
+      # Group names must match `user_groups` in data/authors/*.yaml exactly.
       user_groups:
         - Principal Investigators
         - Postdoctoral Researchers
+        - Research Staff
         - PhD Students
         - Master Students
         - Interns
