@@ -87,9 +87,9 @@ sections:
           description: Funded research projects led as Principal Investigator
           sub_metric: Backed by 23 sponsors — MSIT, MOTIE, NRF, KIAT, NIPA and KRIT in Korea; Samsung, LG, Google and Rolls-Royce in industry; A*STAR and Singapore MOE overseas.
           icon: hero/currency-dollar
-        - statistic: "140+"
-          description: Peer-reviewed journal papers published since 2006
-          sub_metric: Additive manufacturing, MEMS and microfluidic sensors, semiconductor convergence processes, energy devices, and AI-driven quality control.
+        - statistic: "240+"
+          description: Publications across journals, conferences, and patents
+          sub_metric: 144 peer-reviewed journal papers, 90 conference papers, and 10 patents since 2006, spanning additive manufacturing, MEMS and microfluidic sensors, semiconductor convergence processes, energy devices, and AI-driven quality control.
           icon: hero/beaker
     design:
       layout: cards
