@@ -12,8 +12,13 @@ hugoblox:
   # Site-level branding (for people/profiles, use the author system in content/authors/)
   # ────────────────────────────────────────────────────────────────────────────
   identity:
-    # Site name - shown in navbar, footer, copyright, and browser title by default
-    name: "KAIST Mechanical Engineering"
+    # Navbar brand text, rendered right after assets/media/logo.png.
+    # Set to a single space so ONLY the logo shows in the navbar.
+    # (The template always prints this next to the logo; it has no
+    #  "hide brand text" switch. `name` is used nowhere else - the browser
+    #  tab uses seo.title and the copyright uses organization.)
+    # Put real text back here if you ever want it beside the logo.
+    name: " "
     # Legal entity for copyright notices (defaults to name if not set)
     organization: "Just Do it Lab in ME, KAIST"
     # Schema.org type for structured data
