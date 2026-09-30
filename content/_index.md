@@ -26,7 +26,7 @@ sections:
         <img src="/media/me-logo.png" alt="KAIST Mechanical Engineering" style="display:block;margin:0 auto 2rem;height:4rem;width:auto" />
         <span style="display:block">Convergence Technology: From Rigorous Research to Real Ventures</span>
       text: |
-        Just Do it Lab (JDL) @ KAIST is an Open Lab for convergence technology and a platform for commercialization, spanning additive manufacturing, semiconductor convergence processes, and AI-driven autonomous drone production. We work with research institutes, companies, investors, legal advisors, and global start-ups so the work leaves the bench: JDL researchers and students carry their projects all the way to global start-up ventures, during their degree and long after.
+        <strong style="font-size:1.2em">Just Do it Lab</strong> is an Open Lab at KAIST Mechanical Engineering for convergence technology and a platform for commercialization, spanning additive manufacturing, semiconductor convergence processes, and AI-driven autonomous drone production. We work with research institutes, companies, investors, legal advisors, and global start-ups so the work leaves the bench: JDL researchers and students carry their projects all the way to global start-up ventures, during their degree and long after.
       primary_action:
         text: Join Our Team
         url: '#team'
