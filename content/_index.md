@@ -39,7 +39,7 @@ sections:
       # /opportunities if recruiting should lead.
       primary_action:
         text: Explore Our Research
-        url: '/research'
+        url: 'research/'
         icon: hero/beaker
       secondary_action:
         text: View Publications
@@ -49,7 +49,12 @@ sections:
         text: "Now hiring PhD students, Master’s students, and postdocs!"
         link:
           text: "Apply now"
-          url: "/opportunities"
+          # Relative, like every other URL in this block: the hero ships as a
+          # JSON payload that Preact renders in the browser, so Hugo never
+          # rewrites these and an absolute /opportunities lands at the domain
+          # root - a 404 under the GitHub Pages sub-path. The hero is only on
+          # the home page, so relative resolves correctly everywhere.
+          url: "opportunities/"
     design:
       # For full-screen, add `min-h-screen` below
       css_class: ""
