@@ -1,139 +1,84 @@
 ---
-title: Join Our Team
-date: 2024-01-01
+title: Join Us
 type: landing
+url: /opportunities/
+summary: Open positions for postdoctoral researchers, graduate students and undergraduate researchers.
 
+# Migrated from the legacy Openings page (data/contact/jdl-openings.json and
+# jdl-postdoctoral-recruitment.json). Each entry is one line: a wrapped line
+# would fall outside the block scalar and break the front matter.
 sections:
   - block: markdown
     content:
-      title: 'Open Positions'
-      subtitle: 'We are always looking for talented researchers to join our team'
+      title: Postdoctoral Researcher
       text: |
-        Our lab offers a collaborative and innovative research environment where you can work on cutting-edge problems at the intersection of computational biology and machine learning. We value diversity, creativity, and scientific rigor.
+        We welcome highly motivated postdoctoral researchers who are interested in below research areas.
 
-        ## Why Join Our Lab?
+        - **AI based 3D/4D Printing Material and Process Design**  
+          <small>Ph.D. degree: Material Science, Mechanical Engineering, Chemical Engineering, Electrical Engineering, Computer Science</small>
+        - **Novel 3D/4D Printing Manufacturing Method**  
+          <small>Ph.D. degree: Material Science, Mechanical Engineering, Chemical Engineering, Electrical Engineering</small>
+        - **Semi-conducting thin film process for Clean Tech & Sensors**  
+          <small>Ph.D. degree: Material Science, Mechanical Engineering, Chemical Engineering</small>
 
-        - 🚀 **Cutting-edge Research**: Work on projects at the forefront of computational biology and AI
-        - 🤝 **Collaborative Environment**: Join a diverse team of researchers from multiple disciplines  
-        - 📚 **Professional Development**: Access to conferences, workshops, and training opportunities
-        - 💻 **State-of-the-art Resources**: Access to high-performance computing clusters and GPUs
-        - 🌍 **International Collaboration**: Work with leading researchers worldwide
-        - 📈 **Career Growth**: Strong track record of alumni success in academia and industry
+        **Contract Period** &mdash; 1 year +
+
+        **Salary** &mdash; Above "academic" average (negotiable).
+
+        **Alumni of Postdoctoral Researcher** &mdash; [link](/members/alumni)
+
+        **Contact**
+
+        - Professor: yongjiny@kaist.ac.kr
+        - Lab members: jdltogether@gmail.com
+
+        We collaborate with other outstanding universities such as Stanford University(USA), NTU(Singapore), UC Berkeley(USA), Hongkong UST(Hongkong), Imperial college(UK). Also, There are many professors among the graduates of our lab. Please feel free to contact us anytime.
     design:
-      columns: '1'
-      
+      spacing:
+        padding: ["3rem", 0, "1rem", 0]
+
   - block: markdown
     content:
-      title: 'Postdoctoral Positions'
+      title: Graduate Researcher
       text: |
-        ### Postdoctoral Researcher in Machine Learning for Drug Discovery
-        
-        We are seeking a highly motivated postdoctoral researcher to develop novel machine learning approaches for drug discovery and molecular design.
-        
-        **Requirements:**
-        - PhD in Computer Science, Computational Biology, or related field
-        - Strong background in machine learning and deep learning
-        - Experience with molecular modeling or cheminformatics (preferred)
-        - Excellent programming skills in Python
-        - Strong publication record
-        
-        **Application Materials:**
-        - CV including publication list
-        - Research statement (2-3 pages)
-        - Three reference letters
-        - Representative publications (2-3 papers)
-        
-        *Application Deadline: Rolling basis*
+        We are currently hiring "Higly Motivated M.S./Ph.D. Candidate"
+
+        **Research Areas**
+
+        - AI based 3D/4D Printing Material and Process Design (B.S. degree: Material Science, Mechanical Engineering, Chemical Engineering, Electrical Engineering, Computer Science)
+        - Novel 3D/4D Printing Manufacturing Method (B.S. degree: Material Science, Mechanical Engineering, Chemical Engineering, Electrical Engineering)
+        - Semi-conducting thin film process for Clean Tech & Sensors (B.S. degree: Material Science, Mechanical Engineering, Chemical Engineering)
+        - Battery/Fuel cell life time prediction (B.S. degree: Material Science, Mechanical Engineering, Chemical Engineering)
+
+        * For Foreign MS/Ph.D. Applicant: Scholarship acquired Applicants (KAIST offers full scholarship for foreign student) are only available for JDL MS/Ph.D. Degree Program
+
     design:
-      columns: '1'
-      css_class: 'bg-gray-50 dark:bg-gray-900'
+      css_class: "bg-gray-50 dark:bg-gray-900"
       spacing:
         padding: ["2rem", 0, "2rem", 0]
 
   - block: markdown
     content:
-      title: 'PhD Student Positions'
+      title: Undergraduate Researcher
       text: |
-        ### PhD Positions in Computational Biology
-        
-        We have multiple PhD positions available for students interested in applying computational methods to biological problems. Projects include:
-        
-        - **Protein Structure Prediction**: Developing deep learning models for protein folding
-        - **Single-Cell Analysis**: Machine learning for understanding cellular heterogeneity
-        - **Drug-Target Interaction**: Predicting molecular interactions using graph neural networks
-        - **Genomic Medicine**: Identifying disease mechanisms from multi-omics data
-        
-        **Requirements:**
-        - Bachelor's or Master's degree in Computer Science, Biology, Mathematics, or related field
-        - Strong programming skills (Python, R, or similar)
-        - Interest in interdisciplinary research
-        - Excellent communication skills
-        
-        **How to Apply:**
-        Applications should be submitted through the university's graduate admissions portal. Please mention Prof. Jane Smith as your preferred advisor.
-        
-        *Application Deadline: December 15 for Fall admission*
-    design:
-      columns: '1'
+        We are currently hiring undergraduate researcher.
 
-  - block: markdown
-    content:
-      title: 'Undergraduate Research Opportunities'
-      text: |
-        ### Summer Research Program
-        
-        Our lab participates in the Summer Undergraduate Research Fellowship (SURF) program. Selected students will:
-        
-        - Work on independent research projects with mentorship from lab members
-        - Attend weekly lab meetings and journal clubs
-        - Present research findings at the end-of-summer symposium
-        - Receive a competitive stipend
-        
-        **Eligibility:**
-        - Completed at least 2 years of undergraduate study
-        - GPA of 3.5 or higher
-        - Background in computer science, biology, or related field
-        
-        **Application Process:**
-        - Online application form
-        - Transcript
-        - One letter of recommendation
-        - Short essay on research interests (500 words)
-        
-        *Application Deadline: February 1 for Summer positions*
+        Undergraduate student who is interested in working on publishable scientific research topic will be considered as a JDL researcher with high priority.
     design:
-      columns: '1'
-      css_class: 'bg-blue-50 dark:bg-gray-800'
       spacing:
-        padding: ["2rem", 0, "2rem", 0]
+        padding: ["2rem", 0, "1rem", 0]
 
   - block: cta-card
     content:
-      title: How to Apply
-      text: |
-        Interested candidates should send their application materials to Prof. Jane Smith at jane.smith@example.edu. 
-        
-        Please use "Application: [Position Type]" in the subject line. We review applications on a rolling basis and will contact qualified candidates for interviews.
-        
-        Our lab is committed to diversity and inclusion. We encourage applications from underrepresented groups in STEM.
+      title: Interested in any of our research areas?
+      text: We are always looking for highly motivated individuals to join our team!
       button:
-        text: Contact Prof. Smith
-        url: 'mailto:jane.smith@example.edu?subject=Application: Research Position'
+        text: Contact us
+        url: /contact
     design:
       card:
-        css_class: 'bg-primary-300 dark:bg-primary-800'
-
-  - block: markdown  
-    content:
-      title: 'Visiting Researchers'
-      text: |
-        We welcome visiting researchers and scholars who wish to collaborate with our lab. Visiting positions are available for:
-        
-        - **Sabbatical Visitors**: Faculty members on sabbatical leave
-        - **Visiting PhD Students**: Students from other institutions (3-12 months)
-        - **Industry Collaborators**: Researchers from companies interested in collaboration
-        
-        Please contact Prof. Smith directly to discuss visiting opportunities.
-    design:
-      columns: '1'
+        css_class: 'bg-primary-300 dark:bg-primary-700'
+        css_style: ''
+      spacing:
+        padding: ["1rem", 0, "3rem", 0]
 ---

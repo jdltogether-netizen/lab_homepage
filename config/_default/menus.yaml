@@ -8,7 +8,7 @@ main:
     url: '/#about'
     weight: 10
   - name: Research
-    url: '/#projects'
+    url: '/research'
     weight: 20
   - name: Facilities
     url: '/facilities'
@@ -61,7 +61,7 @@ main:
     url: '/opportunities'
     weight: 60
   - name: Contact
-    url: '/#contact'
+    url: '/contact'
     weight: 70
 
 # Link to a PDF of your resume/CV from the menu.
