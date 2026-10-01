@@ -1,10 +1,10 @@
 # Local development only. Merged over config/_default/ when Hugo runs with
 # environment "development", which `hugo server` does by default.
 #
-# Production serves from a GitHub Pages project sub-path, so _default sets
-# baseURL to .../lab_homepage/ and turns canonifyURLs on. `hugo server` keeps
-# that sub-path in every emitted URL while still serving the site at /, so
-# the CSS 404s and the page renders unstyled. These two lines put local
-# builds back at the root.
+# _default sets baseURL to the production domain and turns canonifyURLs on.
+# These two lines keep local builds on localhost with plain root-relative
+# links, so `hugo server` never emits production URLs. They mattered most
+# while production lived under the /lab_homepage/ sub-path, where the CSS
+# would 404 locally; at the domain root they are a safeguard.
 baseURL: 'http://localhost:1313/'
 canonifyURLs: false

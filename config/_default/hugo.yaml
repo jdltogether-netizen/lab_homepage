@@ -6,14 +6,14 @@
 # Website name (set in params.yaml under hugoblox.branding.name)
 title: 'Just Do it Lab'
 # Website URL
-baseURL: 'https://jdltogether-netizen.github.io/lab_homepage/'
+baseURL: 'https://jdl.kaist.ac.kr/'
 
-# The site is served from a project sub-path on GitHub Pages, so a link
-# written as /media/x.png in content would resolve to the domain root and
-# 404. canonifyURLs rewrites those against baseURL at build time. The CI
-# workflow passes the real --baseURL, and `hugo server` substitutes
-# localhost, so this holds in every environment. Required as long as the
-# site lives under a sub-path; harmless at a domain root.
+# canonifyURLs rewrites root-relative links such as /media/x.png against
+# baseURL at build time. It was required while the site lived under the
+# /lab_homepage/ sub-path on GitHub Pages; at the domain root it is harmless
+# and is kept so content works if the site ever moves under a sub-path again.
+# The CI build uses this baseURL as-is (it does not pass --baseURL), and
+# config/development/ puts `hugo server` back on localhost.
 canonifyURLs: true
 
 ############################

@@ -97,9 +97,14 @@ jobs:
     - name: Build with Hugo
       env:
         HUGO_ENVIRONMENT: production
+      # No --baseURL: the Pages base_url follows the custom domain's HTTPS
+      # setting and reads http://jdl.kaist.ac.kr until HTTPS is enforced.
+      # With canonifyURLs on, that bakes http:// into every CSS, JS and image
+      # URL, which browsers block as mixed content on the HTTPS site. The
+      # baseURL in config/_default/hugo.yaml is used instead.
       run: |
         echo "Hugo Cache Dir: $(hugo config | grep cachedir)"
-        hugo --minify --baseURL "${{ steps.pages.outputs.base_url }}/"
+        hugo --minify
 
     - name: Generate Pagefind search index (if applicable)
       run: |
