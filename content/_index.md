@@ -33,10 +33,14 @@ sections:
         <span style="display:block">Convergence Technology: From Rigorous Research to Real Ventures</span>
       text: |
         JDL is an Open Lab at KAIST Mechanical Engineering for convergence technology and commercialization, spanning additive manufacturing, semiconductor convergence processes, and AI-driven autonomous drone production. We work with research institutes, companies, investors, legal advisors, and global start-ups so the work leaves the bench: our researchers and students carry their projects through to global start-up ventures, during their degree and after.
+      # Three distinct destinations in the hero: the announcement above
+      # already sends people to /opportunities, so this button points at the
+      # research instead of repeating it. Swap back to "Join Our Team" ->
+      # /opportunities if recruiting should lead.
       primary_action:
-        text: Join Our Team
-        url: '#team'
-        icon: hero/user-group
+        text: Explore Our Research
+        url: '/research'
+        icon: hero/beaker
       secondary_action:
         text: View Publications
         url: '#publications'
@@ -165,9 +169,12 @@ sections:
           team_size: "7+"
           publications: "1+"
           funding: "$350K+"
+      # /#projects was a dead anchor: the projects collection block on this
+      # page is commented out, so the button scrolled nowhere. Points at the
+      # real Projects page instead.
       cta:
         text: Active Research Projects
-        url: /#projects
+        url: /projects/
         icon: hero/arrow-right
     design:
       layout: cards
@@ -233,9 +240,6 @@ sections:
             - 'Help across disciplines: mechanical engineering, computer science, electrical engineering, and materials sit side by side'
             - 'An open door: ask, and you get time on your problem'
             - 'Biweekly Friday group meetings, and lab outings through the year'
-          button:
-            text: 'Meet the Team'
-            url: '/#team'
     design:
       css_class: "bg-white dark:bg-gray-800"
       spacing:
@@ -257,10 +261,8 @@ sections:
         - Research Staff
       sort_by: 'Params.last_name'
       sort_ascending: true
-      cta:
-        text: View All Team Members
-        url: /authors
-        icon: user-group
+      # No "view all" link: this block already lists every member, and
+      # /authors renders the same block.
     design:
       show_role: true
       show_organizations: true
