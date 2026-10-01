@@ -2,7 +2,11 @@ name: Deploy website to GitHub Pages
 
 env:
   WC_HUGO_VERSION: '0.161.1'
-  NODE_VERSION: '20'
+  # Node 22+: Hugo's Tailwind transform invokes node with --permission,
+  # which Node 20 does not have (it was --experimental-permission there and
+  # only became --permission in 22.13 / 23.5). On 20 the build dies with
+  # 'bad option: --permission'.
+  NODE_VERSION: '24'
 
 on:
   # Trigger the workflow every time you push to the `main` branch
