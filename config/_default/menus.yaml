@@ -53,10 +53,9 @@ main:
   # - name: Events
   #   url: '/#events'
   #   weight: 45
-  # Hidden until the 34 real news items are migrated from the legacy site.
-  # - name: News
-  #   url: '/#news'
-  #   weight: 50
+  - name: News
+    url: '/news'
+    weight: 50
   - name: Join Us
     url: '/opportunities'
     weight: 60

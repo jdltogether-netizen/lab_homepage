@@ -1,174 +1,74 @@
 ---
-title: 'Research Facilities & Infrastructure'
-date: 2024-05-20
+title: Facilities
 type: landing
+summary: Fabrication and characterization equipment across KAIST, KPU and NTU.
 
-design:
-  # Section spacing
-  spacing: '5rem'
-
-# Page sections  
+# `.jdl-grid` is defined in the head-end style hook: the markdown block wraps
+# its content in max-w-prose, which is far too narrow for a photo grid, so the
+# rule both widens the grid and lays the figures out.
+# Images live in static/media/facilities/ so the literal paths resolve.
 sections:
-  - block: hero
-    content:
-      title: |
-        World-Class **Research Facilities**
-      text: |
-        Our state-of-the-art research infrastructure provides the foundation for groundbreaking discoveries. From specialized laboratories to high-performance computing resources, every facility is designed to accelerate scientific innovation.
-      primary_action:
-        text: Schedule a Tour
-        url: '#contact'
-        icon: hero/calendar
-      secondary_action:
-        text: Equipment Catalog
-        url: '#equipment'
-        icon: hero/document-text
-    design:
-      css_class: ""
-      background:
-        gradient_mesh:
-          enable: true
-          style: "orbs"
-          animation: "pulse"
-          intensity: "medium"
-          colors:
-            - "blue-600/25"
-            - "indigo-600/20"
-            - "purple-600/15"
-
-  - block: stats
-    content:
-      items:
-        - statistic: "15,000"
-          description: Square feet of lab space
-          icon: hero/building-office
-        - statistic: "500+"
-          description: GPU cores for computation
-          icon: hero/cpu-chip
-        - statistic: "24/7"
-          description: Facility access for researchers
-          icon: hero/clock
-        - statistic: "$10M"
-          description: Equipment value
-          icon: hero/currency-dollar
-    design:
-      layout: compact
-      css_class: "bg-gray-50 dark:bg-gray-900"
-
-  - block: cta-image-paragraph
-    content:
-      items:
-        - title: 'Advanced Computational Resources'
-          text: |
-            Our high-performance computing cluster provides researchers with unprecedented computational power for complex simulations, machine learning model training, and large-scale data analysis. The facility features redundant power systems, advanced cooling, and 24/7 monitoring to ensure maximum uptime for critical research workflows.
-          image: pexels-abby-chung-371167-1106468.jpg
-          feature_icon: hero/server
-          features:
-            - '500+ CUDA cores across multiple GPU nodes for parallel processing'
-            - '100TB high-speed storage with automated backup systems'  
-            - 'Dedicated network infrastructure with 10Gbps connectivity'
-            - '24/7 system monitoring and technical support'
-          button:
-            text: 'Request Computing Access'
-            url: '/resources/computing'
-
-        - title: 'Precision Laboratory Equipment'
-          text: |
-            Our laboratories are equipped with cutting-edge instrumentation for materials characterization, biological analysis, and chemical synthesis. Each lab maintains strict environmental controls and safety protocols while providing researchers access to the most advanced scientific instruments available.
-          image: pexels-pixabay-356040.jpg
-          feature_icon: hero/beaker
-          features:
-            - 'Advanced microscopy suite: SEM, TEM, AFM, and confocal systems'
-            - 'Spectroscopy equipment: NMR, FTIR, UV-Vis, and mass spectrometry'
-            - 'Clean room facilities with Class 100 and Class 1000 environments'
-            - 'Automated sample preparation and analysis workflows'
-          button:
-            text: 'Equipment Reservations'
-            url: '/resources/equipment'
-    design:
-      css_class: "bg-white dark:bg-gray-800"
-
-  - block: features
-    id: equipment
-    content:
-      title: Core Research Equipment
-      text: Our comprehensive instrumentation supports diverse research needs across multiple disciplines
-      items:
-        - name: 'High-Performance Computing Cluster'
-          description: '500+ GPU cores, 100TB storage, redundant systems for maximum uptime and computational power.'
-          icon: hero/server
-          
-        - name: 'Electron Microscopy Suite'
-          description: 'Scanning and transmission electron microscopes for nanoscale materials characterization.'
-          icon: hero/magnifying-glass
-          
-        - name: 'Spectroscopy Laboratory'
-          description: 'Complete range of analytical instruments including NMR, FTIR, and mass spectrometry.'
-          icon: hero/chart-bar
-          
-        - name: 'Clean Room Facilities'
-          description: 'Class 100 and 1000 clean rooms for sensitive sample preparation and device fabrication.'
-          icon: hero/shield-check
-          
-        - name: 'Biological Safety Labs'
-          description: 'BSL-2 certified laboratories with specialized ventilation and containment systems.'
-          icon: hero/beaker
-          
-        - name: '3D Printing & Fabrication'
-          description: 'Rapid prototyping capabilities for custom research equipment and sample holders.'
-          icon: hero/cube
-    design:
-      css_class: "bg-gradient-to-b from-gray-50 to-white dark:from-gray-900 dark:to-gray-800"
-
   - block: markdown
     content:
-      title: 'Safety & Compliance'
-      subtitle: 'Research Excellence Through Responsible Practices'
+      title: Facilities
+      subtitle: Fabrication and characterization across three sites
       text: |
-        ## Safety First Philosophy
-        
-        Safety is fundamental to our research mission. All facilities operate under strict safety protocols with regular training, equipment maintenance, and compliance audits.
-        
-        ### Key Safety Features:
-        - **Emergency Response**: 24/7 emergency response team and automated safety systems
-        - **Training Programs**: Mandatory safety training for all researchers and regular refresher courses  
-        - **Equipment Maintenance**: Preventive maintenance schedules and real-time monitoring systems
-        - **Regulatory Compliance**: Full compliance with OSHA, EPA, and institutional safety requirements
-        
-        ### Environmental Responsibility:
-        - Energy-efficient equipment and LED lighting throughout facilities
-        - Waste minimization programs and proper hazardous waste disposal
-        - HVAC systems optimized for both safety and energy conservation
-        - Sustainable procurement policies for equipment and supplies
-    design:
-      columns: '1'
-      css_class: "bg-primary-50 dark:bg-primary-900/10"
+        ## KAIST
 
-  - block: contact-info
-    id: contact
-    content:
-      title: Plan Your Visit
-      subtitle: 'Experience Our Facilities Firsthand'
-      visit_title: 'Visit Us'
-      connect_title: 'Connect'
-      address:
-        lines:
-          - Research Lab
-          - Science Building, University of Excellence
-          - 123 Science Drive
-          - Excellence City, EC 12345
-      office_hours:
-        - 'Monday - Friday: 8:00 AM - 6:00 PM'
-        - 'Saturday: 9:00 AM - 2:00 PM'
-        - 'Sunday: By appointment only'
-      email: 'facilities@example.edu'
-      phone: '+1 (555) 123-4567'
-      social:
-        - icon: brands/linkedin
-          url: https://linkedin.com
-        - icon: brands/x
-          url: https://x.com
-      map_url: 'https://maps.google.com/?q=Science+Building+Excellence+City'
+        <div class="jdl-grid">
+        <figure style="margin:0"><img src="/media/facilities/kaist-01-dlp-asiga.jpg" alt="Digital Light Processing(DLP) Printer - Asiga" loading="lazy" style="width:100%;aspect-ratio:4/3;object-fit:cover;border-radius:.5rem;background:#f3f4f6" /><figcaption style="margin-top:.5rem;font-size:.9rem;line-height:1.35">Digital Light Processing(DLP) Printer - Asiga</figcaption></figure>
+        <figure style="margin:0"><img src="/media/facilities/kaist-02-dlp-carima.jpg" alt="Digital Light Processing(DLP) Printer - Carima" loading="lazy" style="width:100%;aspect-ratio:4/3;object-fit:cover;border-radius:.5rem;background:#f3f4f6" /><figcaption style="margin-top:.5rem;font-size:.9rem;line-height:1.35">Digital Light Processing(DLP) Printer - Carima</figcaption></figure>
+        <figure style="margin:0"><img src="/media/facilities/kaist-03-dlp-uniz-nbee.jpg" alt="Digtal light Processing(DLP) Printer - UNIZ NBEE" loading="lazy" style="width:100%;aspect-ratio:4/3;object-fit:cover;border-radius:.5rem;background:#f3f4f6" /><figcaption style="margin-top:.5rem;font-size:.9rem;line-height:1.35">Digtal light Processing(DLP) Printer - UNIZ NBEE</figcaption></figure>
+        <figure style="margin:0"><img src="/media/facilities/kaist-04-fdm-prusa-diy.jpg" alt="Fused Decomposition Method(FDM) Printer - Prusa DIY" loading="lazy" style="width:100%;aspect-ratio:4/3;object-fit:cover;border-radius:.5rem;background:#f3f4f6" /><figcaption style="margin-top:.5rem;font-size:.9rem;line-height:1.35">Fused Decomposition Method(FDM) Printer - Prusa DIY</figcaption></figure>
+        <figure style="margin:0"><img src="/media/facilities/kaist-05-fume-hood.jpg" alt="Fume Hood" loading="lazy" style="width:100%;aspect-ratio:4/3;object-fit:cover;border-radius:.5rem;background:#f3f4f6" /><figcaption style="margin-top:.5rem;font-size:.9rem;line-height:1.35">Fume Hood</figcaption></figure>
+        <figure style="margin:0"><img src="/media/facilities/kaist-06-clean-booth.jpg" alt="Clean Booth" loading="lazy" style="width:100%;aspect-ratio:4/3;object-fit:cover;border-radius:.5rem;background:#f3f4f6" /><figcaption style="margin-top:.5rem;font-size:.9rem;line-height:1.35">Clean Booth</figcaption></figure>
+        <figure style="margin:0"><img src="/media/facilities/kaist-07-ultrasonic-processor.jpg" alt="Ultrasonic processor" loading="lazy" style="width:100%;aspect-ratio:4/3;object-fit:cover;border-radius:.5rem;background:#f3f4f6" /><figcaption style="margin-top:.5rem;font-size:.9rem;line-height:1.35">Ultrasonic processor</figcaption></figure>
+        <figure style="margin:0"><img src="/media/facilities/kaist-08-viscometer.jpg" alt="Viscometer" loading="lazy" style="width:100%;aspect-ratio:4/3;object-fit:cover;border-radius:.5rem;background:#f3f4f6" /><figcaption style="margin-top:.5rem;font-size:.9rem;line-height:1.35">Viscometer</figcaption></figure>
+        <figure style="margin:0"><img src="/media/facilities/kaist-09-uv-curing-cure-m.jpg" alt="UV curing machine(cure M)" loading="lazy" style="width:100%;aspect-ratio:4/3;object-fit:cover;border-radius:.5rem;background:#f3f4f6" /><figcaption style="margin-top:.5rem;font-size:.9rem;line-height:1.35">UV curing machine(cure M)</figcaption></figure>
+        <figure style="margin:0"><img src="/media/facilities/kaist-10-magnetic-stirrer.jpg" alt="Multi-point magnetic stirrer" loading="lazy" style="width:100%;aspect-ratio:4/3;object-fit:cover;border-radius:.5rem;background:#f3f4f6" /><figcaption style="margin-top:.5rem;font-size:.9rem;line-height:1.35">Multi-point magnetic stirrer</figcaption></figure>
+        <figure style="margin:0"><img src="/media/facilities/kaist-11-hot-plate-stirrer.jpg" alt="Hot plate & stirrer" loading="lazy" style="width:100%;aspect-ratio:4/3;object-fit:cover;border-radius:.5rem;background:#f3f4f6" /><figcaption style="margin-top:.5rem;font-size:.9rem;line-height:1.35">Hot plate & stirrer</figcaption></figure>
+        <figure style="margin:0"><img src="/media/facilities/kaist-12-filament-fabrication.jpg" alt="Filament Fabrication for 3D printing" loading="lazy" style="width:100%;aspect-ratio:4/3;object-fit:cover;border-radius:.5rem;background:#f3f4f6" /><figcaption style="margin-top:.5rem;font-size:.9rem;line-height:1.35">Filament Fabrication for 3D printing</figcaption></figure>
+        <figure style="margin:0"><img src="/media/facilities/kaist-13-high-voltage-power-supply.jpg" alt="High Voltage Power Supply" loading="lazy" style="width:100%;aspect-ratio:4/3;object-fit:cover;border-radius:.5rem;background:#f3f4f6" /><figcaption style="margin-top:.5rem;font-size:.9rem;line-height:1.35">High Voltage Power Supply</figcaption></figure>
+        <figure style="margin:0"><img src="/media/facilities/kaist-14-ultrasonic-cleaner.jpg" alt="Ultrasonic cleaner" loading="lazy" style="width:100%;aspect-ratio:4/3;object-fit:cover;border-radius:.5rem;background:#f3f4f6" /><figcaption style="margin-top:.5rem;font-size:.9rem;line-height:1.35">Ultrasonic cleaner</figcaption></figure>
+        <figure style="margin:0"><img src="/media/facilities/kaist-15-digital-glass-oil-bath.jpg" alt="Digital glass oil bath" loading="lazy" style="width:100%;aspect-ratio:4/3;object-fit:cover;border-radius:.5rem;background:#f3f4f6" /><figcaption style="margin-top:.5rem;font-size:.9rem;line-height:1.35">Digital glass oil bath</figcaption></figure>
+        <figure style="margin:0"><img src="/media/facilities/kaist-16-uv-curing-formcure-lamp.jpg" alt="UV curing machine(Formcure) & Lamp" loading="lazy" style="width:100%;aspect-ratio:4/3;object-fit:cover;border-radius:.5rem;background:#f3f4f6" /><figcaption style="margin-top:.5rem;font-size:.9rem;line-height:1.35">UV curing machine(Formcure) & Lamp</figcaption></figure>
+        <figure style="margin:0"><img src="/media/facilities/kaist-17-uv-vis-spectrometer.jpg" alt="UV/VIS Spectrometer" loading="lazy" style="width:100%;aspect-ratio:4/3;object-fit:cover;border-radius:.5rem;background:#f3f4f6" /><figcaption style="margin-top:.5rem;font-size:.9rem;line-height:1.35">UV/VIS Spectrometer</figcaption></figure>
+        <figure style="margin:0"><img src="/media/facilities/kaist-18-confocal-laser-scanning-microscopy.jpg" alt="Confocal Laser scanning Microscopy" loading="lazy" style="width:100%;aspect-ratio:4/3;object-fit:cover;border-radius:.5rem;background:#f3f4f6" /><figcaption style="margin-top:.5rem;font-size:.9rem;line-height:1.35">Confocal Laser scanning Microscopy</figcaption></figure>
+        <figure style="margin:0"><img src="/media/facilities/kaist-19-universal-tensile-machine.jpg" alt="Universal Tensile Machine" loading="lazy" style="width:100%;aspect-ratio:4/3;object-fit:cover;border-radius:.5rem;background:#f3f4f6" /><figcaption style="margin-top:.5rem;font-size:.9rem;line-height:1.35">Universal Tensile Machine</figcaption></figure>
+        </div>
+
+        ## KPU / Fuel Cell and Sensor Manufacturing
+
+        **Fabrication**
+
+        <div class="jdl-grid">
+        <figure style="margin:0"><img src="/media/facilities/kpu-01-atomic-layer-deposition.jpg" alt="6&quot; Atomic Layer Deposition" loading="lazy" style="width:100%;aspect-ratio:4/3;object-fit:cover;border-radius:.5rem;background:#f3f4f6" /><figcaption style="margin-top:.5rem;font-size:.9rem;line-height:1.35">6&quot; Atomic Layer Deposition</figcaption></figure>
+        <figure style="margin:0"><img src="/media/facilities/kpu-02-pulsed-laser-deposition.jpg" alt="Pulsed Laser Deposition" loading="lazy" style="width:100%;aspect-ratio:4/3;object-fit:cover;border-radius:.5rem;background:#f3f4f6" /><figcaption style="margin-top:.5rem;font-size:.9rem;line-height:1.35">Pulsed Laser Deposition</figcaption></figure>
+        <figure style="margin:0"><img src="/media/facilities/kpu-03-sputter.jpg" alt="Sputter" loading="lazy" style="width:100%;aspect-ratio:4/3;object-fit:cover;border-radius:.5rem;background:#f3f4f6" /><figcaption style="margin-top:.5rem;font-size:.9rem;line-height:1.35">Sputter</figcaption></figure>
+        <figure style="margin:0"><img src="/media/facilities/kpu-04-e-beam-evaporator.jpg" alt="E-Beam Evaporator" loading="lazy" style="width:100%;aspect-ratio:4/3;object-fit:cover;border-radius:.5rem;background:#f3f4f6" /><figcaption style="margin-top:.5rem;font-size:.9rem;line-height:1.35">E-Beam Evaporator</figcaption></figure>
+        <figure style="margin:0"><img src="/media/facilities/kpu-05-pecvd.jpg" alt="Plasma Enhanced Chemical Vapor Deposition" loading="lazy" style="width:100%;aspect-ratio:4/3;object-fit:cover;border-radius:.5rem;background:#f3f4f6" /><figcaption style="margin-top:.5rem;font-size:.9rem;line-height:1.35">Plasma Enhanced Chemical Vapor Deposition</figcaption></figure>
+        <figure style="margin:0"><div style="width:100%;aspect-ratio:4/3;border-radius:.5rem;background:#f3f4f6;display:flex;align-items:center;justify-content:center;color:#9ca3af;font-size:.8rem">No photo</div><figcaption style="margin-top:.5rem;font-size:.9rem;line-height:1.35">Deep Reactive Ion Etcher</figcaption></figure>
+        <figure style="margin:0"><img src="/media/facilities/kpu-07-double-side-aligner.jpg" alt="Double-side Aligner" loading="lazy" style="width:100%;aspect-ratio:4/3;object-fit:cover;border-radius:.5rem;background:#f3f4f6" /><figcaption style="margin-top:.5rem;font-size:.9rem;line-height:1.35">Double-side Aligner</figcaption></figure>
+        <figure style="margin:0"><img src="/media/facilities/kpu-08-yellow-room.jpg" alt="Yellow Room" loading="lazy" style="width:100%;aspect-ratio:4/3;object-fit:cover;border-radius:.5rem;background:#f3f4f6" /><figcaption style="margin-top:.5rem;font-size:.9rem;line-height:1.35">Yellow Room</figcaption></figure>
+        </div>
+
+        **Analysis**
+
+        <div class="jdl-grid">
+        <figure style="margin:0"><img src="/media/facilities/kpu-analysis-01-x-ray-diffraction.jpg" alt="X-Ray Diffraction" loading="lazy" style="width:100%;aspect-ratio:4/3;object-fit:cover;border-radius:.5rem;background:#f3f4f6" /><figcaption style="margin-top:.5rem;font-size:.9rem;line-height:1.35">X-Ray Diffraction</figcaption></figure>
+        <figure style="margin:0"><img src="/media/facilities/kpu-analysis-02-confocal-microscopy.jpg" alt="Confocal Microscopy" loading="lazy" style="width:100%;aspect-ratio:4/3;object-fit:cover;border-radius:.5rem;background:#f3f4f6" /><figcaption style="margin-top:.5rem;font-size:.9rem;line-height:1.35">Confocal Microscopy</figcaption></figure>
+        <figure style="margin:0"><img src="/media/facilities/kpu-analysis-03-scanning-electron-microscopy.jpg" alt="Scanning Electron Microscopy" loading="lazy" style="width:100%;aspect-ratio:4/3;object-fit:cover;border-radius:.5rem;background:#f3f4f6" /><figcaption style="margin-top:.5rem;font-size:.9rem;line-height:1.35">Scanning Electron Microscopy</figcaption></figure>
+        <figure style="margin:0"><img src="/media/facilities/kpu-analysis-04-eis.jpg" alt="Electrochemical Impedance Spectroscopy" loading="lazy" style="width:100%;aspect-ratio:4/3;object-fit:cover;border-radius:.5rem;background:#f3f4f6" /><figcaption style="margin-top:.5rem;font-size:.9rem;line-height:1.35">Electrochemical Impedance Spectroscopy</figcaption></figure>
+        </div>
+
+        ## NTU / Singapore Centre for 3D Printing (SC3DP)
+
+        <div class="jdl-grid">
+        <figure style="margin:0"><div style="width:100%;aspect-ratio:4/3;border-radius:.5rem;background:#f3f4f6;display:flex;align-items:center;justify-content:center;color:#9ca3af;font-size:.8rem">No photo</div><figcaption style="margin-top:.5rem;font-size:.9rem;line-height:1.35">Two-photon Polymerization(2PP) Printer</figcaption></figure>
+        </div>
+
     design:
-      css_class: "dark bg-gray-900 text-white"
+      css_class: "jdl-wide-prose"
+      spacing:
+        padding: ["3rem", 0, "3rem", 0]
 ---

@@ -68,4 +68,21 @@
   .dark .blox-team-showcase .group > div:not(:has(> a.h-64))::before {
     background-color: #374151;
   }
+
+  /* ── markdown blocks ─────────────────────────────────────────────────────
+     A photo grid for the Facilities page. The markdown block wraps its body
+     in max-w-prose, about 65 characters, where a photo grid collapses to one
+     narrow column. Rather than let the grid burst out of that container -
+     which stretched the container itself and knocked the headings out of
+     alignment - a block can opt into a wider prose column with
+     design.css_class: "jdl-wide-prose". */
+  .jdl-wide-prose .max-w-prose {
+    max-width: 68rem;
+  }
+  .jdl-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(190px, 1fr));
+    gap: 1.25rem;
+  }
+  .jdl-grid figure { margin: 0; }
 </style>

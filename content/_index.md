@@ -334,66 +334,31 @@ sections:
 #      spacing:
 #        padding: ["5rem", 0, "0rem", 0]
 
-  # ── HIDDEN ───────────────────────────────────────────────────────────────
-  # Events: the template ships sample events (content/events/). Re-enable once
-  #   real lab events exist, and restore the Events entry in menus.yaml.
-  # News: sourced from content/blog/, which is still template sample posts.
-  #   The 34 real news items from the legacy site land here later; restore the
-  #   News entry in menus.yaml at the same time.
+  # ── HIDDEN: Events ───────────────────────────────────────────────────────
+  # The template ships sample events under content/events/. Re-enable once the
+  # lab has real ones, and restore the Events entry in menus.yaml.
   # ─────────────────────────────────────────────────────────────────────────
-#  - block: collection
-#    id: events
-#    content:
-#      title: Events
-#      subtitle: Join Us for Research Presentations & Seminars
-#      text: Stay connected with our research community through talks, workshops, and collaborative events
-#      filters:
-#        folders:
-#          - events
-#        exclude_past: false  # Show both past and future events
-#      count: 3
-#      sort_by: Date
-#      sort_ascending: false
-#    design:
-#      view: card
-#      # columns: 3
-#      show_date: true
-#      show_read_time: false
-#      show_read_more: true
-#      css_class: "bg-gradient-to-b from-white to-gray-50 dark:from-gray-800 dark:to-gray-900"
-#      spacing:
-#        padding: ["4rem", 0, "4rem", 0]
-#
-#  - block: collection
-#    id: news
-#    content:
-#      title: Lab News & Updates
-#      subtitle: ''
-#      text: ''
-#      # Page type to display. E.g. post, talk, publication...
-#      page_type: blog
-#      # Choose how many pages you would like to display (0 = all pages)
-#      count: 3
-#      # Filter on criteria
-#      filters:
-#        author: ''
-#        category: ''
-#        tag: ''
-#        exclude_featured: false
-#        exclude_future: false
-#        exclude_past: false
-#        publication_type: ''
-#      # Choose how many pages you would like to offset by
-#      offset: 0
-#      # Page order: descending (desc) or ascending (asc) date.
-#      order: desc
-#    design:
-#      # Choose a layout view
-#      view: card
-#      columns: 1
-#      spacing:
-#        padding: ["0rem", 0, "0rem", 0]
-      
+
+  - block: collection
+    id: news
+    content:
+      title: Lab News & Updates
+      subtitle: ''
+      text: ''
+      filters:
+        folders:
+          - news
+      count: 3
+      sort_by: Date
+      sort_ascending: false
+    design:
+      view: card
+      columns: 3
+      show_date: true
+      show_read_time: false
+      show_read_more: false
+      spacing:
+        padding: ["3rem", 0, "1rem", 0]
 
   # ── HIDDEN: Collaborators & Partners ─────────────────────────────────────
   # Superseded, not pending: the partner logos already appear in the
