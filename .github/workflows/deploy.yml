@@ -1,7 +1,7 @@
 name: Deploy website to GitHub Pages
 
 env:
-  WC_HUGO_VERSION: '0.152.1'
+  WC_HUGO_VERSION: '0.161.1'
   NODE_VERSION: '20'
 
 on:
@@ -80,6 +80,10 @@ jobs:
     - name: Setup Pages
       id: pages
       uses: actions/configure-pages@v5
+      with:
+        # Turn Pages on for the repo on the first run, so the site does not
+        # need the Settings page touched by hand.
+        enablement: true
 
     - name: Build with Hugo
       env:
