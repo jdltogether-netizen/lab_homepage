@@ -94,6 +94,22 @@
   }
   .jdl-grid figure,
   .jdl-grid-wide figure { margin: 0; }
+
+  /* ── Lab News & Updates: two cards per row ──────────────────────────────
+     The collection block's `card` view hardcodes its wrapper as
+     `max-w-[65ch] grid-cols-1` (blox/layouts/_partials/views/card--start.html)
+     and ignores `design.columns` entirely, so the column count cannot be set
+     from the md file. Widen that wrapper and split it in two here instead.
+     Scoped to #news so the other card collections keep the single column.
+     Stays one column below md (768px) where two cards would be too narrow. */
+  #news .grid {
+    max-width: 64rem;
+  }
+  @media (min-width: 768px) {
+    #news .grid {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+  }
 </style>
 
 {{/*

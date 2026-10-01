@@ -360,12 +360,15 @@ sections:
       filters:
         folders:
           - news
-      count: 3
+      count: 4
       sort_by: Date
       sort_ascending: false
     design:
       view: card
-      columns: 3
+      # NOTE: the `card` view hardcodes a 1-column grid and ignores `columns`,
+      # so the 2-per-row layout comes from the #news rule in
+      # layouts/_partials/hooks/head-end/jdl-style-overrides.html.
+      columns: 2
       show_date: true
       show_read_time: false
       show_read_more: false
