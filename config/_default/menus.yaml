@@ -1,18 +1,23 @@
-# Navigation Links
-#   To link a homepage widget, specify the URL as a hash `#` followed by the filename of the
-#     desired widget in your `content/home/` folder.
-#   The weight parameter defines the order that the links will appear in.
+# Navigation
+#   `weight` sets the order; `parent` nests an item under the entry whose
+#   `identifier` it names.
+#
+# Order was chosen deliberately: News first so the front page of the site
+# leads with what is happening now, then the people, then the work.
+#
+# Projects and Facilities sit under Research rather than at the top level,
+# which keeps the bar to seven items. Move them back out if they deserve
+# their own slots.
 
 main:
   - name: Home
     url: '/#about'
     weight: 10
-  - name: Research
-    url: '/research'
+
+  - name: News
+    url: '/news'
     weight: 20
-  - name: Facilities
-    url: '/facilities'
-    weight: 25
+
   - name: Team
     identifier: team
     url: '/authors'
@@ -29,42 +34,54 @@ main:
     parent: team
     url: '/members/alumni'
     weight: 33
+
+  - name: Research
+    identifier: research
+    url: '/research'
+    weight: 40
+  - name: Research Areas
+    parent: research
+    url: '/research'
+    weight: 41
+  - name: Projects
+    parent: research
+    url: '/projects'
+    weight: 42
+  - name: Facilities
+    parent: research
+    url: '/facilities'
+    weight: 43
+
   - name: Publications
     identifier: publications
     url: '/publications'
-    weight: 40
+    weight: 50
   - name: Journals
     parent: publications
     url: '/publications/journals'
-    weight: 41
+    weight: 51
   - name: Conferences
     parent: publications
     url: '/publications/conferences'
-    weight: 42
+    weight: 52
   - name: Patents
     parent: publications
     url: '/publications/patents'
-    weight: 43
+    weight: 53
   - name: Lectures
     parent: publications
     url: '/publications/lectures'
-    weight: 44
-  # Hidden until real content replaces the template's sample events.
-  # - name: Events
-  #   url: '/#events'
-  #   weight: 45
-  - name: News
-    url: '/news'
-    weight: 50
+    weight: 54
+
   - name: Join Us
     url: '/opportunities'
     weight: 60
+
   - name: Contact
     url: '/contact'
     weight: 70
 
-# Link to a PDF of your resume/CV from the menu.
-# To enable, copy your resume/CV to `static/uploads/resume.pdf` and uncomment the lines below.
-#  - name: CV
-#    url: uploads/resume.pdf
-#    weight: 80
+  # Hidden: the template ships sample events under content/events/.
+  # - name: Events
+  #   url: '/events'
+  #   weight: 80
