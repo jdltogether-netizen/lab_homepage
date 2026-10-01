@@ -13,7 +13,7 @@ sections:
       title: Facilities
       subtitle: Fabrication and characterization across three sites
       text: |
-        ## KAIST
+        ## JDL @ KAIST &mdash; Daejeon, Korea
 
         <div class="jdl-grid">
         <figure style="margin:0"><img src="/media/facilities/kaist-01-dlp-asiga.jpg" alt="Digital Light Processing(DLP) Printer - Asiga" loading="lazy" style="width:100%;aspect-ratio:4/3;object-fit:cover;border-radius:.5rem;background:#f3f4f6" /><figcaption style="margin-top:.5rem;font-size:.9rem;line-height:1.35">Digital Light Processing(DLP) Printer - Asiga</figcaption></figure>
@@ -37,7 +37,9 @@ sections:
         <figure style="margin:0"><img src="/media/facilities/kaist-19-universal-tensile-machine.jpg" alt="Universal Tensile Machine" loading="lazy" style="width:100%;aspect-ratio:4/3;object-fit:cover;border-radius:.5rem;background:#f3f4f6" /><figcaption style="margin-top:.5rem;font-size:.9rem;line-height:1.35">Universal Tensile Machine</figcaption></figure>
         </div>
 
-        ## KPU / Fuel Cell and Sensor Manufacturing
+        ## KPU &mdash; Siheung, Korea
+
+        <small>Fuel cell and sensor manufacturing</small>
 
         **Fabrication**
 
@@ -61,7 +63,9 @@ sections:
         <figure style="margin:0"><img src="/media/facilities/kpu-analysis-04-eis.jpg" alt="Electrochemical Impedance Spectroscopy" loading="lazy" style="width:100%;aspect-ratio:4/3;object-fit:cover;border-radius:.5rem;background:#f3f4f6" /><figcaption style="margin-top:.5rem;font-size:.9rem;line-height:1.35">Electrochemical Impedance Spectroscopy</figcaption></figure>
         </div>
 
-        ## NTU / Singapore Centre for 3D Printing (SC3DP)
+        ## NTU &mdash; Singapore
+
+        <small>Singapore Centre for 3D Printing (SC3DP)</small>
 
         <div class="jdl-grid">
         <figure style="margin:0"><div style="width:100%;aspect-ratio:4/3;border-radius:.5rem;background:#f3f4f6;display:flex;align-items:center;justify-content:center;color:#9ca3af;font-size:.8rem">No photo</div><figcaption style="margin-top:.5rem;font-size:.9rem;line-height:1.35">Two-photon Polymerization(2PP) Printer</figcaption></figure>
@@ -77,12 +81,13 @@ sections:
       title: AI Computing
       text: |
         Model training, simulation and digital-twin work run on the lab's own
-        machines, with large jobs bursting to rented capacity. The diagram
-        below is a schematic of that setup, not a photograph of the room:
-        it shows the kinds of machines the lab runs and is expanding, rather
-        than a specific rack.
+        machines, with large jobs bursting to rented capacity.
 
-        <img src="/media/facilities/ai-compute.svg" alt="Diagram of the lab's AI computing setup" style="width:100%;height:auto;border-radius:.5rem" />
+        <img src="/media/facilities/ai-workstation.webp" alt="Illustration of a GPU workstation connected to network storage" loading="lazy" style="width:100%;height:auto;border-radius:.5rem" />
+
+        <small>Illustration, not a photograph of the lab. It stands for the class of
+        machine the group runs and is still adding to, rather than any particular
+        rack.</small>
 
         - **RTX 5090 nodes** for day-to-day training and inference
         - **RTX A-series professional workstations**, including a dual-card machine built this year
@@ -115,6 +120,20 @@ sections:
         and finished on a single line.
 
         <img src="/media/pocheon/production-line.svg" alt="Schematic of the planned drone production line" style="width:100%;height:auto;border-radius:.5rem" />
+
+        Lines of this kind are already running elsewhere. The short below, from
+        DHR Engineering, shows automated 3D printing producing drone airframes at
+        rate &mdash; the working pattern the Pocheon line is being built around.
+
+        <div style="max-width:340px;margin:1.5rem auto 0">
+        <div style="position:relative;padding-top:177.78%">
+        <iframe src="https://www.youtube.com/embed/OxBcaJS_pYE" title="120 Drones in 24 Hours: How Automated 3D Printing is Scaling Drone Manufacturing" loading="lazy" allowfullscreen style="position:absolute;inset:0;width:100%;height:100%;border:0;border-radius:.5rem"></iframe>
+        </div>
+        </div>
+
+        <small>Video: <a href="https://www.youtube.com/@dhrengineering">DHR Engineering</a>,
+        <a href="https://dhr.is/blog/drone-manufacturing-scaling-production-and-cutting-costs-with-automated-3d-printing">"Drone Manufacturing: Scaling Production and Cutting Costs with Automated 3D Printing"</a>.
+        Embedded from the original; not JDL or KEONIX footage.</small>
 
         ### Offices and training rooms
 
