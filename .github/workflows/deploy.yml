@@ -44,10 +44,14 @@ jobs:
 
     - name: Install dependencies
       run: |
-        # Install Tailwind CLI if package.json exists
+        # npm, not pnpm. Hugo's Tailwind transform runs node_modules/.bin/
+        # tailwindcss directly and rejects pnpm's bin layout with
+        # 'binary "tailwindcss" is not a Node.js script'. npm links it to
+        # @tailwindcss/cli/dist/index.mjs, which Hugo accepts - and npm is
+        # what the committed package-lock.json describes.
         if [ -f "package.json" ]; then
           echo "Installing Tailwind dependencies..."
-          pnpm install || npm install
+          npm ci || npm install
         fi
 
     - name: Setup Hugo
