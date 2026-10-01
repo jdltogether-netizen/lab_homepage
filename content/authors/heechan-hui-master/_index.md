@@ -1,3 +1,3 @@
 ---
-title: Heechan Hui
+title: Hui Heechan
 ---
