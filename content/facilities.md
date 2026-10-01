@@ -70,5 +70,62 @@ sections:
     design:
       css_class: "jdl-wide-prose"
       spacing:
-        padding: ["3rem", 0, "3rem", 0]
+        padding: ["3rem", 0, "1rem", 0]
+
+  - block: markdown
+    content:
+      title: AI Computing
+      text: |
+        Model training, simulation and digital-twin work run on the lab's own
+        machines, with large jobs bursting to rented capacity. The diagram
+        below is a schematic of that setup, not a photograph of the room:
+        it shows the kinds of machines the lab runs and is expanding, rather
+        than a specific rack.
+
+        <img src="/media/facilities/ai-compute.svg" alt="Diagram of the lab's AI computing setup" style="width:100%;height:auto;border-radius:.5rem" />
+
+        - **RTX 5090 nodes** for day-to-day training and inference
+        - **RTX A-series professional workstations**, including a dual-card machine built this year
+        - **NAS storage** for multimodal datasets and digital-twin workflows, expanding alongside the compute
+        - **National AI Computing Center** capacity rented for runs that outgrow the lab
+
+        GPU capacity grows with every new grant, so the exact inventory changes through the year.
+    design:
+      css_class: "jdl-wide-prose"
+      spacing:
+        padding: ["1rem", 0, "1rem", 0]
+
+  - block: markdown
+    content:
+      title: Pocheon Center
+      subtitle: KEONIX Labs &middot; opening in the second half of 2026
+      text: |
+        [KEONIX Labs](https://keonix.co.kr), the lab's KAIST faculty start-up, is
+        fitting out a civil-military-government centre for drone education,
+        manufacturing and production at **Gyeonggi Daejin Techno Park (GDTP) in
+        Pocheon**, rooms 504&ndash;505. Construction and operation are planned for
+        the second half of 2026.
+
+        <small>155 Jajak-ro, Pocheon-si, Gyeonggi-do &middot; 경기 포천시 자작로 155, 경기대진테크노파크 504&ndash;505호</small>
+
+        ### Production line
+
+        Four 3D printers feed a rail system that moves parts to a six-axis robot
+        and on to a CNC machine, so a drone airframe can be printed, assembled
+        and finished on a single line.
+
+        <img src="/media/pocheon/production-line.svg" alt="Schematic of the planned drone production line" style="width:100%;height:auto;border-radius:.5rem" />
+
+        ### Offices and training rooms
+
+        <div class="jdl-grid-wide">
+        <figure style="margin:0"><img src="/media/pocheon/office.webp" alt="Architectural rendering of the Pocheon office" loading="lazy" style="width:100%;height:auto;border-radius:.5rem" /><figcaption style="margin-top:.5rem;font-size:.9rem">Research office</figcaption></figure>
+        <figure style="margin:0"><img src="/media/pocheon/training-room.webp" alt="Architectural rendering of the Pocheon training room" loading="lazy" style="width:100%;height:auto;border-radius:.5rem" /><figcaption style="margin-top:.5rem;font-size:.9rem">Training and seminar room</figcaption></figure>
+        </div>
+
+        <small>The images above are architectural renderings of the planned fit-out, not photographs of a finished space.</small>
+    design:
+      css_class: "jdl-wide-prose"
+      spacing:
+        padding: ["1rem", 0, "3rem", 0]
 ---

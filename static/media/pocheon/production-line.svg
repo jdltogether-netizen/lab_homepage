@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 380" role="img"
+     aria-label="Schematic of the planned drone production line: four 3D printers feeding a rail system, a six-axis robot, and a CNC machine">
+  <rect width="900" height="380" rx="10" fill="#f8fafc"/>
+  <rect x="0.5" y="0.5" width="899" height="379" rx="10" fill="none" stroke="#e2e8f0"/>
+  <text x="32" y="46" font-family="system-ui,-apple-system,Segoe UI,sans-serif" font-size="20" font-weight="700" fill="#0f172a">Drone Production Line</text>
+  <text x="32" y="70" font-family="system-ui,-apple-system,Segoe UI,sans-serif" font-size="13" fill="#64748b">Planned layout &#183; KEONIX Labs, Pocheon</text>
+
+  <!-- printers -->
+  <g fill="#ffffff" stroke="#334155" stroke-width="1.6">
+    <rect x="40"  y="120" width="86" height="96" rx="6"/>
+    <rect x="136" y="120" width="86" height="96" rx="6"/>
+    <rect x="232" y="120" width="86" height="96" rx="6"/>
+    <rect x="328" y="120" width="86" height="96" rx="6"/>
+  </g>
+  <g fill="#cbd5e1">
+    <rect x="56"  y="140" width="54" height="42" rx="3"/>
+    <rect x="152" y="140" width="54" height="42" rx="3"/>
+    <rect x="248" y="140" width="54" height="42" rx="3"/>
+    <rect x="344" y="140" width="54" height="42" rx="3"/>
+  </g>
+  <text x="227" y="106" text-anchor="middle" font-family="system-ui,sans-serif" font-size="14" font-weight="600" fill="#1e293b">3D Printers &#215; 4</text>
+
+  <!-- rail -->
+  <rect x="40" y="248" width="820" height="16" rx="8" fill="#e2e8f0" stroke="#94a3b8" stroke-width="1.2"/>
+  <g fill="#64748b">
+    <circle cx="120" cy="256" r="6"/><circle cx="330" cy="256" r="6"/>
+    <circle cx="560" cy="256" r="6"/><circle cx="780" cy="256" r="6"/>
+  </g>
+  <text x="40" y="292" font-family="system-ui,sans-serif" font-size="14" font-weight="600" fill="#1e293b">Rail System</text>
+
+  <!-- robot -->
+  <g stroke="#1d4ed8" stroke-width="7" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M520 232 L520 186 L566 150 L612 176"/>
+  </g>
+  <circle cx="520" cy="232" r="13" fill="#1d4ed8"/>
+  <rect x="496" y="232" width="48" height="16" rx="4" fill="#1e293b"/>
+  <text x="556" y="118" text-anchor="middle" font-family="system-ui,sans-serif" font-size="14" font-weight="600" fill="#1e293b">6-Axis Robot</text>
+
+  <!-- CNC -->
+  <rect x="686" y="120" width="174" height="128" rx="6" fill="#ffffff" stroke="#334155" stroke-width="1.6"/>
+  <rect x="706" y="142" width="74" height="60" rx="3" fill="#cbd5e1"/>
+  <rect x="794" y="142" width="50" height="38" rx="3" fill="#1e293b"/>
+  <text x="773" y="292" text-anchor="middle" font-family="system-ui,sans-serif" font-size="14" font-weight="600" fill="#1e293b">CNC Machine</text>
+
+  <!-- flow -->
+  <g stroke="#94a3b8" stroke-width="2" fill="none" marker-end="url(#a)">
+    <path d="M430 168 L500 168"/>
+    <path d="M628 168 L676 168"/>
+  </g>
+  <defs>
+    <marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M0 0 L10 5 L0 10 z" fill="#94a3b8"/>
+    </marker>
+  </defs>
+  <text x="450" y="344" font-family="system-ui,sans-serif" font-size="12" fill="#64748b">Print &#8594; transfer &#8594; assemble &#8594; machine, on one line</text>
+</svg>

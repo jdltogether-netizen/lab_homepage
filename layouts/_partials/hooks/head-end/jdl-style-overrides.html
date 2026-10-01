@@ -79,12 +79,21 @@
   .jdl-wide-prose .max-w-prose {
     max-width: 68rem;
   }
+  /* Equipment thumbnails: auto-FILL, so a section with a single instrument
+     keeps it thumbnail-sized instead of stretching it across the page. */
   .jdl-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(190px, 1fr));
     gap: 1.25rem;
   }
-  .jdl-grid figure { margin: 0; }
+  /* Larger plates - renderings, photographs - where filling the row is right. */
+  .jdl-grid-wide {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.5rem;
+  }
+  .jdl-grid figure,
+  .jdl-grid-wide figure { margin: 0; }
 </style>
 
 {{/*
