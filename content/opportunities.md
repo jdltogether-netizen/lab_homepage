@@ -20,6 +20,14 @@ sections:
           <small>Ph.D. degree: Material Science, Mechanical Engineering, Chemical Engineering, Electrical Engineering</small>
         - **Semi-conducting thin film process for Clean Tech & Sensors**  
           <small>Ph.D. degree: Material Science, Mechanical Engineering, Chemical Engineering</small>
+        - **AI-Driven Digital Manufacturing and Production Systems**  
+          <small>Ph.D. degree: Computer Science, Artificial Intelligence, Data Science, Industrial & Systems Engineering, Mechanical Engineering, Electrical Engineering</small>
+        - **Autonomous Drone Production and Physical AI**  
+          <small>Ph.D. degree: Computer Science, Artificial Intelligence, Robotics, Aerospace Engineering, Mechanical Engineering, Electrical Engineering</small>
+        - **LLM and Agent-Based Industrial Intelligence**  
+          <small>Ph.D. degree: Computer Science, Artificial Intelligence, Data Science, Human-Computer Interaction</small>
+
+        A background in manufacturing is welcome but not required. We work just as closely with people coming from computer science, artificial intelligence and robotics who want to put their methods to work on a real production floor.
 
         **Contract Period** &mdash; 1 year +
 
@@ -41,7 +49,7 @@ sections:
     content:
       title: Graduate Researcher
       text: |
-        We are currently hiring "Higly Motivated M.S./Ph.D. Candidate"
+        We are currently hiring "Highly Motivated M.S./Ph.D. Candidate"
 
         **Research Areas**
 
@@ -49,6 +57,11 @@ sections:
         - Novel 3D/4D Printing Manufacturing Method (B.S. degree: Material Science, Mechanical Engineering, Chemical Engineering, Electrical Engineering)
         - Semi-conducting thin film process for Clean Tech & Sensors (B.S. degree: Material Science, Mechanical Engineering, Chemical Engineering)
         - Battery/Fuel cell life time prediction (B.S. degree: Material Science, Mechanical Engineering, Chemical Engineering)
+        - AI-Driven Digital Manufacturing and Production Systems (B.S. degree: Computer Science, Artificial Intelligence, Data Science, Industrial & Systems Engineering, Mechanical Engineering, Electrical Engineering)
+        - Autonomous Drone Production and Physical AI (B.S. degree: Computer Science, Artificial Intelligence, Robotics, Aerospace Engineering, Mechanical Engineering, Electrical Engineering)
+        - LLM and Agent-Based Industrial Intelligence (B.S. degree: Computer Science, Artificial Intelligence, Data Science, Human-Computer Interaction)
+
+        Students from computer science and AI backgrounds are equally welcome: several of our projects need software and modelling people more than they need machinists, and you will learn the manufacturing side here.
 
         * For Foreign MS/Ph.D. Applicant: Scholarship acquired Applicants (KAIST offers full scholarship for foreign student) are only available for JDL MS/Ph.D. Degree Program
 
