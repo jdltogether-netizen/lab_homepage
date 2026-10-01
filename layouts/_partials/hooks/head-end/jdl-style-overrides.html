@@ -100,7 +100,8 @@
      `max-w-[65ch] grid-cols-1` (blox/layouts/_partials/views/card--start.html)
      and ignores `design.columns` entirely, so the column count cannot be set
      from the md file. Widen that wrapper and split it in two here instead.
-     Scoped to #news so the other card collections keep the single column.
+     Scoped to #news, which both the landing block and content/news/_index.md
+     carry, so the other card collections keep the single column.
      Stays one column below md (768px) where two cards would be too narrow. */
   #news .grid {
     max-width: 64rem;
@@ -109,6 +110,19 @@
     #news .grid {
       grid-template-columns: repeat(2, minmax(0, 1fr));
     }
+  }
+
+  /* ── Team: move one card to the end of its group ────────────────────────
+     team-showcase sorts each group with `sort $groupProfiles "title"`
+     (blox/team-showcase/block.html), which is hardcoded, so the order
+     cannot be set from the md file or the author data. The cards are direct
+     grid children, so `order` repositions one without touching the block.
+     Everything else keeps the default order: 0, so order: 1 lands last.
+     Note this moves the card visually only - DOM, tab and screen-reader
+     order still follow the alphabetical sort. To restore the plain
+     alphabetical layout, delete this rule. */
+  #team .grid > .group:has(a[href$="/authors/jeonghwan-kim-phd/"]) {
+    order: 1;
   }
 </style>
 
