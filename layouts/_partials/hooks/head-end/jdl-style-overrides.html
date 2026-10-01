@@ -86,3 +86,26 @@
   }
   .jdl-grid figure { margin: 0; }
 </style>
+
+{{/*
+  The navbar brand is hardcoded in the template as a link to the site home
+  titled with the site name, and neither is configurable - navbar.html writes
+  `href="{{ site.Home.RelPermalink }}" title="{{ $branding.site_title }}"`.
+  The mark in that slot is KAIST's, so it should name and lead to KAIST.
+
+  This is the one place where a rule alone could not do the job. It runs after
+  the navbar exists, touches exactly one element, and leaves the page intact
+  if that element is ever renamed.
+*/}}
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    var brand = document.querySelector(".navbar-brand");
+    if (!brand) return;
+    brand.setAttribute("href", "https://www.kaist.ac.kr/en/");
+    brand.setAttribute("target", "_blank");
+    brand.setAttribute("rel", "noopener");
+    brand.setAttribute("title", "Korea Advanced Institute of Science and Technology");
+    var img = brand.querySelector("img");
+    if (img) img.setAttribute("alt", "Korea Advanced Institute of Science and Technology");
+  });
+</script>

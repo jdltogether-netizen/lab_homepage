@@ -23,7 +23,7 @@ sections:
       # and Tailwind would never emit CSS for classes written here.
       # The image lives in static/media/ so the path stays literal.
       title: |
-        <img src="/media/me-logo.png" alt="KAIST Mechanical Engineering" style="display:block;margin:0 auto 1.5rem;height:4rem;width:auto" />
+        <a href="https://me.kaist.ac.kr/" target="_blank" rel="noopener" title="KAIST Department of Mechanical Engineering" style="display:block;width:max-content;margin:0 auto 1.5rem"><img src="/media/me-logo.png" alt="KAIST Department of Mechanical Engineering" style="display:block;height:4rem;width:auto" /></a>
         <span style="display:block;font-size:0.5em;line-height:1.2;letter-spacing:0.01em;color:var(--color-primary-500);margin-bottom:1.75rem">Just Do it Lab</span>
         <span style="display:block">Convergence Technology: From Rigorous Research to Real Ventures</span>
       text: |
