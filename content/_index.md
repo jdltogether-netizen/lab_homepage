@@ -21,9 +21,14 @@ sections:
       # Sizing uses INLINE STYLES, not Tailwind classes: this block renders
       # client-side via Preact, so its markup never reaches hugo_stats.json
       # and Tailwind would never emit CSS for classes written here.
-      # The image lives in static/media/ so the path stays literal.
+      # The image lives in static/media/ so the path stays literal, and the
+      # path is RELATIVE on purpose. canonifyURLs cannot reach inside this
+      # block: the hero ships as a JSON payload that Preact renders, so an
+      # absolute /media/... stayed at the domain root and 404'd under the
+      # GitHub Pages sub-path. The hero only ever appears on the home page,
+      # so a relative path resolves correctly both locally and deployed.
       title: |
-        <a href="https://me.kaist.ac.kr/" target="_blank" rel="noopener" title="KAIST Department of Mechanical Engineering" style="display:block;width:max-content;margin:0 auto 1.5rem"><img src="/media/me-logo.png" alt="KAIST Department of Mechanical Engineering" style="display:block;height:4rem;width:auto" /></a>
+        <a href="https://me.kaist.ac.kr/" target="_blank" rel="noopener" title="KAIST Department of Mechanical Engineering" style="display:block;width:max-content;margin:0 auto 1.5rem"><img src="media/me-logo.png" alt="KAIST Department of Mechanical Engineering" style="display:block;height:4rem;width:auto" /></a>
         <span style="display:block;font-size:0.5em;line-height:1.2;letter-spacing:0.01em;color:var(--color-primary-500);margin-bottom:1.75rem">Just Do it Lab</span>
         <span style="display:block">Convergence Technology: From Rigorous Research to Real Ventures</span>
       text: |
