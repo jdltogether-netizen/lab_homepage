@@ -214,6 +214,15 @@
   .dark #facilities::before {
     border-top-color: rgb(55 65 81);
   }
+
+  /* The markdown block prints its title wrapper unconditionally - there is
+     no `with` guard on it - so dropping `title:` leaves an empty div still
+     carrying mb-6. Fold it away. Only the title div in this block has both
+     of these classes; the site headings are prose h2. Delete this rule if a
+     title is ever put back. */
+  #facilities .text-3xl.font-bold {
+    display: none;
+  }
 </style>
 
 {{/*

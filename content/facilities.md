@@ -87,8 +87,12 @@ sections:
   - block: markdown
     id: facilities
     content:
-      title: Facilities
-      subtitle: Fabrication and characterization across three sites
+      # No block title: the page is reached by clicking "Facilities" in the
+      # nav, and the page's own title already says it, so a third "Facilities"
+      # here just repeated it. The three site headings below carry the
+      # structure. (A `subtitle:` used to sit here - the markdown block never
+      # rendered one, so it was dead; the text was "Fabrication and
+      # characterization across three sites" if it is ever wanted in the body.)
       text: |
         ## JDL @ KAIST &mdash; Daejeon, Korea
 
