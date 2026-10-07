@@ -26,6 +26,9 @@ sections:
       title: Employment
       username: yongjin-yoon-prof
     design:
+      # Every start/end in the data is a 01-01 placeholder, so the block's
+      # default "January 2006" asserted a month nobody recorded. Year only.
+      date_format: "2006"
       spacing:
         padding: ['2rem', 0, '2rem', 0]
 

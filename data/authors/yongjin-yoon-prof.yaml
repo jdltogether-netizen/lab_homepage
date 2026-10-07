@@ -27,19 +27,28 @@ interests:
   - Multi-scale 3D Printing-enabled functional structure
   - High-speed Volumetric 3D Printing
   - AI-enabled Smart Manufacturing
+# Both date fields are needed, because the two blocks on /members/professor/
+# read different ones: resume-biography-3 prints `year`, while
+# resume-experience only looks at start/end and prints "Present" for any
+# entry that has neither. Keep them in step when editing.
 education:
   - degree: Ph.D. in Mechanical Engineering (Management Science Minor)
     institution: Stanford University
     year: "2005 - 2009"
+    start: "2005-01-01"
+    end: "2009-01-01"
   - degree: M.S. in Electrical Engineering
     institution: Stanford University
     year: "2008"
+    end: "2008-01-01"
   - degree: M.S. in Mechanical Engineering
     institution: Stanford University
     year: "2005"
+    end: "2005-01-01"
   - degree: B.S. in Mechanical Engineering
     institution: Korea University
     year: "2000"
+    end: "2000-01-01"
 # Employment and awards feed the resume-experience / resume-awards blocks
 # on /members/professor/. Migrated from the legacy members-professor page.
 # Two tiers, and the ORDER IS LOAD-BEARING. The primary appointments come
