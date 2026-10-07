@@ -186,6 +186,17 @@
   .dark #experience .w-full:first-of-type > ol > li:nth-child(n+4) > span:first-child svg {
     color: rgb(156 163 175);
   }
+
+  /* ── Facilities: centre the per-site headings ──────────────────────────
+     The three sites (JDL @ KAIST, KPU, NTU) are `##` headings inside one
+     markdown block's body, so they rendered left-aligned while the block
+     titles above them (AI Computing, Pocheon Center) are centred. Centre
+     them, and the `<small>` subtitle line that follows a heading, so each
+     site reads like the other two sections. Body copy stays left. */
+  #facilities h2,
+  #facilities h2 + p:has(> small) {
+    text-align: center;
+  }
 </style>
 
 {{/*
