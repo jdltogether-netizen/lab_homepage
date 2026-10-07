@@ -124,6 +124,63 @@
   #team .grid > .group:has(a[href$="/authors/jeonghwan-kim-phd/"]) {
     order: 1;
   }
+
+  /* ── Professor: demote concurrent appointments below the primary ones ──
+     Adjunct and Visiting posts are held alongside a primary appointment,
+     so showing all ten at equal weight in one timeline overstated them.
+     resume-experience offers no per-entry styling hook, so the tier is
+     keyed off position: `work:` lists the 3 primary appointments first
+     (see data/authors/yongjin-yoon-prof.yaml, which says so), and
+     everything from the 4th entry on is the concurrent group.
+     ADDING OR REMOVING A PRIMARY APPOINTMENT MEANS CHANGING THE 4 BELOW. */
+
+  /* Group label + breathing room where the second tier starts. */
+  #experience ol > li:nth-child(4) {
+    margin-top: 3rem;
+  }
+  #experience ol > li:nth-child(4)::before {
+    content: "Concurrent & Visiting Appointments";
+    display: block;
+    margin-bottom: 1.5rem;
+    font-size: 0.75rem;
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: rgb(107 114 128);
+  }
+  .dark #experience ol > li:nth-child(4)::before {
+    color: rgb(156 163 175);
+  }
+
+  /* Lighter heading for the concurrent entries. */
+  #experience ol > li:nth-child(n+4) > h3 {
+    font-size: 1rem;
+    font-weight: 500;
+    color: rgb(75 85 99);
+  }
+  .dark #experience ol > li:nth-child(n+4) > h3 {
+    color: rgb(209 213 219);
+  }
+
+  /* Smaller, muted timeline dot. The default is w-6 h-6 at -start-3, so a
+     1.25rem dot has to move to -0.625rem to stay centred on the rail. */
+  #experience ol > li:nth-child(n+4) > span:first-child {
+    width: 1.25rem;
+    height: 1.25rem;
+    inset-inline-start: -0.625rem;
+    background-color: rgb(229 231 235);
+  }
+  .dark #experience ol > li:nth-child(n+4) > span:first-child {
+    background-color: rgb(55 65 81);
+  }
+  #experience ol > li:nth-child(n+4) > span:first-child svg {
+    width: 0.8rem;
+    height: 0.8rem;
+    color: rgb(107 114 128);
+  }
+  .dark #experience ol > li:nth-child(n+4) > span:first-child svg {
+    color: rgb(156 163 175);
+  }
 </style>
 
 {{/*

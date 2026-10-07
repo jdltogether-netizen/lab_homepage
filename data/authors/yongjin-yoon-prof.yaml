@@ -42,26 +42,40 @@ education:
     year: "2000"
 # Employment and awards feed the resume-experience / resume-awards blocks
 # on /members/professor/. Migrated from the legacy members-professor page.
+# Two tiers, and the ORDER IS LOAD-BEARING. The primary appointments come
+# first, the concurrent ones after, because resume-experience renders a
+# single flat timeline with no per-entry styling hook - the #experience
+# rule in layouts/_partials/hooks/head-end/jdl-style-overrides.html tiers
+# them by position (li:nth-child(n+4)).
+#
+# So: if a primary appointment is ever added or removed, move it into the
+# first group AND update the 4 in that CSS rule to match.
 work:
+  # ── Primary academic appointments ──────────────────────────────────────
   - role: "Full Professor"
     org: "Department of Mechanical Engineering, KAIST"
     start: "2025-01-01"
+  - role: "Associate Professor"
+    org: "Department of Mechanical Engineering, KAIST"
+    start: "2018-01-01"
+    end: "2024-12-31"
+  - role: "Assistant Professor"
+    org: "School of Mechanical and Aerospace Engineering, Nanyang Technological University"
+    start: "2010-01-01"
+    end: "2018-12-31"
+  # ── Concurrent & visiting appointments (held alongside the above) ──────
   - role: "Adjunct Professor"
     org: "Department of Electrical Engineering, KAIST"
     start: "2024-01-01"
   - role: "Adjunct Professor"
     org: "Department of Semiconductor Systems Engineering, KAIST"
     start: "2024-01-01"
-  - role: "Adjunct Professor"
-    org: "KAIST Institute for the NANOCENTURY"
-    start: "2019-01-01"
   - role: "Visiting Professor"
     org: "School of Mechanical & Aerospace Engineering, Nanyang Technological University"
     start: "2022-01-01"
-  - role: "Associate Professor"
-    org: "Department of Mechanical Engineering, KAIST"
-    start: "2018-01-01"
-    end: "2024-12-31"
+  - role: "Adjunct Professor"
+    org: "KAIST Institute for the NANOCENTURY"
+    start: "2019-01-01"
   - role: "Adjunct Associate Professor"
     org: "School of Mechanical & Aerospace Engineering, Nanyang Technological University"
     start: "2019-01-01"
@@ -70,10 +84,6 @@ work:
     org: "Graduate School of Technology Management, Kyunghee University"
     start: "2018-01-01"
     end: "2020-12-31"
-  - role: "Assistant Professor"
-    org: "School of Mechanical and Aerospace Engineering, Nanyang Technological University"
-    start: "2010-01-01"
-    end: "2018-12-31"
   - role: "Visiting Professor"
     org: "Human Development Institute, Chungnam National University"
     start: "2016-01-01"

@@ -18,6 +18,10 @@ sections:
         padding: ['3rem', 0, '2rem', 0]
 
   - block: resume-experience
+    # The block renders one flat timeline and ignores `title`, so the two
+    # tiers come from the order of `work:` in data/authors/yongjin-yoon-prof.yaml
+    # plus the #experience rule in the head-end style hook.
+    id: experience
     content:
       title: Employment
       username: yongjin-yoon-prof
