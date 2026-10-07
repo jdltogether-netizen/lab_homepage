@@ -197,6 +197,23 @@
   #facilities h2 + p:has(> small) {
     text-align: center;
   }
+
+  /* ── Facilities: rule between the three sections ───────────────────────
+     The three blocks run together as one wall of text and photos, so draw
+     a hairline above the 2nd and 3rd. Inset rather than full-bleed so it
+     lines up with the content column instead of the viewport. */
+  #pocheon-center::before,
+  #facilities::before {
+    content: "";
+    display: block;
+    width: min(100% - 3rem, 48rem);
+    margin: 0 auto 2.5rem;
+    border-top: 1px solid rgb(229 231 235);
+  }
+  .dark #pocheon-center::before,
+  .dark #facilities::before {
+    border-top-color: rgb(55 65 81);
+  }
 </style>
 
 {{/*

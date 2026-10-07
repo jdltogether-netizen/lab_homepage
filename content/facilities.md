@@ -9,6 +9,10 @@ summary: Fabrication and characterization equipment across KAIST, KPU and NTU.
 # Images live in static/media/facilities/ so the literal paths resolve.
 sections:
   - block: markdown
+    # These ids scope the section rules in the head-end style hook: the
+    # divider that separates each block from the one above it, and the
+    # centred site headings inside #facilities.
+    id: ai-computing
     content:
       title: AI Computing
       text: |
@@ -33,6 +37,7 @@ sections:
         padding: ["3rem", 0, "1rem", 0]
 
   - block: markdown
+    id: pocheon-center
     content:
       title: Pocheon Center
       subtitle: KEONIX Labs &middot; opening in the second half of 2026
@@ -67,11 +72,11 @@ sections:
         <a href="https://dhr.is/blog/drone-manufacturing-scaling-production-and-cutting-costs-with-automated-3d-printing">"Drone Manufacturing: Scaling Production and Cutting Costs with Automated 3D Printing"</a>.
         Embedded from the original; not JDL or KEONIX footage.</small>
 
-        ### Offices and training rooms
+        ### Offices and Physical AI/Drone Education room
 
         <div class="jdl-grid-wide">
         <figure style="margin:0"><img src="/media/pocheon/office.webp" alt="Architectural rendering of the Pocheon office" loading="lazy" style="width:100%;height:auto;border-radius:.5rem" /><figcaption style="margin-top:.5rem;font-size:.9rem">Research office</figcaption></figure>
-        <figure style="margin:0"><img src="/media/pocheon/training-room.webp" alt="Architectural rendering of the Pocheon training room" loading="lazy" style="width:100%;height:auto;border-radius:.5rem" /><figcaption style="margin-top:.5rem;font-size:.9rem">Training and seminar room</figcaption></figure>
+        <figure style="margin:0"><img src="/media/pocheon/training-room.webp" alt="Architectural rendering of the Pocheon Physical AI and drone education room" loading="lazy" style="width:100%;height:auto;border-radius:.5rem" /><figcaption style="margin-top:.5rem;font-size:.9rem">Physical AI/Drone Education room</figcaption></figure>
         </div>
 
         <small>The images above are architectural renderings of the planned fit-out, not photographs of a finished space.</small>
@@ -80,7 +85,6 @@ sections:
       spacing:
         padding: ["1rem", 0, "1rem", 0]
   - block: markdown
-    # id scopes the #facilities heading rule in the head-end style hook.
     id: facilities
     content:
       title: Facilities
