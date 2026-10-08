@@ -44,16 +44,16 @@ sections:
         text: View Publications
         url: '#publications'
         icon: hero/academic-cap
-      announcement:
-        text: "Now hiring PhD students, Master’s students, and postdocs!"
-        link:
-          text: "Apply now"
+     # announcement:
+      #  text: "Now hiring PhD students, Master’s students, and postdocs!"
+       # link:
+        #  text: "Apply now"
           # Relative, like every other URL in this block: the hero ships as a
           # JSON payload that Preact renders in the browser, so Hugo never
           # rewrites these and an absolute /opportunities lands at the domain
           # root - a 404 under the GitHub Pages sub-path. The hero is only on
           # the home page, so relative resolves correctly everywhere.
-          url: "opportunities/"
+         # url: "opportunities/"
     design:
       # For full-screen, add `min-h-screen` below
       css_class: ""
