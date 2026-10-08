@@ -56,7 +56,7 @@ main:
     identifier: publications
     url: '/publications'
     weight: 50
-  - name: Journals
+  - name: Papers
     parent: publications
     url: '/publications/journals'
     weight: 51
