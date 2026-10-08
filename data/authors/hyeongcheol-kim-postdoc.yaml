@@ -1,0 +1,36 @@
+# Generated from the legacy site's Current Members page, plus the additions
+# confirmed in review. Avatar convention: assets/media/authors/<slug>.*
+#
+# Only the e-mail link is real. Scholar / LinkedIn / GitHub / X are left
+# commented out rather than filled with placeholder URLs, so nothing on the
+# site points at a stranger's profile. Uncomment and fill per person.
+schema: hugoblox/author/v1
+slug: hyeongcheol-kim-postdoc
+name:
+  display: Kim Hyeongcheol
+role: Postdoctoral Researcher
+affiliations:
+  - name: KAIST InnoCORE PRISM-AI Research Group
+links:
+  - icon: hero/envelope
+    url: mailto:hyeongcheolkim@kaist.ac.kr
+  - icon: brands/google-scholar
+    url: https://scholar.google.com.ph/citations?user=O77cYMQAAAAJ&hl=en
+  - icon: brands/linkedin
+    url: https://www.linkedin.com/in/hyeongcheol-kim-76043844/
+  - icon: brands/github
+    url: https://github.com/bluesky0911
+  - icon: brands/x
+    url: https://twitter.com/bluesky911
+# Only the first three show on the team card; the rest appear on the
+# author page. "Drone Education & Autonomous Production" is deliberately one
+# entry so all the requested topics fit those three slots.
+interests:
+  - Drone Education & Autonomous Production
+  - AI-Based Tacit Knowledge Extraction
+  - Human-AI / Computer Interaction
+  - Manufacturing AX
+highlight_name: false
+website: "https://hckim.net"
+user_groups:
+  - Postdoctoral Researchers

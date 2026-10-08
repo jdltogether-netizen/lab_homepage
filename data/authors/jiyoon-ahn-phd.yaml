@@ -1,0 +1,36 @@
+# Generated from the legacy site's Current Members page, plus the additions
+# confirmed in review. Avatar convention: assets/media/authors/<slug>.*
+#
+# Only the e-mail link is real. Scholar / LinkedIn / GitHub / X are left
+# commented out rather than filled with placeholder URLs, so nothing on the
+# site points at a stranger's profile. Uncomment and fill per person.
+schema: hugoblox/author/v1
+slug: jiyoon-ahn-phd
+name:
+  display: An Jiyoon (Jinna)
+role: Ph.D. Student
+bio: I am a Ph.D. student in Mechanical Engineering, focusing on additive manufacturing and design for additive manufacturing (DfAM). My research focuses on developing design methodologies for DfAM and exploring intelligent design frameworks using Physical AI.
+affiliations:
+  - name: Department of Mechanical Engineering, KAIST
+links:
+  - icon: hero/envelope
+    url: mailto:jinaan@kaist.ac.kr
+  # - icon: brands/google-scholar
+  #   url: https://scholar.google.com/citations?user=
+  # - icon: brands/linkedin
+  #   url: https://www.linkedin.com/in/
+interests:
+  - Additive Manufacturing
+  - Physical AI
+  - Generative Design
+education:
+  - degree: MS in Mechanical Engineering
+    institution: Seoul National University
+    year: "2024 - 2026"
+  - degree: BS in Mechanical Engineering
+    institution: George Washington University
+    year: "2014 - 2020"
+highlight_name: false
+website: ""
+user_groups:
+  - PhD Students

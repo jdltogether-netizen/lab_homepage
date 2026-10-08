@@ -1,0 +1,28 @@
+# Generated from the legacy site's Current Members page, plus the additions
+# confirmed in review. Avatar convention: assets/media/authors/<slug>.*
+#
+# Only the e-mail link is real. Scholar / LinkedIn / GitHub / X are left
+# commented out rather than filled with placeholder URLs, so nothing on the
+# site points at a stranger's profile. Uncomment and fill per person.
+schema: hugoblox/author/v1
+slug: wonhee-lee-phd
+name:
+  display: Lee Wonhee
+role: Ph.D. Candidate
+affiliations:
+  - name: Department of Mechanical Engineering, KAIST
+links:
+  - icon: hero/envelope
+    url: mailto:kevinw@kaist.ac.kr
+  # - icon: brands/google-scholar
+  #   url: https://scholar.google.com/citations?user=
+  # - icon: brands/linkedin
+  #   url: https://www.linkedin.com/in/
+interests:
+  - 3D printing
+  - Manufacturing process development
+  - Biomechanics
+highlight_name: false
+website: ""
+user_groups:
+  - PhD Students
