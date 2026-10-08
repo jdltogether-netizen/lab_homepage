@@ -146,8 +146,8 @@ sections:
     content:
       title: Contact Us
       subtitle: Get in touch with our team
-      visit_title: Visit Our Lab
-      connect_title: Connect With Us
+      visit_title: Office
+      connect_title: Contact Info
       address:
         lines:
           - Just Do It Lab (N7-4, Level 4, Room 4118)
@@ -156,9 +156,7 @@ sections:
           - 291 Daehak-ro, Yuseong-gu
           - Daejeon 34141
           - Republic of Korea
-      office_hours:
-        - "Monday - Friday: 9:00 AM - 6:00 PM"
-        - "Lab Meetings: Fridays 1:00 PM, biweekly"
+
       email: jdltogether@gmail.com
       #phone: "+1 (555) 123-4567"
       social:
@@ -166,12 +164,6 @@ sections:
           url: https://www.linkedin.com/company/just-do-it-lab/
         - icon: brands/github
           url: https://github.com/jdltogether-netizen
-      prospective:
-        title: Prospective Members
-        text: Interested in joining our division or lab? We're always looking for motivated talents at all levels.
-        button:
-          text: View Open Positions
-          url: /opportunities
       map_url: https://maps.app.goo.gl/Q25Dqqc9yrj5MMSi8
       show_form: false
     design:
