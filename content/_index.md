@@ -112,3 +112,4 @@ sections:
       css_class: "bg-gray-50 dark:bg-gray-900"
       spacing:
         padding: ["4rem", 0, "4rem", 0]
+---
