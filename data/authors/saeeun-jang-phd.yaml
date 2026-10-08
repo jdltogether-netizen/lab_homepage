@@ -9,6 +9,7 @@ slug: saeeun-jang-phd
 name:
   display: Jang Saeeun
 role: Ph.D. Student
+weight: 7
 affiliations:
   - name: Department of Mechanical Engineering, KAIST
 links:
