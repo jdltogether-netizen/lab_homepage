@@ -11,7 +11,7 @@ name:
 role: M.S. Student
 weight: 14
 affiliations:
-  - name: Department of AX, College of AI, KAIST
+  - name: Department of AX, KAIST
 links:
   - icon: hero/envelope
     url: mailto:huichan@kaist.ac.kr
