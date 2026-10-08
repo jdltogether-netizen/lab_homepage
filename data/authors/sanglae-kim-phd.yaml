@@ -9,6 +9,7 @@ slug: sanglae-kim-phd
 name:
   display: Kim Sanglae
 role: Ph.D. Candidate
+weight: 3
 affiliations:
   - name: Department of Mechanical Engineering, KAIST
 links:
