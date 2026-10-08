@@ -77,41 +77,6 @@ sections:
         #     brightness: 0.6
         #     contrast: 1.1
 
-  - block: stats
-    content:
-      # Figures are rounded DOWN from the migrated content and carry a "+" so
-      # they stay true as the record grows. Actual counts as of this commit,
-      # from content/publications/ after de-duplication: 144 journal papers,
-      # 90 conference papers, 10 patents, plus 153 lectures from
-      # data/publications/lectures.json and 33 projects from
-      # data/projects/jdl-projects.json.
-      # NB the papers tile is 140+, not 150+: 20 entries in the legacy
-      # papers.json were conference proceedings and 17 were duplicates of
-      # entries in conferences.json.
-      items:
-        - statistic: "10+"
-          description: Patents filed across Korea, Singapore, the USA, and China
-          sub_metric: Three licensed. Covering energy conversion devices, label-free optical biosensors, continuously varied infill strategies for 3D printing, and PM2.5 sensor calibration.
-          icon: hero/document-text
-        - statistic: "150+"
-          description: Plenary, keynote, and invited lectures delivered worldwide
-          sub_metric: 36 plenary and keynote addresses plus 117 invited talks at international conferences, partner universities, and industry forums.
-          icon: hero/user-group
-        - statistic: "30+"
-          description: Funded research projects led as Principal Investigator
-          sub_metric: Backed by 23 sponsors — MSIT, MOTIE, NRF, KIAT, NIPA and KRIT in Korea; Samsung, LG, Google and Rolls-Royce in industry; A*STAR and Singapore MOE overseas.
-          icon: hero/currency-dollar
-        - statistic: "240+"
-          description: Publications across journals, conferences, and patents
-          sub_metric: 144 peer-reviewed journal papers, 90 conference papers, and 10 patents since 2006, spanning additive manufacturing, MEMS and microfluidic sensors, semiconductor convergence processes, energy devices, and AI-driven quality control.
-          icon: hero/beaker
-    design:
-      layout: cards
-      # Section background color (CSS class)
-      css_class: "bg-gradient-to-b from-primary-50 to-white dark:from-primary-900/20 dark:to-gray-800"
-      spacing:
-        padding: ["3rem", 0, "3rem", 0]
-
   - block: research-areas
     content:
       title: Research Focus Areas
