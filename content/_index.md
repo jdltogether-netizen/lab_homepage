@@ -6,7 +6,7 @@ type: landing
 
 # Browser tab title for this page ({brand} = hugoblox.seo.title)
 seo:
-  title: Just Do it Lab
+  title: Welcome to Just Do it Lab
 
 design:
   # Default section spacing
@@ -29,9 +29,10 @@ sections:
       # so a relative path resolves correctly both locally and deployed.
       title: |
         <a href="https://me.kaist.ac.kr/" target="_blank" rel="noopener" title="KAIST Department of Mechanical Engineering" style="display:block;width:max-content;margin:0 auto 1.5rem"><img src="media/me-logo.png" alt="KAIST Department of Mechanical Engineering" style="display:block;height:4rem;width:auto" /></a>
-        <span style="display:block">Just Do it Lab</span>
+        <span style="display:block;font-size:0.5em;line-height:1.2;letter-spacing:0.01em;color:var(--color-primary-500);margin-bottom:1.75rem">Just Do it Lab</span>
+        <span style="display:block">Convergence Technology: From Rigorous Research to Real Ventures</span>
       text: |
-        JDL, in the Department of Mechanical Engineering at KAIST, focuses on additive manufacturing, AI foundation models, and core drone technologies. We collaborate with universities, research institutes, and industry partners on research and technology development.
+        JDL is an Open Lab at KAIST Mechanical Engineering for convergence technology and commercialization, spanning additive manufacturing, semiconductor convergence processes, and AI-driven autonomous drone production. We work with research institutes, companies, investors, legal advisors, and global start-ups so the work leaves the bench: our researchers and students carry their projects through to global start-up ventures, during their degree and after.
       # Three distinct destinations in the hero: the announcement above
       # already sends people to /opportunities, so this button points at the
       # research instead of repeating it. Swap back to "Join Our Team" ->
@@ -44,16 +45,16 @@ sections:
         text: View Publications
         url: '#publications'
         icon: hero/academic-cap
-     # announcement:
-      #  text: "Now hiring PhD students, Master’s students, and postdocs!"
-       # link:
-        #  text: "Apply now"
+      announcement:
+        text: "Now hiring PhD students, Master’s students, and postdocs!"
+        link:
+          text: "Apply now"
           # Relative, like every other URL in this block: the hero ships as a
           # JSON payload that Preact renders in the browser, so Hugo never
           # rewrites these and an absolute /opportunities lands at the domain
           # root - a 404 under the GitHub Pages sub-path. The hero is only on
           # the home page, so relative resolves correctly everywhere.
-         # url: "opportunities/"
+          url: "opportunities/"
     design:
       # For full-screen, add `min-h-screen` below
       css_class: ""
@@ -75,6 +76,116 @@ sections:
         #   filters:
         #     brightness: 0.6
         #     contrast: 1.1
+
+  - block: stats
+    content:
+      # Figures are rounded DOWN from the migrated content and carry a "+" so
+      # they stay true as the record grows. Actual counts as of this commit,
+      # from content/publications/ after de-duplication: 144 journal papers,
+      # 90 conference papers, 10 patents, plus 153 lectures from
+      # data/publications/lectures.json and 33 projects from
+      # data/projects/jdl-projects.json.
+      # NB the papers tile is 140+, not 150+: 20 entries in the legacy
+      # papers.json were conference proceedings and 17 were duplicates of
+      # entries in conferences.json.
+      items:
+        - statistic: "10+"
+          description: Patents filed across Korea, Singapore, the USA, and China
+          sub_metric: Three licensed. Covering energy conversion devices, label-free optical biosensors, continuously varied infill strategies for 3D printing, and PM2.5 sensor calibration.
+          icon: hero/document-text
+        - statistic: "150+"
+          description: Plenary, keynote, and invited lectures delivered worldwide
+          sub_metric: 36 plenary and keynote addresses plus 117 invited talks at international conferences, partner universities, and industry forums.
+          icon: hero/user-group
+        - statistic: "30+"
+          description: Funded research projects led as Principal Investigator
+          sub_metric: Backed by 23 sponsors — MSIT, MOTIE, NRF, KIAT, NIPA and KRIT in Korea; Samsung, LG, Google and Rolls-Royce in industry; A*STAR and Singapore MOE overseas.
+          icon: hero/currency-dollar
+        - statistic: "240+"
+          description: Publications across journals, conferences, and patents
+          sub_metric: 144 peer-reviewed journal papers, 90 conference papers, and 10 patents since 2006, spanning additive manufacturing, MEMS and microfluidic sensors, semiconductor convergence processes, energy devices, and AI-driven quality control.
+          icon: hero/beaker
+    design:
+      layout: cards
+      # Section background color (CSS class)
+      css_class: "bg-gradient-to-b from-primary-50 to-white dark:from-primary-900/20 dark:to-gray-800"
+      spacing:
+        padding: ["3rem", 0, "3rem", 0]
+
+  - block: research-areas
+    content:
+      title: Research Focus Areas
+      subtitle: Pioneering AI-Driven Next-Generation Manufacturing
+      text: Our research integrates artificial intelligence, advanced additive manufacturing, and autonomous systems to transform how complex products are designed, optimized, and produced in real-world environments. The work runs the full depth of the stack, from resin and nanocomposite chemistry, through the physics of the printing process and in-line quality control, up to the autonomous production systems that put it to work.
+      # Per-area metrics, all hand-maintained (the block renders them as
+      # literal strings - nothing here is counted automatically):
+      #   team_size    - headcount working in the area
+      #   publications - papers matched by topic keywords over the 170 in
+      #                  data/publications/papers.json
+      #   funding      - grant count, or an amount where one is known
+      # Per-area `cta` links stay omitted: the Research sub-pages they would
+      # point to do not exist yet.
+      items:
+        - name: Additive Manufacturing Processes & Functional Materials
+          description: Advancing vat photopolymerization, digital light processing, material extrusion, and directed energy deposition, from the resin and nanocomposite chemistry up to real-time control of the process as it prints.
+          icon: hero/cube-transparent
+          gradient: from-green-400 to-emerald-600
+          status: active
+          topics:
+            - Vat Photopolymerization
+            - DLP Porous Ceramics
+            - Directed Energy Deposition
+            - In-Process Monitoring & Control
+            - Cellulose Nanocrystals & Nanocomposites
+            - Self-Healing Printable Materials
+          team_size: "11+"
+          publications: "28+"
+          funding: "10+ grants"
+
+        - name: Physical AI for Autonomous Manufacturing
+          description: Building AI that can run a process, not just describe one. Large language and vision models read machine and sensor data, capture the tacit know-how of experienced operators, and close the control loop on additive manufacturing without a human at every step.
+          icon: hero/cpu-chip
+          gradient: from-blue-400 to-indigo-600
+          status: active
+          topics:
+            - Industrial AI Agents
+            - LLM & Vision-Language Models
+            - Physical AI
+            - Closed-Loop Process Control
+            - In-Line Anomaly Detection
+            - Digital Twins
+            - Human-AI Collaboration
+          team_size: "4+"
+          publications: "3+"
+          funding: "1 grant"
+
+        - name: Next-Generation Drone Production
+          description: Rethinking how a drone is built. We print a flat 2D sheet that deploys into a functional 3D airframe, so aircraft can be produced at low cost and high rate, and made where they are needed rather than shipped there.
+          icon: hero/rocket-launch
+          gradient: from-purple-400 to-pink-600
+          status: emerging
+          topics:
+            - 2D Sheet to 3D Structure
+            - Folding-Inspired Deployable Architectures
+            - 4D Printing & Shape Memory Polymers
+            - On-Demand Distributed Production
+            - Low-Cost High-Rate Manufacturing
+            - Attritable Airframes
+          team_size: "7+"
+          publications: "1+"
+          funding: "$350K+"
+      # /#projects was a dead anchor: the projects collection block on this
+      # page is commented out, so the button scrolled nowhere. Points at the
+      # real Projects page instead.
+      cta:
+        text: Active Research Projects
+        url: /projects/
+        icon: hero/arrow-right
+    design:
+      layout: cards
+      css_class: "bg-gradient-to-b from-gray-50 to-white dark:from-gray-900 dark:to-gray-800"
+      spacing:
+        padding: ["0rem", 0, "0rem", 0]
 
   - block: cta-image-paragraph
     content:
@@ -139,25 +250,218 @@ sections:
       spacing:
         padding: ["0rem", 0, "0rem", 0]
 
+  - block: team-showcase
+    id: team
+    content:
+      title: Meet Our Team
+      subtitle: 'World-class researchers pushing the boundaries of science & engineering technologies'
+      text: 'Our multidisciplinary team works across vat photopolymerization, digital light processing, material extrusion, and directed energy deposition, from the resin and nanocomposite chemistry up to real-time control of the process as it prints, and on to AI-driven manufacturing automation and next-generation on-site drone production.'
+      # Group names must match `user_groups` in data/authors/*.yaml exactly.
+      user_groups:
+        - Principal Investigators
+        - Postdoctoral Researchers
+        - PhD Students
+        - Master Students
+        - Interns
+        - Research Staff
+      sort_by: 'Params.last_name'
+      sort_ascending: true
+      # No "view all" link: this block already lists every member, and
+      # /authors renders the same block.
+    design:
+      show_role: true
+      show_organizations: true
+      show_interests: true
+      show_social: true
+      # Section background color
+      css_class: "bg-gray-50 dark:bg-gray-900"
+      # Reduce spacing
+      spacing:
+        padding: ["3rem", 0, "0rem", 0]
+
+  # ── HIDDEN: Active Research Projects ────────────────────────────────
+  # Still listing the template's sample content under content/projects/
+  # and content/publications/. Re-enable once the real records are in.
+  # ──────────────────────────────────────────────────────────────────────
+#  - block: collection
+#    id: projects
+#    content:
+#      title: Active Research Projects
+#      subtitle: ''
+#      text: ''
+#      filters:
+#        folders:
+#          - projects
+#      count: 0  # Number of items to show (0 = all)
+#      # Default filter UI (for future release)
+#      #default_button_index: 0
+#      # Filter toolbar (optional)
+#      # Add or remove as many filters as you like
+#    #   buttons:
+#    #     - name: All
+#    #       tag: '*'
+#    #     - name: Machine Learning
+#    #       tag: ML
+#    #     - name: Biology
+#    #       tag: Biology
+#    #     - name: Materials
+#    #       tag: Materials
+#    design:
+#      view: article-grid
+#      columns: 2
+#      spacing:
+#        padding: ["5rem", 0, "0rem", 0]
+
+  - block: collection
+    id: publications
+    content:
+      title: Recent Publications
+      text: ''
+      filters:
+        folders:
+          - publications
+        exclude_featured: false
+      # Newest first; the full list lives at /publications/.
+      count: 10
+    design:
+      view: citation
+      spacing:
+        padding: ["3rem", 0, "0rem", 0]
+
+  # ── HIDDEN: Featured Research ───────────────────────────────────────
+  # Still listing the template's sample content under content/projects/
+  # and content/publications/. Re-enable once the real records are in.
+  # ──────────────────────────────────────────────────────────────────────
+#  - block: collection
+#    id: featured
+#    content:
+#      title: Featured Research
+#      filters:
+#        folders:
+#          - publications
+#        featured_only: true
+#    design:
+#      view: article-grid
+#      columns: 2
+#      spacing:
+#        padding: ["5rem", 0, "0rem", 0]
+
+  # ── HIDDEN: Events ───────────────────────────────────────────────────────
+  # The template ships sample events under content/events/. Re-enable once the
+  # lab has real ones, and restore the Events entry in menus.yaml.
+  # ─────────────────────────────────────────────────────────────────────────
+
+  - block: collection
+    id: news
+    content:
+      title: Lab News & Updates
+      subtitle: ''
+      text: ''
+      filters:
+        folders:
+          - news
+      count: 4
+      sort_by: Date
+      sort_ascending: false
+    design:
+      view: card
+      # NOTE: the `card` view hardcodes a 1-column grid and ignores `columns`,
+      # so the 2-per-row layout comes from the #news rule in
+      # layouts/_partials/hooks/head-end/jdl-style-overrides.html.
+      columns: 2
+      show_date: true
+      show_read_time: false
+      show_read_more: false
+      spacing:
+        padding: ["3rem", 0, "1rem", 0]
+
+  # ── HIDDEN: Collaborators & Partners ─────────────────────────────────────
+  # Superseded, not pending: the partner logos already appear in the
+  # "Collaborative Innovation Culture" panel above, as one image carrying
+  # both the global partners and the research centres. Re-enable this block
+  # only if those logos should become individually linkable, in which case
+  # drop the image from that panel so the two do not repeat.
+  # The entries below are still the template's placeholders (MIT, Stanford,
+  # Google Research); the real list is in the legacy jdl-partners.json.
+  # ─────────────────────────────────────────────────────────────────────────
+  # - block: logos
+  #   content:
+  #     title: Collaborators & Partners
+  #     subtitle: Leading the way together
+  #     text: We work with top universities, research institutes, and industry leaders to advance scientific discovery
+  #     logos:
+  #       - name: MIT
+  #         image: partners/placeholder-logo.svg
+  #         url: https://mit.edu
+  #         external: true
+  #         description: Massachusetts Institute of Technology
+  #       - name: Stanford University
+  #         image: partners/placeholder-logo.svg
+  #         url: https://stanford.edu
+  #         external: true
+  #         description: Stanford Research Collaboration
+  #       - name: Google Research
+  #         image: partners/placeholder-logo.svg
+  #         url: https://research.google
+  #         external: true
+  #         description: AI & Machine Learning Partnership
+  #       - name: National Science Foundation
+  #         image: partners/placeholder-logo.svg
+  #         url: https://nsf.gov
+  #         external: true
+  #         description: Research Funding Partner
+  #       - name: Microsoft Research
+  #         image: partners/placeholder-logo.svg
+  #         url: https://www.microsoft.com/research
+  #         external: true
+  #         description: Computing Research Collaboration
+  #       - name: NIH
+  #         image: partners/placeholder-logo.svg
+  #         url: https://nih.gov
+  #         external: true
+  #         description: National Institutes of Health
+  #     cta:
+  #       text: Become a Partner
+  #       url: /#contact
+  #       icon: hero/user-plus
+  #   design:
+  #     display_mode: grid
+  #     show_pattern: false
+  #     css_class: "bg-gradient-to-b from-white to-gray-50 dark:from-gray-800 dark:to-gray-900"
+  #     spacing:
+  #       padding: ["4rem", 0, "4rem", 0]
 
   - block: contact-info
     id: contact
     content:
       title: Contact Us
-      visit_title: Office
-      connect_title: Contact Info
+      subtitle: Get in touch with our team
+      visit_title: Visit Our Lab
+      connect_title: Connect With Us
       address:
         lines:
-          - Room 4118, N7-4, KAIST
-          - 291 Daehak-ro, Yuseong-gu, Daejeon 34141
+          - Just Do It Lab (N7-4, Level 4, Room 4118)
+          - Department of Mechanical Engineering
+          - Korea Advanced Institute of Science & Technology
+          - 291 Daehak-ro, Yuseong-gu
+          - Daejeon 34141
           - Republic of Korea
-
+      office_hours:
+        - "Monday - Friday: 9:00 AM - 6:00 PM"
+        - "Lab Meetings: Fridays 1:00 PM, biweekly"
       email: jdltogether@gmail.com
+      #phone: "+1 (555) 123-4567"
       social:
         - icon: brands/linkedin
           url: https://www.linkedin.com/company/just-do-it-lab/
         - icon: brands/github
           url: https://github.com/jdltogether-netizen
+      prospective:
+        title: Prospective Members
+        text: Interested in joining our division or lab? We're always looking for motivated talents at all levels.
+        button:
+          text: View Open Positions
+          url: /opportunities
       map_url: https://maps.app.goo.gl/Q25Dqqc9yrj5MMSi8
       show_form: false
     design:
