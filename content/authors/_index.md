@@ -1,5 +1,5 @@
 ---
-title: Our Team
+title: Members
 cms_exclude: true
 type: landing
 
@@ -14,14 +14,14 @@ sections:
   - block: team-showcase
     id: team
     content:
-      title: Our Team
+      title: Members
       subtitle: ''
       text: ''
       user_groups:
-        - Principal Investigators
-        - Postdoctoral Researchers
-        - PhD Students
-        - Master Students
+        - Professor
+        - Post-Docs.
+        - Ph.D. Students
+        - M.S. Students
         - Interns
         - Research Staff
       sort_by: 'Params.last_name'
