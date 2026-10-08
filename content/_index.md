@@ -6,7 +6,7 @@ type: landing
 
 # Browser tab title for this page ({brand} = hugoblox.seo.title)
 seo:
-  title: Welcome to Just Do it Lab
+  title: Just Do it Lab
 
 design:
   # Default section spacing
@@ -31,7 +31,7 @@ sections:
         <a href="https://me.kaist.ac.kr/" target="_blank" rel="noopener" title="KAIST Department of Mechanical Engineering" style="display:block;width:max-content;margin:0 auto 1.5rem"><img src="media/me-logo.png" alt="KAIST Department of Mechanical Engineering" style="display:block;height:4rem;width:auto" /></a>
         <span style="display:block">Just Do it Lab</span>
       text: |
-        JDL is an Open Lab at KAIST Mechanical Engineering for convergence technology and commercialization, spanning additive manufacturing, semiconductor convergence processes, and AI-driven autonomous drone production. We work with research institutes, companies, investors, legal advisors, and global start-ups so the work leaves the bench: our researchers and students carry their projects through to global start-up ventures, during their degree and after.
+        JDL, in the Department of Mechanical Engineering at KAIST, focuses on additive manufacturing, AI foundation models, and core drone technologies. We collaborate with universities, research institutes, and industry partners on research and technology development.
       # Three distinct destinations in the hero: the announcement above
       # already sends people to /opportunities, so this button points at the
       # research instead of repeating it. Swap back to "Join Our Team" ->
