@@ -9,6 +9,7 @@ slug: hanyi-lim-phd
 name:
   display: Lim Hanyi
 role: Ph.D. Student
+weight: 11
 affiliations:
   - name: Department of Mechanical Engineering, KAIST
 links:
