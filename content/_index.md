@@ -148,10 +148,8 @@ sections:
       connect_title: Contact Info
       address:
         lines:
-          - Just Do It Lab
-          - Department of Mechanical Engineering
-          - Room 4118, N7-4, KAIST, 291 Daehak-ro, Yuseong-gu
-          - Daejeon 34141
+          - Room 4118, N7-4, KAIST
+          - 291 Daehak-ro, Yuseong-gu, Daejeon 34141
           - Republic of Korea
 
       email: jdltogether@gmail.com
