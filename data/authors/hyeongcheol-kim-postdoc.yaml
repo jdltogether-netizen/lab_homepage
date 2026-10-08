@@ -15,6 +15,12 @@ affiliations:
 links:
   - icon: hero/envelope
     url: mailto:hyeongcheolkim@kaist.ac.kr
+  # `website:` below is not read by team-showcase, which only renders
+  # `links`, so the homepage needs an entry here to reach the card. `label`
+  # becomes the hover title, which a bare globe icon otherwise lacks.
+  - icon: hero/globe-alt
+    url: https://hckim.net
+    label: Personal website
   - icon: brands/google-scholar
     url: https://scholar.google.com.ph/citations?user=O77cYMQAAAAJ&hl=en
   - icon: brands/linkedin
