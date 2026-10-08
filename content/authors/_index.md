@@ -18,10 +18,10 @@ sections:
       subtitle: ''
       text: ''
       user_groups:
-        - Professor
-        - Post-Docs.
-        - Ph.D. Students
-        - M.S. Students
+        - Principal Investigators
+        - Postdoctoral Researchers
+        - PhD Students
+        - Master Students
         - Interns
         - Research Staff
       sort_by: 'Params.last_name'
