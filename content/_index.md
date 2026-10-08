@@ -144,20 +144,17 @@ sections:
     id: contact
     content:
       title: Contact Us
-      subtitle: Get in touch with our team
       visit_title: Office
       connect_title: Contact Info
       address:
         lines:
-          - Just Do It Lab (N7-4, Level 4, Room 4118)
+          - Just Do It Lab
           - Department of Mechanical Engineering
-          - Korea Advanced Institute of Science & Technology
-          - 291 Daehak-ro, Yuseong-gu
+          - Room 4118, N7-4, KAIST, 291 Daehak-ro, Yuseong-gu
           - Daejeon 34141
           - Republic of Korea
 
       email: jdltogether@gmail.com
-      #phone: "+1 (555) 123-4567"
       social:
         - icon: brands/linkedin
           url: https://www.linkedin.com/company/just-do-it-lab/
