@@ -9,6 +9,7 @@ slug: jongwoo-lim-phd
 name:
   display: Lim Jongwoo
 role: Ph.D. Candidate
+weight: 4
 affiliations:
   - name: Department of Mechanical Engineering, KAIST
 links:
