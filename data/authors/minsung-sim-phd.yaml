@@ -9,6 +9,7 @@ slug: minsung-sim-phd
 name:
   display: Sim Minsung
 role: Ph.D. Student
+weight: 6
 affiliations:
   - name: Department of Mechanical Engineering, KAIST
 links:
