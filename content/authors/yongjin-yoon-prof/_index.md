@@ -1,3 +1,0 @@
----
-title: Yoon Yong-Jin
----

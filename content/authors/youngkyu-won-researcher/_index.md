@@ -1,3 +1,0 @@
----
-title: Won Young Kyu
----
