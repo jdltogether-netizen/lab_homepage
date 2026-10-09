@@ -230,14 +230,31 @@
 }
   
 
-  /* ── Publications: close the gap under "Recent Journal Papers" ─────────
+  /* ── Publications / home: tighten the citation lists ──────────────────
      The citation view opens its list with `mt-16 sm:mt-20` hardcoded
-     (blox/layouts/_partials/views/citation--start.html), which is meant for
-     a list standing on its own. Under a block title it strands the heading
-     4-5rem above its own content. Scoped to the block's id so citation
-     lists elsewhere keep the theme's spacing. */
-  #recent-journals .container.max-w-3xl {
+     (blox/layouts/_partials/views/citation--start.html), which suits a list
+     standing on its own but strands a block title 4-5rem above its content.
+     #recent-publications closes it up; #publications (home) keeps more air
+     but drops ~30%. Scoped by id so citation lists elsewhere are untouched. */
+  #recent-publications .container.max-w-3xl {
     margin-top: 1.5rem;
+  }
+  #publications .container.max-w-3xl {
+    margin-top: 2.8rem;
+  }
+  @media (min-width: 640px) {
+    #publications .container.max-w-3xl {
+      margin-top: 3.5rem;
+    }
+  }
+
+  /* The archive button under #recent-publications has nowhere correct to
+     point: the list mixes all types and no single page holds them all. The
+     intro paragraph links each full list instead. It cannot be switched off
+     in the md file - the template reads `archive.enable` through `| default`,
+     so false reads as unset and the button comes back. */
+  #recent-publications > .container:last-child:has(a[href]) {
+    display: none;
   }
 </style>
 

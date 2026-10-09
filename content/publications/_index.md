@@ -22,21 +22,21 @@ sections:
         padding: ["3rem", 0, "0rem", 0]
 
   - block: collection
-    # id scopes the gap fix in the head-end style hook: the citation view
-    # hardcodes mt-16 sm:mt-20 on its list, which left the title stranded.
-    id: recent-journals
+    # id scopes two rules in the head-end style hook: the gap under the title
+    # (the citation view hardcodes mt-16 sm:mt-20) and hiding the archive
+    # button, which has no single destination now that this list is mixed.
+    # `archive.enable: false` cannot do that - the template reads it through
+    # `| default`, which treats false as unset and turns the button back on.
+    id: recent-publications
     content:
-      title: Recent Journal Papers
-      archive:
-        # Without this the button goes to /publication_types/article-journal/,
-        # the raw Hugo taxonomy page - titled "Article-Journal", paginated at
-        # 10, and a worse duplicate of the curated Journals page.
-        link: '/publications/journals/'
-        text: 'See all journal papers'
+      # No publication_type filter, so this samples every type the way the
+      # home page does. Filtering it to article-journal made the hub for all
+      # four types read as a journals page. The intro above links each full
+      # list, which is what the archive button would otherwise have done.
+      title: Recent Publications
       filters:
         folders:
           - publications
-        publication_type: article-journal
       count: 15
     design:
       view: citation
