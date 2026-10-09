@@ -229,6 +229,16 @@
   }
 }
   
+
+  /* ── Publications: close the gap under "Recent Journal Papers" ─────────
+     The citation view opens its list with `mt-16 sm:mt-20` hardcoded
+     (blox/layouts/_partials/views/citation--start.html), which is meant for
+     a list standing on its own. Under a block title it strands the heading
+     4-5rem above its own content. Scoped to the block's id so citation
+     lists elsewhere keep the theme's spacing. */
+  #recent-journals .container.max-w-3xl {
+    margin-top: 1.5rem;
+  }
 </style>
 
 {{/*
