@@ -20,7 +20,7 @@ sections:
       user_groups:
         - Principal Investigator
         - Postdoctoral Researchers
-        - PhD Students
+        - Ph.D. Students
         - Master Students
         - Interns
         - Research Staff
