@@ -10,7 +10,7 @@ summary: Open positions for postdoctoral researchers, graduate students and unde
 sections:
   - block: markdown
     content:
-      title: Recruit Postdoctoral Researchers
+      title: Postdoctoral Researchers
       text: |
         We welcome highly motivated postdoctoral researchers
         interested in the following research areas.
@@ -42,7 +42,7 @@ sections:
 
   - block: markdown
     content:
-      title: Recruit Graduate Researchers
+      title: Graduate Researchers
       text: |
         We welcome highly motivated M.S. and Ph.D. applicants
         interested in the following research areas.
