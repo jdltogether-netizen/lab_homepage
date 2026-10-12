@@ -50,7 +50,7 @@ sections:
         - title: '4D Printed Shape Memory Polymers'
           text: |
             AI-based material and process design for 4D printed polymers.
-          image: 4DPshapememory.png
+          image: research/4DPshapememory.png
           feature_icon: hero/heart
           features:
             - 'Investigation of 4D printed shape memory polymers that respond to external stimuli.'
