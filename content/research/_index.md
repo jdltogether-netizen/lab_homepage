@@ -47,15 +47,15 @@ sections:
             - 'A Global Start-up Platform that carries student projects into ventures'
 
         # 3. MAVs
-        - title: 'MAVs'
+        - title: 'Micro Aerial Vehicles (MAVs)'
           text: |
-            Micro Aerial Vehicle
+            Development of innovative components and mechanisms for enhanced UAV performance and efficiency.
           image: research/SmallUAVs.png
           feature_icon: hero/heart
           features:
-            - 'Help across disciplines: mechanical engineering, computer science, electrical engineering, and materials sit side by side'
-            - 'An open door: ask, and you get time on your problem'
-            - 'Biweekly Friday group meetings, and lab outings through the year'
+            - 'Thermal Management Component Design'
+            - 'Snap-Fit Propeller Assembly and Disassembly System'
+            - 'Novel Swashplateless Thrust Vector Control Mechanism'
     
     design:
       css_class: "bg-white dark:bg-gray-800"
