@@ -10,37 +10,32 @@ summary: Open positions for postdoctoral researchers, graduate students and unde
 sections:
   - block: markdown
     content:
-      title: Postdoctoral Researcher
+      title: Recruit Postdoctoral Researchers
       text: |
-        We welcome highly motivated postdoctoral researchers who are interested in below research areas.
+        We welcome highly motivated postdoctoral researchers
+        interested in the following research areas.
 
-        - **AI based 3D/4D Printing Material and Process Design**  
-          <small>Ph.D. degree: Material Science, Mechanical Engineering, Chemical Engineering, Electrical Engineering, Computer Science</small>
-        - **Novel 3D/4D Printing Manufacturing Method**  
-          <small>Ph.D. degree: Material Science, Mechanical Engineering, Chemical Engineering, Electrical Engineering</small>
-        - **Semi-conducting thin film process for Clean Tech & Sensors**  
-          <small>Ph.D. degree: Material Science, Mechanical Engineering, Chemical Engineering</small>
-        - **AI-Driven Digital Manufacturing and Production Systems**  
-          <small>Ph.D. degree: Computer Science, Artificial Intelligence, Data Science, Industrial & Systems Engineering, Mechanical Engineering, Electrical Engineering</small>
-        - **Autonomous Drone Production and Physical AI**  
-          <small>Ph.D. degree: Computer Science, Artificial Intelligence, Robotics, Aerospace Engineering, Mechanical Engineering, Electrical Engineering</small>
-        - **LLM and Agent-Based Industrial Intelligence**  
-          <small>Ph.D. degree: Computer Science, Artificial Intelligence, Data Science, Human-Computer Interaction</small>
+        **Contract Period**
+        - 1 year or longer
 
-        A background in manufacturing is welcome but not required. We work just as closely with people coming from computer science, artificial intelligence and robotics who want to put their methods to work on a real production floor.
-
-        **Contract Period** &mdash; 1 year +
-
-        **Salary** &mdash; Above "academic" average (negotiable).
-
-        **Alumni of Postdoctoral Researcher** &mdash; [link](/members/alumni)
+        **Salary**
+        - Above academic average (negotiable)
 
         **Contact**
+        - **Professor:** yongjiny@kaist.ac.kr
+        - **Lab Members:** jdltogether@gmail.com
 
-        - Professor: yongjiny@kaist.ac.kr
-        - Lab members: jdltogether@gmail.com
+        **International Collaboration**
 
-        We collaborate with other outstanding universities such as Stanford University(USA), NTU(Singapore), UC Berkeley(USA), Hongkong UST(Hongkong), Imperial college(UK). Also, There are many professors among the graduates of our lab. Please feel free to contact us anytime.
+        We collaborate with leading universities, including
+        Stanford University, NTU Singapore, UC Berkeley,
+        Hong Kong UST, and Imperial College London.
+
+        Many of our alumni have pursued academic careers
+        as professors.
+
+        Please feel free to contact us for further information.
+
     design:
       spacing:
         padding: ["3rem", 0, "1rem", 0]
