@@ -77,7 +77,17 @@ sections:
         #     contrast: 1.1
 
 
-#vvvFrom here
+
+  - block: markdown
+    content:
+      title: About Us
+      text: |
+       
+        <img src="/media/research/main%20research.png" alt="JDL Research Areas" style="width:100%;height:auto;border-radius:.5rem" />
+    design:
+      spacing:
+        padding: ["3rem", 0, "1rem", 0]
+
   - block: cta-image-paragraph
     content:
       items:
@@ -116,22 +126,8 @@ sections:
             - 'Help across disciplines: mechanical engineering, computer science, electrical engineering, and materials sit side by side'
             - 'An open door: ask, and you get time on your problem'
             - 'Biweekly Friday group meetings, and lab outings through the year'
-    
-    design:
-      css_class: "bg-white dark:bg-gray-800"
-      spacing:
-        padding: ["0rem", 0, "0rem", 0]
-#^^^To here
 
-
-
-
-    
-  - block: cta-image-paragraph
-    content:
-      items:
-        
-        # 1. From Lab Bench to Production Line
+        # 4. From Lab Bench to Production Line
         - title: 'From Lab Bench to Production Line'
           text: |
             The drone work now has a company behind it. [KEONIX Labs](https://keonix.co.kr), a KAIST faculty start-up, is taking the lab's manufacturing research into real production.
@@ -142,19 +138,19 @@ sections:
             - 'Printers, training programs, and custom FPV drone builds'
             - 'With Chung-Ang, Jeonbuk National and Incheon National faculty, and KAIST InnoCORE PRISM-AI'
     
-        # 2. Our Partners
+        # 5. Our Partners
         - title: 'Our Global Partners'
           text: |
     
           image: research/Partners.png
-
-
-
+    
     design:
       css_class: "bg-white dark:bg-gray-800"
       spacing:
         padding: ["0rem", 0, "0rem", 0]
 
+
+  
 
   - block: markdown
     content:
