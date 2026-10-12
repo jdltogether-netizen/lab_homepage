@@ -111,43 +111,8 @@ sections:
   - block: cta-image-paragraph
     content:
       items:
-
-        # 1. Additive Manufacturing
-        - title: 'Additive Manufacturing'
-          text: |
-            From FDM to DLP...
-          image: research/Additive Manufacturing.png
-          feature_icon: hero/check-circle
-          features:
-            - 'Additive Manufacturing: DLP and FDM printers, in-house filament fabrication, UV curing, two-photon polymerization'
-            - 'Thin-Film & Semiconductor: ALD, PLD, sputtering, e-beam evaporation, PECVD, deep reactive ion etching, yellow room'
-            - 'Characterization: confocal microscopy, SEM, X-ray diffraction, impedance spectroscopy, tensile testing'
-            - 'AI Computing: RTX 5090 nodes, RTX A-series workstations, NAS storage, National AI Computing Center capacity'
-
         
-        # 2. Artificial Intelligence
-        - title: 'Artificial Intelligence'
-          text: |
-            recall AI
-          image: research/Artificial Intelligence.png
-          feature_icon: hero/users
-          features:
-            - '23 sponsors across government, industry, and overseas agencies'
-            - 'A network spanning KAIST and NTU Singapore, with KRISS, KIMM, and ETRI'
-            - 'A Global Start-up Platform that carries student projects into ventures'
-
-        # 3. MAVs
-        - title: 'MAVs'
-          text: |
-            Micro Aerial Vehicle
-          image: research/SmallUAVs.png
-          feature_icon: hero/heart
-          features:
-            - 'Help across disciplines: mechanical engineering, computer science, electrical engineering, and materials sit side by side'
-            - 'An open door: ask, and you get time on your problem'
-            - 'Biweekly Friday group meetings, and lab outings through the year'
-         
-        # 4. From Lab Bench to Production Line
+        # 1. From Lab Bench to Production Line
         - title: 'From Lab Bench to Production Line'
           text: |
             The drone work now has a company behind it. [KEONIX Labs](https://keonix.co.kr), a KAIST faculty start-up, is taking the lab's manufacturing research into real production.
@@ -158,7 +123,7 @@ sections:
             - 'Printers, training programs, and custom FPV drone builds'
             - 'With Chung-Ang, Jeonbuk National and Incheon National faculty, and KAIST InnoCORE PRISM-AI'
     
-        # 5. Our Partners
+        # 2. Our Partners
         - title: 'Our Global Partners'
           text: |
     
