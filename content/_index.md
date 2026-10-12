@@ -29,7 +29,7 @@ sections:
       # so a relative path resolves correctly both locally and deployed.
       title: |
         <img src="media/me-logo.png" alt="KAIST Department of Mechanical Engineering" style="display:block;height:4rem;width:auto;margin:0 auto 1.5rem" />
-  <span style="display:block">Just Do it Lab</span>
+        <span style="display:block">Just Do it Lab</span>
       text: |
         of Additive Manufacturing & Semiconductor Convergence Process
       # Three distinct destinations in the hero: the announcement above
