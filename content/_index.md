@@ -42,7 +42,7 @@ sections:
         icon: hero/beaker
       secondary_action:
         text: Publications
-        url: 'publications/'
+        url: 'publications/journals/'
         icon: hero/academic-cap
      # announcement:
       #  text: "Now hiring PhD students, Master’s students, and postdocs!"
