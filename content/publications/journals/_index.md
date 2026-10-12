@@ -20,6 +20,12 @@ sections:
       sort_by: Date
       sort_ascending: false
     design:
+      # Opt in to the year headings. The collection block cannot group, so
+      # the script in layouts/_partials/hooks/head-end/jdl-style-overrides.html
+      # reads each citation's year and inserts them. Opt-in by class so the
+      # shorter "recent" lists elsewhere stay ungrouped. Remove this line to
+      # go back to a flat list.
+      css_class: "jdl-group-by-year"
       view: citation
       spacing:
         padding: ["3rem", 0, "3rem", 0]

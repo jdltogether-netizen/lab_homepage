@@ -256,6 +256,28 @@
   #recent-publications > .container:last-child:has(a[href]) {
     display: none;
   }
+
+  /* ── Year headings on the long publication lists ───────────────────────
+     Inserted by the script at the end of this file, on blocks that opt in
+     with css_class: "jdl-group-by-year". The selector is deep enough to
+     beat Tailwind's `space-y-3 > * + *`, which would otherwise flatten the
+     margin; this file loads after the stylesheet, so a tie goes to us. */
+  .jdl-group-by-year .space-y-3 > .jdl-year {
+    margin: 2.75rem 0 1rem;
+    padding-bottom: 0.4rem;
+    border-bottom: 1px solid rgb(229 231 235);
+    font-size: 1.25rem;
+    font-weight: 700;
+    line-height: 1.2;
+    color: rgb(17 24 39);
+  }
+  .jdl-group-by-year .space-y-3 > .jdl-year:first-child {
+    margin-top: 0;
+  }
+  .dark .jdl-group-by-year .space-y-3 > .jdl-year {
+    border-bottom-color: rgb(55 65 81);
+    color: rgb(243 244 246);
+  }
 </style>
 
 {{/*
@@ -278,5 +300,43 @@
     brand.setAttribute("title", "Korea Advanced Institute of Science and Technology");
     var img = brand.querySelector("img");
     if (img) img.setAttribute("alt", "Korea Advanced Institute of Science and Technology");
+  });
+</script>
+<script>
+  // Year headings for the long publication lists. The collection block has
+  // no grouping option and the citation view emits a flat list, so the
+  // years are read back out of the rendered citations here. Only blocks
+  // that opt in with css_class: "jdl-group-by-year" are touched, and if
+  // this never runs the list still reads fine - just ungrouped.
+  document.addEventListener("DOMContentLoaded", function () {
+    document.querySelectorAll(".jdl-group-by-year .space-y-3").forEach(function (list) {
+      var items = Array.prototype.filter.call(list.children, function (el) {
+        return el.classList.contains("view-citation");
+      });
+      if (!items.length) return;
+      var current = null;
+      items.forEach(function (item) {
+        // APA puts the year in a text node right after the author span.
+        // Reading it there avoids matching a year inside a title or venue.
+        var year = null;
+        var authors = item.querySelector(".li-cite-author");
+        for (var n = authors && authors.nextSibling; n && !year; n = n.nextSibling) {
+          if (n.nodeType === 3) {
+            var m = n.textContent.match(/\((\d{4})\)/);
+            if (m) year = m[1];
+          }
+        }
+        if (!year) {
+          var fallback = item.textContent.match(/\((\d{4})\)/);
+          if (fallback) year = fallback[1];
+        }
+        if (!year || year === current) return;
+        current = year;
+        var h = document.createElement("h2");
+        h.className = "jdl-year";
+        h.textContent = year;
+        list.insertBefore(h, item);
+      });
+    });
   });
 </script>
