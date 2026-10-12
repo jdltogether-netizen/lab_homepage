@@ -132,17 +132,17 @@ sections:
         We welcome highly motivated postdoctoral researchers
         interested in the following research areas.
 
-        **Contract Period
+        **Contract Period**
         - 1 year or longer
 
-        **Salary
+        **Salary**
         - Above academic average (negotiable)
 
-        **Contact
+        **Contact**
         - **Professor:** yongjiny@kaist.ac.kr
         - **Lab Members:** jdltogether@gmail.com
 
-        **International Collaboration
+        **International Collaboration**
 
         We collaborate with leading universities, including
         Stanford University, NTU Singapore, UC Berkeley,
