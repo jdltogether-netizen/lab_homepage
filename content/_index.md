@@ -83,35 +83,17 @@ sections:
         We welcome highly motivated postdoctoral researchers
         interested in the following research areas.
 
-        ### Research Areas
-
-        **1. AI-Based 3D/4D Printing Material and Process Design**
-        - Ph.D. in Materials Science, Mechanical Engineering,
-          Chemical Engineering, Electrical Engineering,
-          or Computer Science
-
-        **2. Novel 3D/4D Printing Manufacturing Methods**
-        - Ph.D. in Materials Science, Mechanical Engineering,
-          Chemical Engineering, or Electrical Engineering
-
-        **3. Semiconductor Thin-Film Processes for Clean Tech & Sensors**
-        - Ph.D. in Materials Science, Mechanical Engineering,
-          or Chemical Engineering
-
-        ### Contract Period
+        ** Contract Period
         - 1 year or longer
 
-        ### Salary
+        ** Salary
         - Above academic average (negotiable)
 
-        ### Alumni
-        - [Alumni of Postdoctoral Researchers](alumni/)
-
-        ### Contact
+        ** Contact
         - **Professor:** yongjiny@kaist.ac.kr
         - **Lab Members:** jdltogether@gmail.com
 
-        ### International Collaboration
+        *** International Collaboration
 
         We collaborate with leading universities, including
         Stanford University, NTU Singapore, UC Berkeley,
