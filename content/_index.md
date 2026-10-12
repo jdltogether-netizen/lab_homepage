@@ -152,38 +152,6 @@ sections:
 
   
 
-  - block: markdown
-    content:
-      title: Recruit Postdoctoral Researchers
-      text: |
-        We welcome highly motivated postdoctoral researchers
-        interested in the following research areas.
-
-        **Contract Period**
-        - 1 year or longer
-
-        **Salary**
-        - Above academic average (negotiable)
-
-        **Contact**
-        - **Professor:** yongjiny@kaist.ac.kr
-        - **Lab Members:** jdltogether@gmail.com
-
-        **International Collaboration**
-
-        We collaborate with leading universities, including
-        Stanford University, NTU Singapore, UC Berkeley,
-        Hong Kong UST, and Imperial College London.
-
-        Many of our alumni have pursued academic careers
-        as professors.
-
-        Please feel free to contact us for further information.
-
-    design:
-      spacing:
-        padding: ["3rem", 0, "1rem", 0]
-
     
 
 
