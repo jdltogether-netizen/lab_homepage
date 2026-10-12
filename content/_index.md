@@ -76,22 +76,15 @@ sections:
         #     brightness: 0.6
         #     contrast: 1.1
 
-  - block: cta-image-paragraph
+    - block: cta-image-paragraph
     content:
-      # `title` and `text` run through RenderString, so Markdown works here
-      # (unlike research-areas, which escapes its strings).
-      #
-      # Keep each panel's copy roughly as tall as its image: the two columns
-      # are centred against each other, so text that overruns the photo leaves
-      # it stranded in the middle. Rough budget at a 551px column - title two
-      # lines ~105px, each paragraph line ~26px, each feature line ~24px,
-      # button ~75px. Image heights at that width: yellow room 551 (1:1),
-      # partners 381, group photo 373, drone 366.
       items:
-        - title: 'State-of-the-Art Research Environment'
+
+        # 1. Additive Manufacturing
+        - title: 'Additive Manufacturing'
           text: |
-            JDL runs its own fabrication, characterization, and compute rather than queuing for shared facilities. Students design, print, process, and measure in house across KAIST, KPU, and NTU's Singapore Centre for 3D Printing, and GPU capacity grows with every new grant.
-          image: facilities/kpu-08-yellow-room.jpg
+            From FDM to DLP...
+          image: research/Additive Manufacturing.png
           feature_icon: hero/check-circle
           features:
             - 'Additive Manufacturing: DLP and FDM printers, in-house filament fabrication, UV curing, two-photon polymerization'
@@ -99,7 +92,30 @@ sections:
             - 'Characterization: confocal microscopy, SEM, X-ray diffraction, impedance spectroscopy, tensile testing'
             - 'AI Computing: RTX 5090 nodes, RTX A-series workstations, NAS storage, National AI Computing Center capacity'
 
+        
+        # 2. Artificial Intelligence
+        - title: 'Artificial Intelligence'
+          text: |
+            recall AI
+          image: research/Artificial Intelligence.png
+          feature_icon: hero/users
+          features:
+            - '23 sponsors across government, industry, and overseas agencies'
+            - 'A network spanning KAIST and NTU Singapore, with KRISS, KIMM, and ETRI'
+            - 'A Global Start-up Platform that carries student projects into ventures'
 
+        # 3. MAVs
+        - title: 'MAVs'
+          text: |
+            Micro Aerial Vehicle
+          image: research/SmallUAVs.png
+          feature_icon: hero/heart
+          features:
+            - 'Help across disciplines: mechanical engineering, computer science, electrical engineering, and materials sit side by side'
+            - 'An open door: ask, and you get time on your problem'
+            - 'Biweekly Friday group meetings, and lab outings through the year'
+         
+        # 4. From Lab Bench to Production Line
         - title: 'From Lab Bench to Production Line'
           text: |
             The drone work now has a company behind it. [KEONIX Labs](https://keonix.co.kr), a KAIST faculty start-up, is taking the lab's manufacturing research into real production.
@@ -110,28 +126,7 @@ sections:
             - 'Printers, training programs, and custom FPV drone builds'
             - 'With Chung-Ang, Jeonbuk National and Incheon National faculty, and KAIST InnoCORE PRISM-AI'
 
-        - title: 'Collaborative Innovation Culture'
-          text: |
-            JDL is an Open Lab: research institutes, companies, investors, legal advisors, and global start-ups work alongside the group, so a project can become a venture without ever leaving it.
-          image: partners/jdl-partners-overview.webp
-          feature_icon: hero/users
-          features:
-            - '23 sponsors across government, industry, and overseas agencies'
-            - 'A network spanning KAIST and NTU Singapore, with KRISS, KIMM, and ETRI'
-            - 'A Global Start-up Platform that carries student projects into ventures'
-          button:
-            text: 'Join Our Community'
-            url: '/opportunities'
 
-        - title: 'A Lab That Works Together'
-          text: |
-            JDL is small enough that everyone knows what everyone else is building. Postdocs and senior students pick up the newer members, and the group meets, eats, and gets out of the building together.
-          image: current-members/group-hero.jpg
-          feature_icon: hero/heart
-          features:
-            - 'Help across disciplines: mechanical engineering, computer science, electrical engineering, and materials sit side by side'
-            - 'An open door: ask, and you get time on your problem'
-            - 'Biweekly Friday group meetings, and lab outings through the year'
     design:
       css_class: "bg-white dark:bg-gray-800"
       spacing:
