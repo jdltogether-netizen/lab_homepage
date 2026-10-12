@@ -28,7 +28,7 @@ sections:
       # GitHub Pages sub-path. The hero only ever appears on the home page,
       # so a relative path resolves correctly both locally and deployed.
       title: |
-        <a href="https://me.kaist.ac.kr/" target="_blank" rel="noopener" title="KAIST Department of Mechanical Engineering" style="display:block;width:max-content;margin:0 auto 1.5rem"><img src="media/me-logo.png" alt="KAIST Department of Mechanical Engineering" style="display:block;height:4rem;width:auto" /></a>
+        <a href="https://jdl.kaist.ac.kr" target="_blank" rel="noopener" title="Just Do it Lab" style="display:block;width:max-content;margin:0 auto 1.5rem"><img src="media/me-logo.png" alt="KAIST Department of Mechanical Engineering" style="display:block;height:4rem;width:auto" /></a>
         <span style="display:block">Just Do it Lab</span>
       text: |
         of Additive Manufacturing & Semiconductor Convergence Process
