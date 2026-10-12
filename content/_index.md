@@ -125,6 +125,37 @@ sections:
 
 
 
+
+    
+  - block: cta-image-paragraph
+    content:
+      items:
+        
+        # 1. From Lab Bench to Production Line
+        - title: 'From Lab Bench to Production Line'
+          text: |
+            The drone work now has a company behind it. [KEONIX Labs](https://keonix.co.kr), a KAIST faculty start-up, is taking the lab's manufacturing research into real production.
+          image: research/drone-2d-to-3d.jpg
+          feature_icon: hero/rocket-launch
+          features:
+            - 'Pocheon Center: a civil-military-government site for drone education and production'
+            - 'Printers, training programs, and custom FPV drone builds'
+            - 'With Chung-Ang, Jeonbuk National and Incheon National faculty, and KAIST InnoCORE PRISM-AI'
+    
+        # 2. Our Partners
+        - title: 'Our Global Partners'
+          text: |
+    
+          image: research/Partners.png
+
+
+
+    design:
+      css_class: "bg-white dark:bg-gray-800"
+      spacing:
+        padding: ["0rem", 0, "0rem", 0]
+
+
   - block: markdown
     content:
       title: Recruit Postdoctoral Researchers
@@ -156,34 +187,8 @@ sections:
     design:
       spacing:
         padding: ["3rem", 0, "1rem", 0]
-    
-  - block: cta-image-paragraph
-    content:
-      items:
-        
-        # 1. From Lab Bench to Production Line
-        - title: 'From Lab Bench to Production Line'
-          text: |
-            The drone work now has a company behind it. [KEONIX Labs](https://keonix.co.kr), a KAIST faculty start-up, is taking the lab's manufacturing research into real production.
-          image: research/drone-2d-to-3d.jpg
-          feature_icon: hero/rocket-launch
-          features:
-            - 'Pocheon Center: a civil-military-government site for drone education and production'
-            - 'Printers, training programs, and custom FPV drone builds'
-            - 'With Chung-Ang, Jeonbuk National and Incheon National faculty, and KAIST InnoCORE PRISM-AI'
-    
-        # 2. Our Partners
-        - title: 'Our Global Partners'
-          text: |
-    
-          image: research/Partners.png
 
-
-
-    design:
-      css_class: "bg-white dark:bg-gray-800"
-      spacing:
-        padding: ["0rem", 0, "0rem", 0]
+    
 
 
   - block: contact-info
