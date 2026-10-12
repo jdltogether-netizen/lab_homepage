@@ -75,23 +75,31 @@ sections:
         #   filters:
         #     brightness: 0.6
         #     contrast: 1.1
-    - block: markdown
-      content:
-        title: About Us
-        text: |
-          ### Additive Manufacturing
-          - 3D/4D Printing
-          - Process Optimization
-          - AI-based Prediction & Control
 
-          ### Dynamic Systems & UAVs
-          - Lightweight Structures
-          - Mechanism Design
-          - Dynamic Analysis & Simulation
+  - block: markdown
+    content:
+      title: About Us
+      text: |
+        ### Additive Manufacturing
+        - 3D/4D Printing
+        - Process Optimization
+        - AI-based Prediction & Control
 
-          ### Design & Optimization
-          - Structural Optimization
-          - Vibration & Shock Control
+        ### Dynamic Systems & UAVs
+        - Lightweight Structures
+        - Mechanism Design
+        - Dynamic Analysis & Simulation
+
+        ### Design & Optimization
+        - Structural Optimization
+        - Vibration & Shock Control
+
+        <img src="media/research/main%20research.png" alt="JDL Research Areas" style="width:100%;height:auto;border-radius:.5rem" />
+    design:
+      spacing:
+        padding: ["3rem", 0, "1rem", 0]
+
+  - block: cta-image-paragraph
 
         <img src="media/research/main%20research.png" alt="JDL Research Areas" style="width:100%;height:auto;border-radius:.5rem" />
     design:
