@@ -4,43 +4,32 @@ type: landing
 summary: How to reach the professor and the lab.
 
 sections:
+
   - block: contact-info
     id: contact
     content:
       title: Contact Us
-      subtitle: Get in touch with the lab
-      visit_title: Visit Us
-      connect_title: Connect With Us
+      visit_title: Office
+      connect_title: Contact Info
       address:
         lines:
-          - Just Do it Lab (N7-4, Level 4, Room 4118)
-          - Department of Mechanical Engineering
-          - Korea Advanced Institute of Science & Technology
-          - 291 Daehak-ro, Yuseong-gu
-          - Daejeon 34141
+          - Room 4118, N7-4, KAIST
+          - 291 Daehak-ro, Yuseong-gu, Daejeon 34141
           - Republic of Korea
-      office_hours:
-        - "Monday - Friday: 9:00 AM - 6:00 PM"
-        - "Lab Meetings: Fridays 1:00 PM, biweekly"
+
       email: jdltogether@gmail.com
       social:
-        - icon: brands/instagram
-          url: https://www.instagram.com/jdl_kaist/
         - icon: brands/linkedin
           url: https://www.linkedin.com/company/just-do-it-lab/
         - icon: brands/github
           url: https://github.com/jdltogether-netizen
-      prospective:
-        title: Prospective Members
-        text: Interested in joining the lab? We are always looking for motivated people at every level.
-        button:
-          text: View Open Positions
-          url: /opportunities
       map_url: https://maps.app.goo.gl/Q25Dqqc9yrj5MMSi8
       show_form: false
     design:
+      css_class: "bg-gradient-to-b from-gray-50 to-white dark:from-gray-900 dark:to-gray-800"
       spacing:
-        padding: ["3rem", 0, "1rem", 0]
+        padding: ["0rem", 0, "0rem", 0]
+
 
   - block: markdown
     content:
