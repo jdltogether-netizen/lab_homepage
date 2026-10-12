@@ -45,7 +45,7 @@ sections:
             - 'Characterization: confocal microscopy, SEM, X-ray diffraction, impedance spectroscopy, tensile testing'
             - 'AI Computing: RTX 5090 nodes, RTX A-series workstations, NAS storage, National AI Computing Center capacity'
 
-        
+
         # 2. Artificial Intelligence
         - title: 'Artificial Intelligence'
           text: |
