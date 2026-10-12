@@ -15,7 +15,9 @@ sections:
     design:
       spacing:
         padding: ["3rem", 0, "1rem", 0]
-    
+
+
+#vvvFrom here
   - block: cta-image-paragraph
     content:
       items:
@@ -54,12 +56,12 @@ sections:
             - 'Help across disciplines: mechanical engineering, computer science, electrical engineering, and materials sit side by side'
             - 'An open door: ask, and you get time on your problem'
             - 'Biweekly Friday group meetings, and lab outings through the year'
-
+    
     design:
       css_class: "bg-white dark:bg-gray-800"
       spacing:
         padding: ["0rem", 0, "0rem", 0]
-
+#^^^To here
 
 
 
