@@ -79,6 +79,7 @@ sections:
 
 
 
+
   - block: cta-image-paragraph
     content:
       items:
@@ -87,7 +88,7 @@ sections:
         - title: 'Additive Manufacturing'
           text: |
             From FDM to DLP...
-          image: research/Additive Manufacturing.png
+          image: research/3DPrinting.png
           feature_icon: hero/check-circle
           features:
             - 'Additive Manufacturing: DLP and FDM printers, in-house filament fabrication, UV curing, two-photon polymerization'
@@ -106,35 +107,18 @@ sections:
             - '23 sponsors across government, industry, and overseas agencies'
             - 'A network spanning KAIST and NTU Singapore, with KRISS, KIMM, and ETRI'
             - 'A Global Start-up Platform that carries student projects into ventures'
-
-        # 3. MAVs
-        - title: 'MAVs'
+    
+        # 4. MAVs
+        - title: 'Micro Aerial Vehicles (MAVs)'
           text: |
-            Micro Aerial Vehicle
+            Development of innovative components and mechanisms for enhanced UAV performance and efficiency.
           image: research/SmallUAVs.png
           feature_icon: hero/heart
           features:
-            - 'Help across disciplines: mechanical engineering, computer science, electrical engineering, and materials sit side by side'
-            - 'An open door: ask, and you get time on your problem'
-            - 'Biweekly Friday group meetings, and lab outings through the year'
+            - 'Thermal Management Component Design'
+            - 'Snap-Fit Propeller Assembly and Disassembly System'
+            - 'Novel Swashplateless Thrust Vector Control Mechanism'
 
-        # 4. From Lab Bench to Production Line
-        - title: 'From Lab Bench to Production Line'
-          text: |
-            The drone work now has a company behind it. [KEONIX Labs](https://keonix.co.kr), a KAIST faculty start-up, is taking the lab's manufacturing research into real production.
-          image: research/drone-2d-to-3d.jpg
-          feature_icon: hero/rocket-launch
-          features:
-            - 'Pocheon Center: a civil-military-government site for drone education and production'
-            - 'Printers, training programs, and custom FPV drone builds'
-            - 'With Chung-Ang, Jeonbuk National and Incheon National faculty, and KAIST InnoCORE PRISM-AI'
-    
-        # 5. Our Partners
-        - title: 'Our Global Partners'
-          text: |
-    
-          image: research/Partners.png
-    
     design:
       css_class: "bg-white dark:bg-gray-800"
       spacing:
