@@ -31,17 +31,17 @@ sections:
         <a href="https://me.kaist.ac.kr/" target="_blank" rel="noopener" title="KAIST Department of Mechanical Engineering" style="display:block;width:max-content;margin:0 auto 1.5rem"><img src="media/me-logo.png" alt="KAIST Department of Mechanical Engineering" style="display:block;height:4rem;width:auto" /></a>
         <span style="display:block">Just Do it Lab</span>
       text: |
-        JDL, in the Department of Mechanical Engineering at KAIST, focuses on additive manufacturing, AI foundation models, and core drone technologies. We collaborate with universities, research institutes, and industry partners on research and technology development.
+        of Additive Manufacturing & Semiconductor Convergence Process
       # Three distinct destinations in the hero: the announcement above
       # already sends people to /opportunities, so this button points at the
       # research instead of repeating it. Swap back to "Join Our Team" ->
       # /opportunities if recruiting should lead.
       primary_action:
-        text: Explore Our Research
+        text: Research
         url: 'research/'
         icon: hero/beaker
       secondary_action:
-        text: View Publications
+        text: Publications
         url: '#publications'
         icon: hero/academic-cap
      # announcement:
@@ -98,9 +98,7 @@ sections:
             - 'Thin-Film & Semiconductor: ALD, PLD, sputtering, e-beam evaporation, PECVD, deep reactive ion etching, yellow room'
             - 'Characterization: confocal microscopy, SEM, X-ray diffraction, impedance spectroscopy, tensile testing'
             - 'AI Computing: RTX 5090 nodes, RTX A-series workstations, NAS storage, National AI Computing Center capacity'
-          button:
-            text: 'Virtual Lab Tour'
-            url: '/facilities'
+
 
         - title: 'From Lab Bench to Production Line'
           text: |
