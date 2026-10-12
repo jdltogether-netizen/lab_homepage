@@ -42,28 +42,37 @@ sections:
 
   - block: markdown
     content:
-      title: Graduate Researcher
+      title: Recruit Graduate Researchers
       text: |
-        We are currently hiring "Highly Motivated M.S./Ph.D. Candidate"
+        We welcome highly motivated M.S. and Ph.D. applicants
+        interested in the following research areas.
 
         **Research Areas**
 
-        - AI based 3D/4D Printing Material and Process Design (B.S. degree: Material Science, Mechanical Engineering, Chemical Engineering, Electrical Engineering, Computer Science)
-        - Novel 3D/4D Printing Manufacturing Method (B.S. degree: Material Science, Mechanical Engineering, Chemical Engineering, Electrical Engineering)
-        - Semi-conducting thin film process for Clean Tech & Sensors (B.S. degree: Material Science, Mechanical Engineering, Chemical Engineering)
-        - Battery/Fuel cell life time prediction (B.S. degree: Material Science, Mechanical Engineering, Chemical Engineering)
-        - AI-Driven Digital Manufacturing and Production Systems (B.S. degree: Computer Science, Artificial Intelligence, Data Science, Industrial & Systems Engineering, Mechanical Engineering, Electrical Engineering)
-        - Autonomous Drone Production and Physical AI (B.S. degree: Computer Science, Artificial Intelligence, Robotics, Aerospace Engineering, Mechanical Engineering, Electrical Engineering)
-        - LLM and Agent-Based Industrial Intelligence (B.S. degree: Computer Science, Artificial Intelligence, Data Science, Human-Computer Interaction)
+        - **AI-Based 3D/4D Printing Material and Process Design**
+          (B.S. in Materials Science, Mechanical Engineering, Chemical Engineering, Electrical Engineering, or Computer Science)
 
-        Students from computer science and AI backgrounds are equally welcome: several of our projects need software and modelling people more than they need machinists, and you will learn the manufacturing side here.
+        - **Novel 3D/4D Printing Manufacturing Methods**
+          (B.S. in Materials Science, Mechanical Engineering, Chemical Engineering, or Electrical Engineering)
 
-        * For Foreign MS/Ph.D. Applicant: Scholarship acquired Applicants (KAIST offers full scholarship for foreign student) are only available for JDL MS/Ph.D. Degree Program
+        - **Semiconductor Thin-Film Processes for Clean Tech & Sensors**
+          (B.S. in Materials Science, Mechanical Engineering, or Chemical Engineering)
 
+        - **Battery/Fuel Cell Lifetime Prediction**
+          (B.S. in Materials Science, Mechanical Engineering, or Chemical Engineering)
+
+        **For International M.S./Ph.D. Applicants**
+
+        Only applicants who have secured a scholarship are eligible
+        for the JDL M.S./Ph.D. degree program.
+        KAIST offers full scholarships for international students.
+    
     design:
       css_class: "bg-gray-50 dark:bg-gray-900"
       spacing:
         padding: ["2rem", 0, "2rem", 0]
+
+
 
   - block: markdown
     content:
@@ -75,6 +84,8 @@ sections:
     design:
       spacing:
         padding: ["2rem", 0, "1rem", 0]
+
+
 
   - block: cta-card
     content:
