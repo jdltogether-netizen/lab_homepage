@@ -6,18 +6,17 @@ summary: What the lab does, and the research media behind it.
 # The three focus areas also appear on the homepage as a summary. Keep the
 # two in step: this page is the full version, the homepage is the teaser.
 sections:
+#========================================================================================vvvFrom here
   - block: markdown
     content:
-      title: ###About Us
-      text: |
+      title: |
+      text: ###About Us
        
         <img src="/media/research/main%20research.png" alt="JDL Research Areas" style="width:100%;height:auto;border-radius:.5rem" />
     design:
       spacing:
         padding: ["3rem", 0, "1rem", 0]
 
-
-#vvvFrom here
   - block: cta-image-paragraph
     content:
       items:
@@ -61,14 +60,14 @@ sections:
       css_class: "bg-white dark:bg-gray-800"
       spacing:
         padding: ["0rem", 0, "0rem", 0]
-#^^^To here
+#========================================================================================^^^To here
 
 
 
   - block: markdown
     content:
-      title: ###Video
-      text: |
+      title: |
+      text: ###Videos
         **Stereolithography Apparatus(SLA)**
     
 
