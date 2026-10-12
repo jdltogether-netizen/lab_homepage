@@ -6,7 +6,6 @@ summary: What the lab does, and the research media behind it.
 # The three focus areas also appear on the homepage as a summary. Keep the
 # two in step: this page is the full version, the homepage is the teaser.
 sections:
-#========================================================================================vvvFrom here
   - block: markdown
     content:
       title: |
@@ -60,8 +59,6 @@ sections:
       css_class: "bg-white dark:bg-gray-800"
       spacing:
         padding: ["0rem", 0, "0rem", 0]
-#========================================================================================^^^To here
-
 
 
   - block: markdown
