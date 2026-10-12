@@ -18,7 +18,7 @@ sections:
       subtitle: ''
       text: ''
       user_groups:
-        - Principal Investigators
+        - Principal Investigator
         - Postdoctoral Researchers
         - PhD Students
         - Master Students
