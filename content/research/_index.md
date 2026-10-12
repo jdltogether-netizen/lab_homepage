@@ -26,7 +26,7 @@ sections:
         - title: 'Additive Manufacturing'
           text: |
             From FDM to DLP...
-          image: research/Additive Manufacturing.png
+          image: research/3DPrinting.png
           feature_icon: hero/check-circle
           features:
             - 'Additive Manufacturing: DLP and FDM printers, in-house filament fabrication, UV curing, two-photon polymerization'
@@ -45,18 +45,6 @@ sections:
             - '23 sponsors across government, industry, and overseas agencies'
             - 'A network spanning KAIST and NTU Singapore, with KRISS, KIMM, and ETRI'
             - 'A Global Start-up Platform that carries student projects into ventures'
-
-        # 3. 4D Printed Shape Memory Polymers
-        - title: '4D Printed Shape Memory Polymers'
-          text: |
-            AI-based material and process design for 4D printed polymers.
-          image: research/4DPshapememory.png
-          feature_icon: hero/heart
-          features:
-            - 'Investigation of 4D printed shape memory polymers that respond to external stimuli.'
-            - 'Analysis of glass transition temperature (Tg) characteristics depending on photocurable polymer composition and post-curing conditions.'
-            - 'Development of machine learning-based approaches for material property prediction and manufacturing process optimization.'
-            - 'Construction of multivariable property prediction maps to show a material and process design methodology for achieving target properties.'
     
         # 4. MAVs
         - title: 'Micro Aerial Vehicles (MAVs)'
