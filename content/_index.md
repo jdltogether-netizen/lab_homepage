@@ -78,6 +78,19 @@ sections:
 
   - block: markdown
     content:
+      text: |
+        <iframe
+          src="https://jdl.kaist.ac.kr/research/"
+          style="width:100%;height:1100px;border:none;"
+          title="JDL Research"
+          loading="lazy">
+        </iframe>
+    design:
+      spacing:
+        padding: ["0rem", 0, "0rem", 0]
+
+  - block: markdown
+    content:
       title: Recruit Postdoctoral Researchers
       text: |
         We welcome highly motivated postdoctoral researchers
