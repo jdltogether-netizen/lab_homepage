@@ -8,9 +8,8 @@ summary: What the lab does, and the research media behind it.
 sections:
   - block: markdown
     content:
-      title: ""
+      title: About Us
       text: |
-        ### About Us
        
         <img src="/media/research/main%20research.png" alt="JDL Research Areas" style="width:100%;height:auto;border-radius:.5rem" />
     design:
@@ -64,9 +63,8 @@ sections:
 
   - block: markdown
     content:
-      title: ""
+      title: Videos
       text: |
-        ### Videos
         **Stereolithography Apparatus(SLA)**
     
 
