@@ -76,14 +76,24 @@ sections:
         #     brightness: 0.6
         #     contrast: 1.1
   - block: markdown
-    content:
-      title: What We Do
-      text: |
-        Just Do it Lab (JDL)@KAIST is a research institute equipped with a platform for commercialization based on convergence technology. It is an Open Lab that works closely with domestic and overseas research institutes, companies, investment institutes, legal consulting agencies, and global start-ups for commercialization.
+  content:
+    title: About Us
+    text: |
+      ### Additive Manufacturing
+      - 3D/4D Printing
+      - Process Optimization
+      - AI-based Prediction & Control
 
-        Researchers and students associated with JDL@KAIST can come to establish themselves as Global Start-up Entrepreneurs even after their graduation and departure from the lab by advancing projects connected with business during the pursuit of their college research degree, utilizing the JDL@KAIST's Global Start-up Platform as a leverage.
+      ### Dynamic Systems & UAVs
+      - Lightweight Structures
+      - Mechanism Design
+      - Dynamic Analysis & Simulation
 
-        <img src="/media/research/research-and-development.png" alt="Research and development overview for JDL research areas" style="width:100%;height:auto;border-radius:.5rem" />
+      ### Design & Optimization
+      - Structural Optimization
+      - Vibration & Shock Control
+
+        <img src="/media/research/main%20research.png" alt="JDL Research Areas" style="width:100%;height:auto;border-radius:.5rem" />
     design:
       spacing:
         padding: ["3rem", 0, "1rem", 0]
