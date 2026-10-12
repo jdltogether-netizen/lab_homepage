@@ -75,7 +75,7 @@ sections:
         #   filters:
         #     brightness: 0.6
         #     contrast: 1.1
-  - block: markdown
+- block: markdown
   content:
     title: About Us
     text: |
