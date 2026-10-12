@@ -126,16 +126,11 @@ sections:
             - 'Printers, training programs, and custom FPV drone builds'
             - 'With Chung-Ang, Jeonbuk National and Incheon National faculty, and KAIST InnoCORE PRISM-AI'
     
-        # 5. Our Global Partners
+        # 5. Our Partners
         - title: 'Our Global Partners'
           text: |
     
-          image: research/Global Partners.png
-        # 6. Research Centers Partners
-        - title: 'Our Research Centers Partners'
-          text: |
-    
-          image: research/Research Centers Partners.png
+          image: research/Partners.png
 
 
 
