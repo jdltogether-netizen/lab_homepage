@@ -8,16 +8,90 @@ summary: What the lab does, and the research media behind it.
 sections:
   - block: markdown
     content:
-      title: What We Do
+      title: About Us
       text: |
-        Just Do it Lab (JDL)@KAIST is a research institute equipped with a platform for commercialization based on convergence technology. It is an Open Lab that works closely with domestic and overseas research institutes, companies, investment institutes, legal consulting agencies, and global start-ups for commercialization.
+        ### Additive Manufacturing
+        - 3D/4D Printing
+        - Process Optimization
+        - AI-based Prediction & Control
 
-        Researchers and students associated with JDL@KAIST can come to establish themselves as Global Start-up Entrepreneurs even after their graduation and departure from the lab by advancing projects connected with business during the pursuit of their college research degree, utilizing the JDL@KAIST's Global Start-up Platform as a leverage.
+        ### Dynamic Systems & UAVs
+        - Lightweight Structures
+        - Mechanism Design
+        - Dynamic Analysis & Simulation
 
-        <img src="/media/research/research-and-development.png" alt="Research and development overview for JDL research areas" style="width:100%;height:auto;border-radius:.5rem" />
+        ### Design & Optimization
+        - Structural Optimization
+        - Vibration & Shock Control
+
+        <img src="/media/research/main%20research.png" alt="JDL Research Areas" style="width:100%;height:auto;border-radius:.5rem" />
     design:
       spacing:
         padding: ["3rem", 0, "1rem", 0]
+    
+  - block: cta-image-paragraph
+    content:
+      items:
+
+        # 1. Additive Manufacturing
+        - title: 'Additive Manufacturing'
+          text: |
+            From FDM to DLP...
+          image: research/Additive Manufacturing.png
+          feature_icon: hero/check-circle
+          features:
+            - 'Additive Manufacturing: DLP and FDM printers, in-house filament fabrication, UV curing, two-photon polymerization'
+            - 'Thin-Film & Semiconductor: ALD, PLD, sputtering, e-beam evaporation, PECVD, deep reactive ion etching, yellow room'
+            - 'Characterization: confocal microscopy, SEM, X-ray diffraction, impedance spectroscopy, tensile testing'
+            - 'AI Computing: RTX 5090 nodes, RTX A-series workstations, NAS storage, National AI Computing Center capacity'
+
+        
+        # 2. Artificial Intelligence
+        - title: 'Artificial Intelligence'
+          text: |
+            recall AI
+          image: research/Artificial Intelligence.png
+          feature_icon: hero/users
+          features:
+            - '23 sponsors across government, industry, and overseas agencies'
+            - 'A network spanning KAIST and NTU Singapore, with KRISS, KIMM, and ETRI'
+            - 'A Global Start-up Platform that carries student projects into ventures'
+
+        # 3. MAVs
+        - title: 'MAVs'
+          text: |
+            Micro Aerial Vehicle
+          image: research/SmallUAVs.png
+          feature_icon: hero/heart
+          features:
+            - 'Help across disciplines: mechanical engineering, computer science, electrical engineering, and materials sit side by side'
+            - 'An open door: ask, and you get time on your problem'
+            - 'Biweekly Friday group meetings, and lab outings through the year'
+         
+        # 4. From Lab Bench to Production Line
+        - title: 'From Lab Bench to Production Line'
+          text: |
+            The drone work now has a company behind it. [KEONIX Labs](https://keonix.co.kr), a KAIST faculty start-up, is taking the lab's manufacturing research into real production.
+          image: research/drone-2d-to-3d.jpg
+          feature_icon: hero/rocket-launch
+          features:
+            - 'Pocheon Center: a civil-military-government site for drone education and production'
+            - 'Printers, training programs, and custom FPV drone builds'
+            - 'With Chung-Ang, Jeonbuk National and Incheon National faculty, and KAIST InnoCORE PRISM-AI'
+    
+        # 5. Our Partners
+        - title: 'Our Global Partners'
+          text: |
+    
+          image: research/Partners.png
+
+
+
+    design:
+      css_class: "bg-white dark:bg-gray-800"
+      spacing:
+        padding: ["0rem", 0, "0rem", 0]
+
 
   - block: research-areas
     content:
