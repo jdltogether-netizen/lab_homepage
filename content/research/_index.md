@@ -61,56 +61,7 @@ sections:
         padding: ["0rem", 0, "0rem", 0]
 
 
-  - block: research-areas
-    content:
-      title: Research Focus Areas
-      subtitle: Pioneering AI-Driven Next-Generation Manufacturing
-      text: Our research integrates artificial intelligence, advanced additive manufacturing, and autonomous systems to transform how complex products are designed, optimized, and produced in real-world environments.
-      items:
-        - name: Additive Manufacturing Processes & Functional Materials
-          description: Advancing vat photopolymerization, digital light processing, material extrusion, and directed energy deposition, from the resin and nanocomposite chemistry up to real-time control of the process as it prints.
-          icon: hero/cube-transparent
-          gradient: from-green-400 to-emerald-600
-          status: active
-          topics:
-            - Vat Photopolymerization
-            - DLP Porous Ceramics
-            - Directed Energy Deposition
-            - In-Process Monitoring & Control
-            - Cellulose Nanocrystals & Nanocomposites
-            - Self-Healing Printable Materials
 
-        - name: Physical AI for Autonomous Manufacturing
-          description: Building AI that can run a process, not just describe one. Large language and vision models read machine and sensor data, capture the tacit know-how of experienced operators, and close the control loop on additive manufacturing without a human at every step.
-          icon: hero/cpu-chip
-          gradient: from-blue-400 to-indigo-600
-          status: active
-          topics:
-            - Industrial AI Agents
-            - LLM & Vision-Language Models
-            - Physical AI
-            - Closed-Loop Process Control
-            - In-Line Anomaly Detection
-            - Digital Twins
-            - Human-AI Collaboration
-
-        - name: Next-Generation Drone Production
-          description: Rethinking how a drone is built. We print a flat 2D sheet that deploys into a functional 3D airframe, so aircraft can be produced at low cost and high rate, and made where they are needed rather than shipped there.
-          icon: hero/rocket-launch
-          gradient: from-purple-400 to-pink-600
-          status: emerging
-          topics:
-            - 2D Sheet to 3D Structure
-            - Folding-Inspired Deployable Architectures
-            - 4D Printing & Shape Memory Polymers
-            - On-Demand Distributed Production
-            - Low-Cost High-Rate Manufacturing
-            - Attritable Airframes
-    design:
-      layout: cards
-      css_class: "bg-gradient-to-b from-gray-50 to-white dark:from-gray-900 dark:to-gray-800"
-      spacing:
-        padding: ["1rem", 0, "1rem", 0]
 
   - block: markdown
     content:
