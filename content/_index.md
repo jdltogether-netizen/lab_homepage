@@ -76,7 +76,7 @@ sections:
         #     brightness: 0.6
         #     contrast: 1.1
 
-- block: cta-image-paragraph
+  - block: cta-image-paragraph
     content:
       items:
 
