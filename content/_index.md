@@ -94,28 +94,6 @@ sections:
         - Structural Optimization
         - Vibration & Shock Control
 
-        <img src="media/research/main%20research.png" alt="JDL Research Areas" style="width:100%;height:auto;border-radius:.5rem" />
-    design:
-      spacing:
-        padding: ["3rem", 0, "1rem", 0]
-
-  - block: cta-image-paragraph
-
-        <img src="media/research/main%20research.png" alt="JDL Research Areas" style="width:100%;height:auto;border-radius:.5rem" />
-    design:
-      spacing:
-        padding: ["3rem", 0, "1rem", 0]
-
-        <img src="media/research/main%20research.png" alt="JDL Research Areas" style="width:100%;height:auto;border-radius:.5rem" />
-    design:
-      spacing:
-        padding: ["3rem", 0, "1rem", 0]
-
-        <img src="media/research/main%20research.png" alt="JDL Research Areas" style="width:100%;height:auto;border-radius:.5rem" />
-    design:
-      spacing:
-        padding: ["3rem", 0, "1rem", 0]
-
         <img src="/media/research/main%20research.png" alt="JDL Research Areas" style="width:100%;height:auto;border-radius:.5rem" />
     design:
       spacing:
