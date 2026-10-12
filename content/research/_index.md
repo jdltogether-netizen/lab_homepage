@@ -10,20 +10,7 @@ sections:
     content:
       title: About Us
       text: |
-        ### Additive Manufacturing
-        - 3D/4D Printing
-        - Process Optimization
-        - AI-based Prediction & Control
-
-        ### Dynamic Systems & UAVs
-        - Lightweight Structures
-        - Mechanism Design
-        - Dynamic Analysis & Simulation
-
-        ### Design & Optimization
-        - Structural Optimization
-        - Vibration & Shock Control
-
+       
         <img src="/media/research/main%20research.png" alt="JDL Research Areas" style="width:100%;height:auto;border-radius:.5rem" />
     design:
       spacing:
@@ -67,25 +54,6 @@ sections:
             - 'Help across disciplines: mechanical engineering, computer science, electrical engineering, and materials sit side by side'
             - 'An open door: ask, and you get time on your problem'
             - 'Biweekly Friday group meetings, and lab outings through the year'
-         
-        # 4. From Lab Bench to Production Line
-        - title: 'From Lab Bench to Production Line'
-          text: |
-            The drone work now has a company behind it. [KEONIX Labs](https://keonix.co.kr), a KAIST faculty start-up, is taking the lab's manufacturing research into real production.
-          image: research/drone-2d-to-3d.jpg
-          feature_icon: hero/rocket-launch
-          features:
-            - 'Pocheon Center: a civil-military-government site for drone education and production'
-            - 'Printers, training programs, and custom FPV drone builds'
-            - 'With Chung-Ang, Jeonbuk National and Incheon National faculty, and KAIST InnoCORE PRISM-AI'
-    
-        # 5. Our Partners
-        - title: 'Our Global Partners'
-          text: |
-    
-          image: research/Partners.png
-
-
 
     design:
       css_class: "bg-white dark:bg-gray-800"
