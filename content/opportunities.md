@@ -87,17 +87,17 @@ sections:
 
 
 
-  - block: cta-card
-    content:
-      title: Interested in any of our research areas?
-      text: We are always looking for highly motivated individuals to join our team!
-      button:
-        text: Contact us
-        url: /contact
-    design:
-      card:
-        css_class: 'bg-primary-300 dark:bg-primary-700'
-        css_style: ''
-      spacing:
-        padding: ["1rem", 0, "3rem", 0]
+ # - block: cta-card
+  #  content:
+   #   title: Interested in any of our research areas?
+    #  text: We are always looking for highly motivated individuals to join our team!
+     # button:
+      #  text: Contact us
+       # url: /contact
+    #design:
+     # card:
+      #  css_class: 'bg-primary-300 dark:bg-primary-700'
+       # css_style: ''
+      #spacing:
+       # padding: ["1rem", 0, "3rem", 0]
 ---
