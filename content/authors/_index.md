@@ -21,7 +21,7 @@ sections:
         - Principal Investigator
         - Postdoctoral Researchers
         - Ph.D. Students
-        - Master Students
+        - Master's Students
         - Interns
         - Research Staff
       sort_by: 'Params.last_name'
